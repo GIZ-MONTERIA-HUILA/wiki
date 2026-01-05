@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wiki Proyecto IDEAM SNIF</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+
+    <style>
+      .zoomable-container {
+        position: relative;
+        display: inline-block;
+        max-width: 100%;
+        overflow: hidden;
+        border-radius: 8px;
+      }
+
+      .zoomable {
+        display: block;
+        width: 100%;
+        height: auto;
+        cursor: grab;
+        user-select: none;
+      }
+
+      /* 🔹 Controles dentro de la imagen */
+      .zoom-controls {
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+        display: flex;
+        background: rgba(0, 0, 0, 0.45);
+        border-radius: 8px;
+        padding: 4px;
+        z-index: 5;
+        backdrop-filter: blur(4px);
+      }
+
+      .zoom-controls button {
+        background: transparent;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        margin: 0 3px;
+        cursor: pointer;
+        transition: transform 0.2s, color 0.2s;
+      }
+
+      .zoom-controls button:hover {
+        transform: scale(1.2);
+        color: #00bcd4;
+      }
+
+      .app-nav {
+        margin: 0 !important;
+      }
+
+      .navbar {
+        max-width: 800px;
+        width: auto;
+      }
+
+      /* Contenedor de login */
+      #auth-container {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        z-index: 9999;
+      }
+
+      #auth-container h2 {
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      #app,
+      .show {
+        display: none;
+      }
+
+      .loader-container {
+        width: 100%;
+        height: 100%;
+        z-index: 999999 !important;
+        display: none;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.6);
+        pointer-events: none;
+      }
+
+      .loader {
+        width: 48px;
+        height: 48px;
+        border: 5px solid #fff;
+        border-bottom-color: #ff3d00;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+      }
+
+      @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .tooltip-wrapper {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .tooltip-box {
+        display: none;
+        position: absolute;
+
+        /* ⬅️ Aquí está el cambio: en vez de left: 20px */
+        right: 20px;
+        top: 0;
+
+        z-index: 999;
+        background: #222;
+        color: white;
+        padding: 8px 10px;
+        font-size: 12px;
+        border-radius: 6px;
+        white-space: pre-wrap;
+        width: 800px;
+      }
+
+      .tooltip-wrapper:hover .tooltip-box {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Contenedor de login -->
+    <div class="loader-container">
+      <span class="loader"></span>
+    </div>
+
+    <div id="auth-container" style="text-align: center">
+      <h2>Inicia sesión para acceder</h2>
+    </div>
+
+    <div id="app"></div>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/docsify-include.js"></script>
+    <script src="https://unpkg.com/@panzoom/panzoom/dist/panzoom.min.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+    <script>
+      // Tu Client ID de Google Cloud
+      const SHEET_URL =
+        "https://script.google.com/macros/s/AKfycbwLNRKVXFr3Rce9vnY8GW6R4v3l7yer9vtUahdVc9Li5dGP6Yl-qOaV49Wv4Tx38rCp/exec";
+      const CLIENT_ID =
+        "444181898034-bj3ijh735krh74pajl733mtkp1lvisns.apps.googleusercontent.com";
+
+      async function getAllowedEmails() {
+        try {
+          const res = await fetch(SHEET_URL);
+          const data = await res.json();
+          return data.emails || [];
+        } catch (e) {
+          console.error("Error obteniendo correos permitidos:", e);
+          return [];
+        }
+      }
+
+      // Función que se ejecuta al iniciar sesión correctamente
+      async function handleCredentialResponse(response) {
+        document.querySelector(".loader-container").style.display = "flex";
+        const app = document.querySelector("#app");
+        const cover = document.querySelector(".show");
+        const data = parseJwt(response.credential);
+        const email = data.email;
+
+        const allowed = await getAllowedEmails();
+
+        if (allowed.includes(email)) {
+          // Autorizado ✅
+          document.querySelector("#auth-container").style.display = "none";
+          if (app) app.style.display = "block";
+          if (cover) cover.style.display = "flex";
+        } else {
+          document.body.innerHTML = `<h2 style="text-align:center;margin-top:20%">⛔ Acceso denegado: ${email}</h2>`;
+        }
+        document.querySelector(".loader-container").style.display = "none";
+      }
+
+      // Función para decodificar el token JWT
+      function parseJwt(token) {
+        const base64Url = token.split(".")[1];
+        const base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/");
+        const jsonPayload = decodeURIComponent(
+          atob(base64)
+            .split("")
+            .map((c) => "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2))
+            .join("")
+        );
+        return JSON.parse(jsonPayload);
+      }
+
+      window.onload = function () {
+        google.accounts.id.initialize({
+          client_id: CLIENT_ID,
+          callback: handleCredentialResponse,
+        });
+        google.accounts.id.renderButton(
+          document.getElementById("auth-container"),
+          { theme: "outline", size: "large" }
+        );
+      };
+    </script>
+
+    <script>
+      const isLocal =
+        location.hostname === "localhost" || location.hostname === "127.0.0.1";
+
+      window.$docsify = {
+        name: "",
+        repo: "",
+        basePath: isLocal ? "/" : "/wiki/",
+        auto2top: true,
+        autoHeader: true,
+        coverpage: false,
+        notFoundPage: true,
+        themeColor: "#00b27c",
+        loadSidebar: false,
+        loadNavbar: true,
+        subMaxLevel: 2,
+        plugins: [
+          function (hook, vm) {
+            hook.beforeEach(function (content, next) {
+              if (/^\/content\/historias_usuario\/[^/]+/.test(vm.route.path)) {
+                fetch("includes/historia_header.md")
+                  .then((r) => r.text())
+                  .then((header) => {
+                    next(header + "\n\n" + content);
+                  });
+              } else {
+                next(content);
+              }
+            });
+          },
+          function (hook, vm) {
+            hook.afterEach(function (html, next) {
+              let currentDir = "";
+              if (vm.route.file && vm.route.file.includes("/")) {
+                currentDir = vm.route.file.replace(/[^/]+$/, "");
+              }
+
+              const isGitHubPages = location.hostname.endsWith("github.io");
+              const repoBase = isGitHubPages
+                ? location.pathname.split("/")[1] + "/"
+                : "";
+
+              const fixedHtml = html.replace(
+                /<img\s+([^>]*?)src=["']assets\/(.*?)["']/g,
+                `<img $1src="/${repoBase}${currentDir}assets/$2"`
+              );
+
+              next(fixedHtml);
+            });
+
+            hook.doneEach(() => {
+              document.querySelectorAll(".zoomable").forEach((img) => {
+                if (img.parentElement.classList.contains("zoomable-container"))
+                  return;
+
+                const wrapper = document.createElement("div");
+                wrapper.className = "zoomable-container";
+                img.parentNode.insertBefore(wrapper, img);
+                wrapper.appendChild(img);
+
+                const controls = document.createElement("div");
+                controls.className = "zoom-controls";
+                controls.innerHTML = `
+                      <button title="Acercar">＋</button>
+                      <button title="Alejar">－</button>
+                      <button title="Restablecer">⟳</button>
+                    `;
+                wrapper.appendChild(controls);
+
+                const panzoom = Panzoom(img, {
+                  maxScale: 5,
+                  contain: "outside",
+                });
+
+                const [btnIn, btnOut, btnReset] =
+                  controls.querySelectorAll("button");
+                btnIn.onclick = () => panzoom.zoomIn();
+                btnOut.onclick = () => panzoom.zoomOut();
+                btnReset.onclick = () => panzoom.reset();
+              });
+            });
+          },
+          ,
+          function (hook, vm) {
+            hook.doneEach(function () {
+              // Solo si en la página existe el contenedor
+              const table = document.getElementById("jsonTable");
+              if (!table) return;
+
+              fetch("assets/json/glosario.json")
+                .then((r) => r.json())
+                .then((data) => {
+                  // const headers = Object.keys(data[0]);
+                  const headers = ["id", "term", "definition"];
+
+                  function render(rows) {
+                    const thead = `
+        <tr>
+          <th>ID</th>
+          <th>Término</th>
+          <th>Definición</th>
+          <th>Info</th>
+        </tr>
+      `;
+
+                    const tbody = rows
+                      .map((row) => {
+                        const simpleCols = headers
+                          .map(
+                            (h) =>
+                              `<td style="min-width: 110px">${
+                                row[h] ?? ""
+                              }</td>`
+                          )
+                          .join("");
+
+                        const tooltipData = JSON.stringify(row, null, 2); // pretty JSON
+
+                        const infoIcon = `
+            <td>
+              <div class="tooltip-wrapper">
+                🔍
+                <div class="tooltip-box">${tooltipData}</div>
+              </div>
+            </td>
+          `;
+
+                        return `<tr>${simpleCols}${infoIcon}</tr>`;
+                      })
+                      .join("");
+
+                    document.getElementById("jsonTable").innerHTML = `
+        <table border="1" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+          <thead>${thead}</thead>
+          <tbody>${tbody}</tbody>
+        </table>
+      `;
+                  }
+
+                  render(data);
+
+                  const input = document.getElementById("filterInput");
+                  input?.addEventListener("input", () => {
+                    const v = input.value.toLowerCase();
+                    render(
+                      data.filter((obj) =>
+                        JSON.stringify(obj).toLowerCase().includes(v)
+                      )
+                    );
+                  });
+                });
+            });
+          },
+        ],
+      };
+    </script>
+  </body>
+</html>
