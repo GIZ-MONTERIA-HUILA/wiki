@@ -176,6 +176,9 @@
       const CLIENT_ID =
         "444181898034-bj3ijh735krh74pajl733mtkp1lvisns.apps.googleusercontent.com";
 
+      const isLocal =
+        location.hostname === "localhost" || location.hostname === "127.0.0.1";
+
       async function getAllowedEmails() {
         try {
           const res = await fetch(SHEET_URL);
@@ -221,22 +224,29 @@
         return JSON.parse(jsonPayload);
       }
 
-      window.onload = function () {
-        google.accounts.id.initialize({
-          client_id: CLIENT_ID,
-          callback: handleCredentialResponse,
-        });
-        google.accounts.id.renderButton(
-          document.getElementById("auth-container"),
-          { theme: "outline", size: "large" }
-        );
-      };
+      if (isLocal) {
+        const app = document.querySelector("#app");
+        const cover = document.querySelector(".show");
+
+        document.querySelector("#auth-container").style.display = "none";
+        if (app) app.style.display = "block";
+        if (cover) cover.style.display = "flex";
+        document.querySelector(".loader-container").style.display = "none";
+      } else {
+        window.onload = function () {
+          google.accounts.id.initialize({
+            client_id: CLIENT_ID,
+            callback: handleCredentialResponse,
+          });
+          google.accounts.id.renderButton(
+            document.getElementById("auth-container"),
+            { theme: "outline", size: "large" }
+          );
+        };
+      }
     </script>
 
     <script>
-      const isLocal =
-        location.hostname === "localhost" || location.hostname === "127.0.0.1";
-
       window.$docsify = {
         name: "",
         repo: "",
