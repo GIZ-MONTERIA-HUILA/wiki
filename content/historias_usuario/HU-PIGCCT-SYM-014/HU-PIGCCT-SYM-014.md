@@ -1,4 +1,4 @@
-# HU-PIGGCT-SYM-014  
+# HU-PIGCCT-SYM-014  
 ## Épica: Administración de ejes del PIGCCT  
 ### Validar unicidad del eje por PIGCCT
 
