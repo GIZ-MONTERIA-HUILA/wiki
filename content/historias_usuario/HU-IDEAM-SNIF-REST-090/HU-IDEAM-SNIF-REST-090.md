@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-090
+## HU-pigcct-sym-090
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-090 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-090 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Validación de formato, tamaño y nomenclatura de archivos documentales
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -22,26 +22,26 @@
 
 2. **Validación de Tamaño**  
    2.1 El tamaño máximo permitido es de 10 MB.         
-   2.2. Si el archivo supera este límite, se debe mostrar el mensaje: “El archivo excede el tamaño máximo permitido (10 MB)”. (Ver (Ver [HU-IDEAM-SNIF-REST-082](/content/historias_usuario/HU-IDEAM-SNIF-REST-082/HU-IDEAM-SNIF-REST-082.md y (Ver [HU-IDEAM-SNIF-REST-088](/content/historias_usuario/HU-IDEAM-SNIF-REST-088/HU-IDEAM-SNIF-REST-088.md))))).
+   2.2. Si el archivo supera este límite, se debe mostrar el mensaje: “El archivo excede el tamaño máximo permitido (10 MB)”. (Ver (Ver [HU-pigcct-sym-082](/content/historias_usuario/HU-pigcct-sym-082/HU-pigcct-sym-082.md y (Ver [HU-pigcct-sym-088](/content/historias_usuario/HU-pigcct-sym-088/HU-pigcct-sym-088.md))))).
 
 3. **Validación de Nomenclatura y Renombre**  
    3.1 No se deben permitir nombres de archivo con caracteres especiales o espacios consecutivos al subir.     
    3.2. El sistema debe renombrar internamente el archivo subido utilizando un identificador único (Ej: UUID o hash) antes de guardarlo en el disco.
 
 4. **Retroalimentación de Subida**  
-   4.1 Se debe mostrar una barra de progreso o un spinner (Ver (Ver [HU-IDEAM-SNIF-REST-076](/content/historias_usuario/HU-IDEAM-SNIF-REST-076/HU-IDEAM-SNIF-REST-076.md))) mientras la subida se está realizando.
+   4.1 Se debe mostrar una barra de progreso o un spinner (Ver (Ver [HU-pigcct-sym-076](/content/historias_usuario/HU-pigcct-sym-076/HU-pigcct-sym-076.md))) mientras la subida se está realizando.
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-090.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-090.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-090.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-090.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-090.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-090.png)
 
 ## ANEXOS
 

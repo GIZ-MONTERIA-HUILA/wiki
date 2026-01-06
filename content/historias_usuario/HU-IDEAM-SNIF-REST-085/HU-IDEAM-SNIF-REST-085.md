@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-085
+## HU-pigcct-sym-085
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-085 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-085 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Política de almacenamiento unificado de archivos
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -25,20 +25,20 @@
    2.1 La tabla de archivos debe contener campos (tabla_referida y id_elemento_referido) que garanticen la trazabilidad completa hacia el elemento principal al que está adjunto.
 
 3. **Gestión consistente**  
-   3.1 Las políticas de registro de eventos (Log) y eliminación de datos deben aplicarse de manera uniforme a todos los tipos de archivos (Ver [HU-IDEAM-SNIF-REST-087](/content/historias_usuario/HU-IDEAM-SNIF-REST-087/HU-IDEAM-SNIF-REST-087.md)).   
+   3.1 Las políticas de registro de eventos (Log) y eliminación de datos deben aplicarse de manera uniforme a todos los tipos de archivos (Ver [HU-pigcct-sym-087](/content/historias_usuario/HU-pigcct-sym-087/HU-pigcct-sym-087.md)).   
    3.2. La eliminación de archivos debe ser lógica para preservar el historial. 
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-085.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-085.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-085.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-085.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-085.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-085.png)
 
 ## ANEXOS
 

@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-118
+## HU-pigcct-sym-118
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-118 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-118 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Edición de Atributos Técnicos, Monitoreo y Financieros.
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -27,17 +27,17 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-118.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-118.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-118.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-118.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-118.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-118.png)
 
 ## ANEXOS
 
--	[HU-IDEAM-SNIF-REST-115](/content/historias_usuario/HU-IDEAM-SNIF-REST-115/HU-IDEAM-SNIF-REST-115.md)
+-	[HU-pigcct-sym-115](/content/historias_usuario/HU-pigcct-sym-115/HU-pigcct-sym-115.md)
 -  Mapeo de errores de validación a mensajes específicos.

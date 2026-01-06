@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-076
+## HU-pigcct-sym-076
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-076 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-076 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Indicadores de Carga y Feedback Asincrónico
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -22,7 +22,7 @@
 
 2.	**Comportamiento del Indicador**    
     2.1. El indicador debe aparecer inmediatamente al iniciar el proceso asincrónico.   
-    2.2. El indicador debe desaparecer inmediatamente y dar paso a la Notificación de Éxito/Error (Ver [HU-71](../HU-IDEAM-SNIF-REST-071/HU-IDEAM-SNIF-REST-071.md)) al finalizar el proceso.     
+    2.2. El indicador debe desaparecer inmediatamente y dar paso a la Notificación de Éxito/Error (Ver [HU-71](../HU-pigcct-sym-071/HU-pigcct-sym-071.md)) al finalizar el proceso.     
     2.3. Mientras el indicador esté visible, los botones de acción principal (Guardar/Enviar) deben estar deshabilitados.
 
 
@@ -30,15 +30,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-076.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-076.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-076.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-076.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-076.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-076.png)
 
 ## ANEXOS
 

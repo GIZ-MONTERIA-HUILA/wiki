@@ -1,5 +1,5 @@
-## HU-IDEAM-SNIF-REST-058
-> **Identificador Historia de Usuario:** HU-IDEAM-SNIF-REST-058 \
+## HU-pigcct-sym-058
+> **Identificador Historia de Usuario:** HU-pigcct-sym-058 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Selector de Fecha (Datepicker)
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -22,12 +22,12 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-HU-IDEAM-SNIF-REST-058.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-HU-pigcct-sym-058.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-HU-IDEAM-SNIF-REST-058.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-HU-pigcct-sym-058.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-058.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-058.png)

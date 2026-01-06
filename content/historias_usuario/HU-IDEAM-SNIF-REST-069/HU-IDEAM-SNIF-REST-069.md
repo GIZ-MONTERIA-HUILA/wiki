@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-069
+## HU-pigcct-sym-069
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-069 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-069 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Funcionalidad de Botones Guardar/Enviar y Limpiar/Cancelar
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -17,9 +17,9 @@
 ## CRITERIOS DE ACEPTACIÓN
 
 1.	**Botón Guardar/Enviar**    
-    1.1. El botón de Guardar/Enviar solo debe ejecutar la operación si todas las validaciones de campos son correctas (Ver [HU-61](../HU-IDEAM-SNIF-REST-061/HU-IDEAM-SNIF-REST-061.md) a [HU-67](../HU-IDEAM-SNIF-REST-067/HU-IDEAM-SNIF-REST-067.md)).    
+    1.1. El botón de Guardar/Enviar solo debe ejecutar la operación si todas las validaciones de campos son correctas (Ver [HU-61](../HU-pigcct-sym-061/HU-pigcct-sym-061.md) a [HU-67](../HU-pigcct-sym-067/HU-pigcct-sym-067.md)).    
     1.2. Si existen errores, el botón debe deshabilitarse visualmente o mostrar los mensajes de error correspondientes en el formulario.    
-    1.3. Tras una operación exitosa de Guardar, el sistema debe ejecutar el control de Notificación de Éxito (Ver [HU-71](../HU-IDEAM-SNIF-REST-071/HU-IDEAM-SNIF-REST-071.md)).
+    1.3. Tras una operación exitosa de Guardar, el sistema debe ejecutar el control de Notificación de Éxito (Ver [HU-71](../HU-pigcct-sym-071/HU-pigcct-sym-071.md)).
 
 2.	**Botón Limpiar/Cancelar**  
     2.1. El sistema debe contar con un botón que permita reiniciar todos los campos a sus valores iniciales (Limpiar/Reiniciar).    
@@ -33,15 +33,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-069.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-069.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-069.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-069.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-069.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-069.png)
 
 ## ANEXOS
 

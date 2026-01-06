@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-078
+## HU-pigcct-sym-078
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-078 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-078 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Prevención de Ataques XSS y SQL Injection.
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -25,22 +25,22 @@
     2.2. El backend debe rechazar las entradas que contengan patrones de inyección SQL conocidos.
 
 3.	**Revalidación en el Servidor**  
-    3.1. Esta validación de seguridad debe ejecutarse antes de la lógica de negocio, incluso si el cliente ya pasó las validaciones de tipo/longitud (Ver [HU-77](../HU-IDEAM-SNIF-REST-077/HU-IDEAM-SNIF-REST-077.md)).
+    3.1. Esta validación de seguridad debe ejecutarse antes de la lógica de negocio, incluso si el cliente ya pasó las validaciones de tipo/longitud (Ver [HU-77](../HU-pigcct-sym-077/HU-pigcct-sym-077.md)).
     
 
 
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-078.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-078.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-078.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-078.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-078.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-078.png)
 
 ## ANEXOS
 

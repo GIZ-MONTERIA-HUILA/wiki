@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-091
+## HU-pigcct-sym-091
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-091 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-091 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Gestión de archivos en disco y control de reemplazo
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -24,7 +24,7 @@
    2.1 La metadata del archivo debe registrarse en la tabla ADJUNTO (Ver HU-086), incluyendo: id_archivo, nombre_original, nombre_sistema, tipo_mime, tamaño_bytes, ruta_almacenamiento, y las claves de trazabilidad (tabla_referida, id_elemento_referido).
 
 3. **Control de Reemplazo**  
-   3.1 Si el usuario intenta subir un archivo con el mismo nombre y tipo sobre el mismo elemento/registro (tabla_referida + id_elemento_referido), el sistema debe mostrar una modal de confirmación para solicitar el reemplazo (Ver (Ver [HU-IDEAM-SNIF-REST-070](/content/historias_usuario/HU-IDEAM-SNIF-REST-070/HU-IDEAM-SNIF-REST-070.md))).      
+   3.1 Si el usuario intenta subir un archivo con el mismo nombre y tipo sobre el mismo elemento/registro (tabla_referida + id_elemento_referido), el sistema debe mostrar una modal de confirmación para solicitar el reemplazo (Ver (Ver [HU-pigcct-sym-070](/content/historias_usuario/HU-pigcct-sym-070/HU-pigcct-sym-070.md))).      
    3.2. Si el usuario confirma el reemplazo, el archivo anterior debe ser marcado como eliminación lógica (estado = 'INACTIVO') y el nuevo archivo se registra.
 
 4. **Notificación Final**  
@@ -32,15 +32,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-091.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-091.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-091.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-091.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-091.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-091.png)
 
 ## ANEXOS
 

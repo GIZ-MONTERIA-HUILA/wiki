@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-068
+## HU-pigcct-sym-068
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-068 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-068 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Política de Controles de Acción y Consistencia
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -21,7 +21,7 @@
     1.2. Los botones principales (Guardar/Enviar, Cancelar) deben estar ubicados de forma consistente (Ej: en la parte inferior derecha del formulario).    
     1.3. La acción primaria (Guardar/Enviar) debe destacarse visualmente de las acciones secundarias (Cancelar/Limpiar).
 2.	**Integración con Flujo**   
-    2.1. El sistema debe garantizar que los controles de acción (Guardar, Cancelar, etc.) sean la puerta de entrada para las Validaciones ([HU-61](../HU-IDEAM-SNIF-REST-061/HU-IDEAM-SNIF-REST-061.md)) y las Notificaciones ([HU-71](../HU-IDEAM-SNIF-REST-071/HU-IDEAM-SNIF-REST-071.md)).
+    2.1. El sistema debe garantizar que los controles de acción (Guardar, Cancelar, etc.) sean la puerta de entrada para las Validaciones ([HU-61](../HU-pigcct-sym-061/HU-pigcct-sym-061.md)) y las Notificaciones ([HU-71](../HU-pigcct-sym-071/HU-pigcct-sym-071.md)).
 3.	**Accesibilidad**   
     3.1. Todos los botones de acción deben ser accesibles y navegables por teclado.
 
@@ -30,15 +30,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-068.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-068.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-068.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-068.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-068.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-068.png)
 
 ## ANEXOS
 

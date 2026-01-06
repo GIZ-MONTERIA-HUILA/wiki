@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-070
+## HU-pigcct-sym-070
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-070 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-070 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Modal de Confirmación para Operaciones Críticas
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -25,7 +25,7 @@
     2.2. Debe ofrecer opciones claras de Confirmar (botón primario) y Cancelar (botón secundario).
 
 3.	**Comportamiento**  
-    3.1. Si el usuario selecciona Confirmar, se ejecuta la operación y se invoca la Notificación de Resultado ([HU-71](../HU-IDEAM-SNIF-REST-071/HU-IDEAM-SNIF-REST-071.md)).   
+    3.1. Si el usuario selecciona Confirmar, se ejecuta la operación y se invoca la Notificación de Resultado ([HU-71](../HU-pigcct-sym-071/HU-pigcct-sym-071.md)).   
     3.2. Si el usuario selecciona Cancelar, se cierra la modal y se vuelve al estado anterior.
 
 
@@ -34,15 +34,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-070.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-070.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-070.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-070.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-070.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-070.png)
 
 ## ANEXOS
 

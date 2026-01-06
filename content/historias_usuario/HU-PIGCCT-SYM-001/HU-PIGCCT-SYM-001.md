@@ -1,6 +1,6 @@
-# HU-PIGGCT-SYM-001  
+# HU-PIGCCT-SYM-001  
 ## Épica: Administración de la tabla maestra de PIGCCT  
-### Necesidad: Registrar PIGCCT
+### Registrar PIGCCT
 
 ---
 
@@ -84,5 +84,5 @@ Un **PIGCCT registrado correctamente** en la tabla maestra del sistema, asociado
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-001.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-001-011.png)
 

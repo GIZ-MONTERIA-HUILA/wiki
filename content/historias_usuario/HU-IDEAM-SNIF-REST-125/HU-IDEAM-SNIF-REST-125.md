@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-125
+## HU-pigcct-sym-125
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-125 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-125 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Carga y consumo de valores de dominio dinámico y enumeraciones
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -35,15 +35,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-125.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-125.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-125.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-125.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-125.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-125.png)
 
 ## ANEXOS
 

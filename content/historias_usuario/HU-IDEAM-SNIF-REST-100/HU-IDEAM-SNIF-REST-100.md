@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-100
+## HU-pigcct-sym-100
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-100 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-100 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Pestaña Gestión de Adjuntos y Controles de Pestaña
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -22,8 +22,8 @@
 
 2. **Gestión de Carga**  
    2.1 El usuario puede subir múltiples archivos (documentales y geográficos) \
-   2.2 Para los archivos documentales se aplican las validaciones de carga de archivos no geográficos. Ver ([HU-IDEAM-SNIF-REST-090](/content/historias_usuario/HU-IDEAM-SNIF-REST-090/HU-IDEAM-SNIF-REST-090.md)). \
-   2.3 Para los archivos se aplican las validaciones de carga de arhivos geográficos. Ver ([HU-IDEAM-SNIF-REST-093](/content/historias_usuario/HU-IDEAM-SNIF-REST-093/HU-IDEAM-SNIF-REST-093.md)). \
+   2.2 Para los archivos documentales se aplican las validaciones de carga de archivos no geográficos. Ver ([HU-pigcct-sym-090](/content/historias_usuario/HU-pigcct-sym-090/HU-pigcct-sym-090.md)). \
+   2.3 Para los archivos se aplican las validaciones de carga de arhivos geográficos. Ver ([HU-pigcct-sym-093](/content/historias_usuario/HU-pigcct-sym-093/HU-pigcct-sym-093.md)). \
 
 3. **Visualización y Funcionalidad**  
    3.1. El sistema muestra una tabla con los adjuntos cargados y opciones de Descargar y Eliminar.     
@@ -42,15 +42,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-100.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-100.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-100.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-100.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-100.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-100.png)
 
 ## ANEXOS
 

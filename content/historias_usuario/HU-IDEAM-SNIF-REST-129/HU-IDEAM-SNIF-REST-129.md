@@ -1,5 +1,5 @@
-## HU-IDEAM-SNIF-REST-129
-> **Identificador Historia de Usuario:** HU-IDEAM-SNIF-REST-129 \
+## HU-pigcct-sym-129
+> **Identificador Historia de Usuario:** HU-pigcct-sym-129 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Módulo de Validación de Registros (Doble Nivel)
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -27,12 +27,12 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-HU-IDEAM-SNIF-REST-129.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-HU-pigcct-sym-129.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-HU-IDEAM-SNIF-REST-129.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-HU-pigcct-sym-129.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-129.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-129.png)

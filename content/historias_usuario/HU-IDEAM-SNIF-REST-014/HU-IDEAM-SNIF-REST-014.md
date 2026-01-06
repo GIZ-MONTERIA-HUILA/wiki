@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-014
+## HU-pigcct-sym-014
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-014 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-014 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Botones de navegación (Zoom In / Zoom Out / Full Extent)
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -48,15 +48,15 @@
    
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-014.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-014.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-014.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-014.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-014.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-014.png)
 
 ## ANEXOS
 

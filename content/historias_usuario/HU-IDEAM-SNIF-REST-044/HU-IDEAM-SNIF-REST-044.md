@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-044
+## HU-pigcct-sym-044
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-044 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-044 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Visualización y descarga de resultados
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -25,15 +25,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-044.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-044.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-044.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-044.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-044.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-044.png)
 
 ## ANEXOS
 

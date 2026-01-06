@@ -1,5 +1,5 @@
-## HU-IDEAM-SNIF-REST-135
-> **Identificador Historia de Usuario:** HU-IDEAM-SNIF-REST-135 \
+## HU-pigcct-sym-135
+> **Identificador Historia de Usuario:** HU-pigcct-sym-135 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Administración de Reportes (Creación y Gestión de Reportes de Power BI)
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -50,15 +50,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-135.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-135.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-135.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-135.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-135.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-135.png)
 
 
 ## ANEXOS

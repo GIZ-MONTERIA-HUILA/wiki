@@ -1,5 +1,5 @@
-## HU-IDEAM-SNIF-REST-134
-> **Identificador Historia de Usuario:** HU-IDEAM-SNIF-REST-134 \
+## HU-pigcct-sym-134
+> **Identificador Historia de Usuario:** HU-pigcct-sym-134 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Gestión, Edición Controlada y Aprobación de Especies
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -42,21 +42,21 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-134.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-134.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-134.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-134.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-134.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-134.png)
 
 
 ## ANEXOS
 
 - Wireframe: Gestión, Edición Controlada y Aprobación de Especies.
-- [HU-IDEAM-SNIF-REST-133](/content/historias_usuario/HU-IDEAM-SNIF-REST-133/HU-IDEAM-SNIF-REST-133.md) (Creación de Registro de Especie).
+- [HU-pigcct-sym-133](/content/historias_usuario/HU-pigcct-sym-133/HU-pigcct-sym-133.md) (Creación de Registro de Especie).
 - Documento de dominios (dom_procedencia_especie, dom_tecnica_restauracion).
 - Definición de Roles y Permisos (Gestor vs. Técnico).
 

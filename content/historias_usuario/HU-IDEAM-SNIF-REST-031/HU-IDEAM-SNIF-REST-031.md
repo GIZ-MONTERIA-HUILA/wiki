@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-031
+## HU-pigcct-sym-031
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-031 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-031 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Validar la geometría dibujada
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -27,16 +27,16 @@
    
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-031.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-031.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-031.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-031.png)
 
 ## PROTOTIPO PRELIMINAR
 Valido
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-031-valido.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-031-valido.png)
 Invalido
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-031-invalido.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-031-invalido.png)
 
 ## ANEXOS

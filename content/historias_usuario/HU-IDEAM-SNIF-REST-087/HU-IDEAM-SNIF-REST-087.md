@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-087
+## HU-pigcct-sym-087
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-087 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-087 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Registro de eventos para carga y gestión de archivos
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -17,8 +17,8 @@
 ## CRITERIOS DE ACEPTACIÓN
 
 1. **Integración con el Log de Auditoría (HU-083)**  
-   1.1 Los eventos de carga, reemplazo o eliminación lógica se deben registrar en el log de auditoría del sistema (Ver [HU-IDEAM-SNIF-REST-083](/content/historias_usuario/HU-IDEAM-SNIF-REST-083/HU-IDEAM-SNIF-REST-083.md)).   
-   1.2 El registro en el log debe cumplir con el Formato de Log estándar definido en la [HU-IDEAM-SNIF-REST-083](/content/historias_usuario/HU-IDEAM-SNIF-REST-083/HU-IDEAM-SNIF-REST-083.md).
+   1.1 Los eventos de carga, reemplazo o eliminación lógica se deben registrar en el log de auditoría del sistema (Ver [HU-pigcct-sym-083](/content/historias_usuario/HU-pigcct-sym-083/HU-pigcct-sym-083.md)).   
+   1.2 El registro en el log debe cumplir con el Formato de Log estándar definido en la [HU-pigcct-sym-083](/content/historias_usuario/HU-pigcct-sym-083/HU-pigcct-sym-083.md).
 
 2. **Detalle Específico del Registro**  
    2.1 El log debe incluir información específica que relacione el evento con el archivo, tales como: tipo de archivo (GENERAL o GEOGRÁFICO), ID del archivo (PK de la tabla adjuntos) y tabla referida. 
@@ -28,15 +28,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-087.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-087.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-087.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-087.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-087.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-087.png)
 
 ## ANEXOS
 

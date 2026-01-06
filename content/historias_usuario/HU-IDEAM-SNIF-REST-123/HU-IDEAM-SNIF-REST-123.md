@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-123
+## HU-pigcct-sym-123
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-123 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-123 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Listado, Visualización y Exportación de Registros Temáticos.
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -24,8 +24,8 @@
     2.1. La tabla debe incluir columnas de acciones con al menos las siguientes opciones (dependiendo del elemento):    
     - **Ver** (Para mostrar el detalle).    
     - **Acercar** en el mapa (Para geolocalizar el elemento, si aplica).    
-    - **Editar** (Ver [HU-107](../HU-IDEAM-SNIF-REST-107/HU-IDEAM-SNIF-REST-107.md)).   
-    - **Inactivar** (Ver [HU-108](../HU-IDEAM-SNIF-REST-108/HU-IDEAM-SNIF-REST-108.md)).
+    - **Editar** (Ver [HU-107](../HU-pigcct-sym-107/HU-pigcct-sym-107.md)).   
+    - **Inactivar** (Ver [HU-108](../HU-pigcct-sym-108/HU-pigcct-sym-108.md)).
 
 3.	**Filtrado y Búsqueda**     
         3.1. Se debe permitir el filtrado por campos temáticos para refinar los resultados (Ej: Filtrar Proyectos por "Estado" o Áreas por "Municipio").
@@ -47,15 +47,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-123.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-123.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-123.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-123.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-123.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-123.png)
 
 ## ANEXOSs
 

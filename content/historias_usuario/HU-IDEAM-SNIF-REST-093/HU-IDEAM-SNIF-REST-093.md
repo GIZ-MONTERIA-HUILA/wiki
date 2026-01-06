@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-093
+## HU-pigcct-sym-093
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-093 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-093 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Validación estructural y de proyección para archivos geográficos
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -32,15 +32,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-093.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-093.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-093.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-093.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-093.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-093.png)
 
 ## ANEXOS
 
