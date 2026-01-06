@@ -1,5 +1,5 @@
-## HU-IDEAM-SNIF-REST-023
-> **Identificador Historia de Usuario:** HU-IDEAM-SNIF-REST-023 \
+## HU-pigcct-sym-023
+> **Identificador Historia de Usuario:** HU-pigcct-sym-023 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Pestaña Consultas
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -204,18 +204,18 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA ATRIBUTIVO](assets/secuencia-atributiva-HU-IDEAM-SNIF-REST-023.png)
+![IMAGEN DIAGRAMA DE SECUENCIA ATRIBUTIVO](assets/secuencia-atributiva-HU-pigcct-sym-023.png)
 
-![IMAGEN DIAGRAMA DE SECUENCIA ESPACIAL](assets/secuencia-espacial-HU-IDEAM-SNIF-REST-023.png)
+![IMAGEN DIAGRAMA DE SECUENCIA ESPACIAL](assets/secuencia-espacial-HU-pigcct-sym-023.png)
 
-![IMAGEN DIAGRAMA DE SECUENCIA GEOGRAFICO](assets/secuencia-capa-geo-HU-IDEAM-SNIF-REST-023.png)
+![IMAGEN DIAGRAMA DE SECUENCIA GEOGRAFICO](assets/secuencia-capa-geo-HU-pigcct-sym-023.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO ATRIBUTIVO](assets/actividades-atributiva-HU-IDEAM-SNIF-REST-023.png)
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO ESPACIAL](assets/actividades-espacial-HU-IDEAM-SNIF-REST-023.png)
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO GEOGRAFICO](assets/actividades-capa-geo-HU-IDEAM-SNIF-REST-023.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO ATRIBUTIVO](assets/actividades-atributiva-HU-pigcct-sym-023.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO ESPACIAL](assets/actividades-espacial-HU-pigcct-sym-023.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO GEOGRAFICO](assets/actividades-capa-geo-HU-pigcct-sym-023.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-001.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-001.png)

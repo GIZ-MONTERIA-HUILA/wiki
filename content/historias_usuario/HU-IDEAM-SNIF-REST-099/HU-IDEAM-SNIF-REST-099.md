@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-099
+## HU-pigcct-sym-099
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-099 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-099 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Gestión de Fuentes de Financiación
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -34,19 +34,19 @@
    4.2 El sistema debe mostrar un resumen tabular de las fuentes agregadas con las opciones: Editar y Eliminar.
 
 5. **Eliminación**  
-   5.1 Al eliminar una fuente, se debe mostrar un mensaje de confirmación: “¿Desea eliminar esta fuente de financiación del proyecto?” (Ver [HU-IDEAM-SNIF-REST-070](/content/historias_usuario/HU-IDEAM-SNIF-REST-070/HU-IDEAM-SNIF-REST-070.md)).
+   5.1 Al eliminar una fuente, se debe mostrar un mensaje de confirmación: “¿Desea eliminar esta fuente de financiación del proyecto?” (Ver [HU-pigcct-sym-070](/content/historias_usuario/HU-pigcct-sym-070/HU-pigcct-sym-070.md)).
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-099.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-099.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-099.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-099.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-099.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-099.png)
 
 ## ANEXOS
 

@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-018
+## HU-pigcct-sym-018
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-018 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-018 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Cambiar mapa base
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -24,15 +24,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-018.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-018.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-018.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-018.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-018.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-018.png)
 
 ## ANEXOS
 

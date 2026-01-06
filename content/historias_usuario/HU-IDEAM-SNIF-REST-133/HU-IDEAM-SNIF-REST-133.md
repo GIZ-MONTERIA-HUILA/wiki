@@ -1,5 +1,5 @@
-## HU-IDEAM-SNIF-REST-133
-> **Identificador Historia de Usuario:** HU-IDEAM-SNIF-REST-133 \
+## HU-pigcct-sym-133
+> **Identificador Historia de Usuario:** HU-pigcct-sym-133 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Creación de Registro de Especie (Campos y Validaciones)
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -49,20 +49,20 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-HU-IDEAM-SNIF-REST-133.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-HU-pigcct-sym-133.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-HU-IDEAM-SNIF-REST-133.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-HU-pigcct-sym-133.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-133.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-133.png)
 
 
 ## ANEXOS
 
 - Wireframe: Creación de Registro de Especie (Campos y Validaciones)
-- [HU-IDEAM-SNIF-REST-134](/content/historias_usuario/HU-IDEAM-SNIF-REST-134/HU-IDEAM-SNIF-REST-134.md) (Gestión de Listado y Aprobación de Especies)
+- [HU-pigcct-sym-134](/content/historias_usuario/HU-pigcct-sym-134/HU-pigcct-sym-134.md) (Gestión de Listado y Aprobación de Especies)
 - Documento de dominios (dom_procedencia_especie, dom_tecnica_restauracion).
 - Mapeo de errores de validación a mensajes específicos.

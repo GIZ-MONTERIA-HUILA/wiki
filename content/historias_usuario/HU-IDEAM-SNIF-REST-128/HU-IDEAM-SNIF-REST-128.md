@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-128
+## HU-pigcct-sym-128
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-128 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-128 \
 > **Nombre Historia de Usuario:** Estándar de Sistema - Asignación de Estado Inicial (UNDER_REVISION) .
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -35,15 +35,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-128.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-128.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-128.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-128.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-128.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-128.png)
 
 ## ANEXOSs
 

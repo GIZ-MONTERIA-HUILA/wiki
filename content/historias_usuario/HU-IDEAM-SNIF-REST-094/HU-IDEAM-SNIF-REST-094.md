@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-094
+## HU-pigcct-sym-094
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-094 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-094 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Estandarización, metadatos adicionales y control de acceso
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -28,19 +28,19 @@
 
 4. **Experiencia de Usuario (UX)**  
    4.1  Tras subir el archivo, el sistema debe mostrar una vista previa inmediata en el mapa, delimitando el bounding box o la geometría cargada.    
-   4.2. Si ya existe un archivo geográfico para ese elemento y tipo, se debe invocar una modal de confirmación para el reemplazo (Ver [HU-IDEAM-SNIF-REST-070](/content/historias_usuario/HU-IDEAM-SNIF-REST-070/HU-IDEAM-SNIF-REST-070.md)).
+   4.2. Si ya existe un archivo geográfico para ese elemento y tipo, se debe invocar una modal de confirmación para el reemplazo (Ver [HU-pigcct-sym-070](/content/historias_usuario/HU-pigcct-sym-070/HU-pigcct-sym-070.md)).
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-094.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-094.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-094.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-094.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-094.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-094.png)
 
 ## ANEXOS
 

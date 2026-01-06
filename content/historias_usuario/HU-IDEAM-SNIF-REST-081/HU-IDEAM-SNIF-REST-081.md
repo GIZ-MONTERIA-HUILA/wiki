@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-081
+## HU-pigcct-sym-081
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-081 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-081 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Estándar de Mensajería y Registro de Eventos del Sistema.
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -32,15 +32,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-081.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-081.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-081.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-081.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-081.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-081.png)
 
 ## ANEXOS
 

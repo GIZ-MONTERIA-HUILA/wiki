@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-049
+## HU-pigcct-sym-049
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-049 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-049 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Parámetros y condiciones de descarga
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -24,15 +24,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-049.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-049.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-049.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-049.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-049.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-049.png)
 
 ## ANEXOS
 

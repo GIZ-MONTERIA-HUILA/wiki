@@ -1,5 +1,5 @@
-## HU-IDEAM-SNIF-REST-132
-> **Identificador Historia de Usuario:** HU-IDEAM-SNIF-REST-132 \
+## HU-pigcct-sym-132
+> **Identificador Historia de Usuario:** HU-pigcct-sym-132 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Ciclo de Correcciones y Reenvío de Registros
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -21,12 +21,12 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-HU-IDEAM-SNIF-REST-132.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-HU-pigcct-sym-132.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-HU-IDEAM-SNIF-REST-132.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-HU-pigcct-sym-132.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-132.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-132.png)

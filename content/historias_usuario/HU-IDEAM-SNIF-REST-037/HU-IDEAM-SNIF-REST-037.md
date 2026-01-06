@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-037
+## HU-pigcct-sym-037
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-037 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-037 \
 > **Nombre Historia de Usuario:** Módulo de restauración -  Configuración del tipo de consulta (puntual o con buffer)  
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -24,15 +24,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-037.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-037.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-037.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-037.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-015.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-015.png)
 
 ## ANEXOS
 

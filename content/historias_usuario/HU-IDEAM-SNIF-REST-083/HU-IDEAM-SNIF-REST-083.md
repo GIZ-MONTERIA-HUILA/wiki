@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-083
+## HU-pigcct-sym-083
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-083 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-083 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Registro de Eventos (Log de Auditoría).
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -42,15 +42,15 @@
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-083.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-083.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-083.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-083.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-083.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-083.png)
 
 ## ANEXOS
 

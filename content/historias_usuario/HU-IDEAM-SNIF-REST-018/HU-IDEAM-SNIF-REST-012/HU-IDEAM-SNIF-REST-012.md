@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-012
+## HU-pigcct-sym-012
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-012 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-012 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Avatar de usuario autenticado
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -47,17 +47,17 @@
    
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-012.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-012.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-012.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-012.png)
 
 ## PROTOTIPO PRELIMINAR
 Avatar de usuario autenticado (Foto)
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-012a.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-012a.png)
 Avatar de usuario autenticado (Letra)
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-012b.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-012b.png)
 
 ## ANEXOS
 

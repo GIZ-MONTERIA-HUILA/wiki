@@ -1,5 +1,5 @@
-## HU-IDEAM-SNIF-REST-065
-> **Identificador Historia de Usuario:** HU-IDEAM-SNIF-REST-065 \
+## HU-pigcct-sym-065
+> **Identificador Historia de Usuario:** HU-pigcct-sym-065 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Validación de Campos de Contacto (Correo y Teléfono)
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -17,17 +17,17 @@
 
 1. **Validación de Correo Electrónico** 1.1. El campo debe cumplir con el formato estándar user@dominio.com. 1.2. Si no cumple, se debe mostrar el mensaje: "Correo electrónico inválido".
 2. **Validación de Teléfono/Celular** 2.1. Los campos de teléfono/celular solo deben permitir el ingreso de números. 2.2. Se debe validar una longitud permitida (Ej: entre 7 y 10 dígitos). 2.3. Si contiene letras o la longitud es inválida, se debe mostrar el mensaje: "Número de teléfono no válido".
-3. **Referencia a la Política General ([HU-061](../HU-IDEAM-SNIF-REST-061/HU-IDEAM-SNIF-REST-061.md))** 3.1. Esta validación debe cumplir con los principios de la Política General de Validación definida en la HU-IDEAM-SNIF-REST-061.
+3. **Referencia a la Política General ([HU-061](../HU-pigcct-sym-061/HU-pigcct-sym-061.md))** 3.1. Esta validación debe cumplir con los principios de la Política General de Validación definida en la HU-pigcct-sym-061.
 
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-HU-IDEAM-SNIF-REST-065.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-HU-pigcct-sym-065.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-HU-IDEAM-SNIF-REST-065.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-HU-pigcct-sym-065.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-065.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-065.png)

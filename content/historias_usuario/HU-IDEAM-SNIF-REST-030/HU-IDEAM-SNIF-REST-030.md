@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-030
+## HU-pigcct-sym-030
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-030 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-030 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Dibujar la geometría en el mapa
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -26,14 +26,14 @@
    
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-030.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-030.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-030.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-030.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-030.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-030.png)
 
 ## ANEXOS

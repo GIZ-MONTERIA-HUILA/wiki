@@ -1,6 +1,6 @@
-## HU-IDEAM-SNIF-REST-040
+## HU-pigcct-sym-040
 
-> **Identificador Historia de Usuario:** hu-ideam-snif-rest-040 \
+> **Identificador Historia de Usuario:** hu-pigcct-sym-040 \
 > **Nombre Historia de Usuario:** Módulo de restauración - Consulta por Capa Geográfica
 
 > **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
@@ -19,21 +19,21 @@
 1.  Incluir la opción 'Consulta por capa geográfica' en la pestaña Consultas.
 2.  Permitir cargar archivos en formatos GeoJSON, Shapefile (ZIP) o KML.
 3.  Validar que contengan geometrías tipo polígono o multipolígono.
-4.  Permitir ejecutar, visualizar y descargar los resultados (ver [HU-IDEAM-SNIF-REST-037](/content/historias_usuario/HU-IDEAM-SNIF-REST-037/HU-IDEAM-SNIF-REST-037.md), [HU-IDEAM-SNIF-REST-038](/content/historias_usuario/HU-IDEAM-SNIF-REST-038/HU-IDEAM-SNIF-REST-038.md) y [HU-IDEAM-SNIF-REST-039](/content/historias_usuario/HU-IDEAM-SNIF-REST-039/HU-IDEAM-SNIF-REST-039.md)).
+4.  Permitir ejecutar, visualizar y descargar los resultados (ver [HU-pigcct-sym-037](/content/historias_usuario/HU-pigcct-sym-037/HU-pigcct-sym-037.md), [HU-pigcct-sym-038](/content/historias_usuario/HU-pigcct-sym-038/HU-pigcct-sym-038.md) y [HU-pigcct-sym-039](/content/historias_usuario/HU-pigcct-sym-039/HU-pigcct-sym-039.md)).
 5.  Cumplir lineamientos de diseño y seguridad institucional IDEAM.
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-ideam-snif-rest-040.png)
+![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-040.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-ideam-snif-rest-040.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-040.png)
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-040A.png)
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-ideam-snif-rest-040B.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-040A.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-040B.png)
 
 ## ANEXOS
 
