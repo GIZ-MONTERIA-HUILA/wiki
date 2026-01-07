@@ -1,33 +1,40 @@
-## HU-pigcct-sym-089
+# HU-PIGCCT-SYM-089
+## Épica: Gestión territorial de la acción (municipios)
+### Prevenir la duplicidad en la relación acción–municipio
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-089 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Proceso de carga y validación de archivos no geográficos
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** usuario del sistema. \
-> **Quiero:**  poder subir archivos documentales (PDF, imágenes, hojas de cálculo) y asociarlos a un registro específico.   \
-> **Para:** adjuntar evidencia, reportes o información de soporte a los datos ingresados en el módulo.
+> **Como:** administrador del sistema.                       
+> **Quiero:** evitar la duplicidad de la relación entre una acción y un municipio.                       
+> **Para:** mantener la consistencia, integridad y confiabilidad de la información territorial del PIGCCT.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Validación de Archivos**  
-   1.1 El sistema debe validar el formato (extensión), el tipo MIME y el tamaño máximo del archivo antes de iniciar la subida al servidor (Ver [HU-pigcct-sym-090](/content/historias_usuario/HU-pigcct-sym-090/HU-pigcct-sym-090.md)).   
-   1.2. Se debe limitar el tamaño a 10 MB y aceptar solo las extensiones permitidas.
+### 1. Prevención de duplicidades
 
-2. **Proceso de Subida (Retroalimentación)**  
-   2.1 Durante el proceso de subida, se debe mostrar un indicador de progreso o spinner al usuario (Ver [HU-pigcct-sym-090](/content/historias_usuario/HU-pigcct-sym-090/HU-pigcct-sym-090.md)).         
-   2.2. Al finalizar, se debe mostrar una notificación de éxito o error (Ver [HU-pigcct-sym-091](/content/historias_usuario/HU-pigcct-sym-091/HU-pigcct-sym-091.md)).
+1.1 El sistema debe impedir registrar más de una vez la misma relación acción–municipio.                 
+1.2 La validación debe aplicarse tanto al crear como al editar una acción.
 
-3. **Almacenamiento y Seguridad**  
-   3.1 La metadata del archivo debe registrarse en la tabla ADJUNTOS (Ver HU-086).   
-   3.2. Los archivos físicos deben almacenarse en un directorio protegido, y el acceso debe ser mediante endpoints autenticados (Ver [HU-pigcct-sym-091](/content/historias_usuario/HU-pigcct-sym-091/HU-pigcct-sym-091.md)).
+### 2. Reglas de unicidad
 
+2.1 El sistema debe garantizar la unicidad de la relación acción–municipio a nivel de base de datos.                    
+2.2 No debe permitirse la coexistencia de registros duplicados activos para la misma acción y el mismo municipio.
+
+### 3. Cobertura departamental
+
+3.1 Cuando una acción tenga registrada cobertura sobre todo el departamento, el sistema no debe permitir registrar relaciones individuales con municipios.                        
+3.2 El sistema debe prevenir duplicidades lógicas entre cobertura departamental y selección parcial de municipios.
+
+### 4. Consistencia y uso de la información
+
+4.1 La información territorial debe reflejarse de manera consistente en los módulos de seguimiento, indicadores y reportes.                        
+4.2 El sistema debe mantener reglas de validación que eviten inconsistencias territoriales derivadas de duplicidades.
+
+### Resultado esperado
+
+El sistema evita la duplicación de la relación acción–municipio y previene inconsistencias entre coberturas parciales y departamentales, garantizando integridad territorial, coherencia del modelo de datos y confiabilidad de la información del PIGCCT en todos los módulos del sistema.
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-089.png)
@@ -38,8 +45,6 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-089.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)
 
-## ANEXOS
 
-- Especificación de los mensajes de error para la carga de archivos.

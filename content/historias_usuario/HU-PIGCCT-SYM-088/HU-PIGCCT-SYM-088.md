@@ -1,36 +1,39 @@
-## HU-pigcct-sym-088
+# HU-PIGCCT-SYM-088
+## Épica: Gestión territorial de la acción (municipios)
+### Validar la coherencia territorial con el PIGCCT
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-088 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Detalle avanzado y administración del Log de procesamiento de archivos
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** administrador del sistema y desarrollador. \
-> **Quiero:**  un registro de log con detalle técnico y clasificación por nivel para todas las operaciones de gestión de archivos.  \
-> **Para:** poder auditar acciones de archivos, depurar rápidamente errores de procesamiento y verificar la trazabilidad de los archivos con precisión.
+> **Como:** administrador del sistema.                        
+> **Quiero:** validar que los municipios asociados a una acción pertenezcan al departamento del PIGCCT.                             
+> **Para:** garantizar la coherencia territorial del plan y la integridad de la información registrada.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Registro Obligatorio de Eventos**  
-   1.1 Por cada operación de gestión de archivos (carga, reemplazo, eliminación, procesamiento), el sistema debe generar un registro en la tabla de logs (logs_sistema).   
-   1.2 Las acciones a registrar deben incluir: UPLOAD, REPLACE, DELETE (lógico), y PROCESS (para archivos geográficos o complejos).
+### 1. Validación territorial con el PIGCCT
 
-2. **Formato Mínimo del Log**  
-   2.1 . El registro de log para archivos debe incluir los siguientes campos mínimos de detalle técnico: id_log (PK, autoincremental), fecha_hora * usuario, acción (UPLOAD, REPLACE, DELETE, PROCESS), resultado (SUCCESS, ERROR), id_archivo (FK a la tabla adjuntos) y mensaje (descripción corta). 
+1.1 El sistema debe validar que todos los municipios asociados a una acción pertenezcan al departamento definido en el PIGCCT.                        
+1.2 Esta validación debe aplicarse tanto al momento de crear como de editar una acción.
 
-3. **Clasificación y Detalle de Error**  
-   3.1 Los logs deben clasificarse por niveles: INFO (éxito, upload), WARNING (formato no ideal), y ERROR (falla en el servidor/proceso).   
-   3.2 Si el proceso de carga/procesamiento falla (por formato no admitido o error del servidor), el sistema debe guardar el stack trace resumido o el código de error completo en el log.
+### 2. Cobertura departamental
 
-4. **Administración del Log**  
-   4.1 Solo los administradores (rol específico) pueden consultar los logs a través de la interfaz.   
-   4.2 La consulta debe permitir el filtrado por usuario, fecha, nivel de log (INFO/ERROR) o tipo de archivo.
-   4.3 Los logs no pueden ser modificados ni eliminados por usuarios estándar.
+2.1 Cuando la acción tenga registrada cobertura sobre todo el departamento, el sistema debe validar que dicha cobertura corresponda al departamento del PIGCCT activo.                  
+2.2 No debe permitirse registrar cobertura departamental para un departamento distinto al del PIGCCT.
+
+### 3. Restricciones ante inconsistencias
+
+3.1 El sistema debe impedir guardar o actualizar la acción si se detectan municipios que no pertenecen al departamento del PIGCCT.                            
+3.2 El sistema debe mostrar un mensaje claro de validación cuando se presente una inconsistencia territorial.
+
+### 4. Consistencia en todos los módulos
+
+4.1 Las validaciones de coherencia territorial deben mantenerse en los módulos de acciones, seguimientos, indicadores y reportes.                                
+
+### Resultado esperado
+
+El sistema valida de forma estricta que los municipios y la cobertura departamental asociados a cada acción correspondan al departamento definido en el PIGCCT, garantizando coherencia territorial, integridad referencial y confiabilidad de la información del plan en todos los módulos del sistema.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -42,8 +45,4 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-088.png)
-
-## ANEXOS
-
-- Mapeo de errores de carga de archivos a los niveles de log (INFO/WARNING/ERROR).
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)

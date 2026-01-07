@@ -1,32 +1,36 @@
-## HU-pigcct-sym-092
+# HU-PIGCCT-SYM-092
+## Épica: Gestión territorial de la acción (municipios)
+### Uso de la cobertura territorial en el análisis de seguimiento
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-092 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Proceso de carga y estandarización de archivos geográficos
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** usuario técnico con rol de editor o superior. \
-> **Quiero:**  poder subir archivos geoespaciales (Shapefile, GeoJSON, KML) al sistema.   \
-> **Para:** asociar información de límites, predios o zonas de manejo georreferenciadas a un registro específico.
+> **Como:** usuario del sistema.                                   
+> **Quiero:** usar la información territorial de la acción en los análisis de seguimiento.                    
+> **Para:** desagregar y analizar los resultados por municipio o a nivel departamental dentro del PIGCCT.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Validación Geoespacial**  
-   1.1 El sistema debe validar el formato y la estructura de los archivos (.geojson, .kml, .zip con Shapefile) antes de iniciar el procesamiento (Ver (Ver [HU-pigcct-sym-093](/content/historias_usuario/HU-pigcct-sym-093/HU-pigcct-sym-093.md))).    
-   1.2. Se debe verificar la presencia del Sistema de Referencia Espacial (EPSG) en los Shapefiles.
+### 1. Uso de la cobertura territorial en análisis
 
-2. **Procesamiento y Estandarización**  
-   2.1 El sistema debe estandarizar todos los archivos cargados al formato interno GeoJSON (utilizando librerías como GDAL o similar).    
-   2.2. Solo los usuarios con rol editor o superior pueden realizar esta carga (Ver [HU-pigcct-sym-094](/content/historias_usuario/HU-pigcct-sym-094/HU-pigcct-sym-094.md)).
+1.1 El sistema debe permitir utilizar la cobertura territorial de la acción como criterio de análisis en los módulos de seguimiento.                                       
+1.2 La información territorial debe estar disponible para desagregar resultados por municipio o por departamento.
 
-3. **Retroalimentación y Persistencia**  
-   3.1 Tras el procesamiento, se debe mostrar una vista previa en el mapa y notificaciones claras sobre el resultado (éxito/error) (Ver [HU-pigcct-sym-094](/content/historias_usuario/HU-pigcct-sym-094/HU-pigcct-sym-094.md)).     
-   3.2. Los metadatos deben registrarse en la tabla ADJUNTOS con campos específicos geográficos.
+### 2. Análisis por tipo de cobertura
+
+2.1 Cuando la acción tenga cobertura por municipios específicos, el sistema debe permitir analizar los resultados por cada municipio asociado.                                
+2.2 Cuando la acción tenga cobertura sobre todo el departamento, el sistema debe permitir el análisis a nivel departamental.
+
+### 3. Consistencia y coherencia de la información
+
+3.1 El sistema debe garantizar que los datos de seguimiento se relacionen correctamente con la cobertura territorial definida para la acción.                                        
+3.2 La información utilizada en el análisis debe reflejar la configuración territorial vigente de la acción.                                
+3.3 El sistema debe mantener coherencia entre los resultados analizados y la cobertura territorial mostrada.
+
+### Resultado esperado
+
+El sistema permite utilizar la cobertura territorial de las acciones como un elemento clave en el análisis de seguimiento, facilitando la desagregación de resultados por municipio o a nivel departamental, y fortaleciendo la evaluación territorial del PIGCCT con información consistente y confiable.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -38,8 +42,6 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-092.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)
 
-## ANEXOS
-
-- Requerimientos de software (Ej: GDAL, PostGIS) para el procesamiento geoespacial.
+ 
