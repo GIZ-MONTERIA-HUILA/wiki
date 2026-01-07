@@ -1,35 +1,40 @@
-## HU-pigcct-sym-090
+# HU-PIGCCT-SYM-090
+## Épica: Gestión territorial de la acción (municipios)
+### Consultar la cobertura territorial de la acción
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-090 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Validación de formato, tamaño y nomenclatura de archivos documentales
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** sistema. \
-> **Quiero:**  aplicar estrictas validaciones a los archivos documentales antes y durante la subida.   \
-> **Para:** garantizar el cumplimiento de las políticas de formato, tamaño y seguridad de la información.
+> **Como:** usuario del sistema.
+> **Quiero:** consultar la cobertura territorial de una acción.
+> **Para:** conocer los municipios asociados y el alcance territorial de la intervención del PIGCCT.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Validación de Tipo y Extensión**  
-   1.1 Solo se deben aceptar archivos con las siguientes extensiones: .pdf, .docx, .xlsx, .jpg, .png, .txt.     
-   1.2. El sistema debe validar el tipo MIME real del archivo para prevenir archivos maliciosos renombrados.
+### 1. Visualización de la cobertura territorial
 
-2. **Validación de Tamaño**  
-   2.1 El tamaño máximo permitido es de 10 MB.         
-   2.2. Si el archivo supera este límite, se debe mostrar el mensaje: “El archivo excede el tamaño máximo permitido (10 MB)”. (Ver (Ver [HU-pigcct-sym-082](/content/historias_usuario/HU-pigcct-sym-082/HU-pigcct-sym-082.md y (Ver [HU-pigcct-sym-088](/content/historias_usuario/HU-pigcct-sym-088/HU-pigcct-sym-088.md))))).
+1.1 El sistema debe permitir visualizar los municipios asociados a una acción.
+1.2 La información presentada debe corresponder a la configuración territorial vigente de la acción.
 
-3. **Validación de Nomenclatura y Renombre**  
-   3.1 No se deben permitir nombres de archivo con caracteres especiales o espacios consecutivos al subir.     
-   3.2. El sistema debe renombrar internamente el archivo subido utilizando un identificador único (Ej: UUID o hash) antes de guardarlo en el disco.
+### 2. Cobertura departamental
 
-4. **Retroalimentación de Subida**  
-   4.1 Se debe mostrar una barra de progreso o un spinner (Ver (Ver [HU-pigcct-sym-076](/content/historias_usuario/HU-pigcct-sym-076/HU-pigcct-sym-076.md))) mientras la subida se está realizando.
+2.1 Cuando la acción tenga cobertura sobre todo el departamento, el sistema debe mostrar claramente que la acción aplica a nivel departamental.                          
+2.2 En este caso, el sistema no debe listar municipios individuales, sino indicar cobertura total del departamento.
+
+### 3. Claridad y consistencia de la información
+
+3.1 El sistema debe diferenciar visualmente entre cobertura por municipios específicos y cobertura departamental.                                   
+3.2 La información territorial debe mostrarse de manera consistente en todos los módulos donde se consulte la acción.
+
+### 4. Acceso y uso de la información
+
+4.1 La consulta de la cobertura territorial debe estar disponible para los perfiles de usuario con permisos de lectura de acciones.                             
+4.2 El sistema debe permitir utilizar esta información como referencia en reportes, seguimientos e indicadores.
+
+### Resultado esperado
+
+El sistema permite consultar de forma clara y precisa la cobertura territorial de cada acción, mostrando los municipios asociados o indicando cobertura total del departamento, garantizando comprensión del alcance territorial y coherencia de la información en todos los módulos del PIGCCT.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -41,8 +46,5 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-090.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)
 
-## ANEXOS
-
-- Lista de tipos MIME permitidos para cada extensión.

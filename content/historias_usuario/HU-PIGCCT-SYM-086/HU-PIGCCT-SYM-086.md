@@ -1,30 +1,40 @@
-## HU-pigcct-sym-086
+# HU-PIGCCT-SYM-086
+## Épica: Gestión territorial de la acción (municipios)
+### Registrar la relación acción–municipio
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-086 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Diseño de la tabla única de archivos adjuntos y trazabilidad relacional
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** administrador de bese de datos. \
-> **Quiero:**  implementar la tabla de adjuntos con la estructura y las claves necesarias para la correcta persistencia de la metadata y la trazabilidad relacional.    \
-> **Para:** asegurar la documentación y el fácil acceso a los archivos asociados a cualquier elemento del módulo.
+> **Como:** administrador del sistema.                    
+> **Quiero:** registrar la relación entre la acción y los municipios asociados.                        
+> **Para:** mantener la trazabilidad territorial de la acción dentro del PIGCCT.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Estructura de la Tabla Adjunto**  
-   1.1 La tabla debe contener, como mínimo, los siguientes campos para la metadata de cada archivo: id_archivo (PK, autoincremental), nombre_original, nombre_sistema, tipo_archivo (general/geográfico), tipo_mime, ruta_almacenamiento, tamaño_bytes, tabla_referida, id_elemento_referido, usuario_creador, fecha_creacion, estado (para eliminación lógica).
+### 1. Registro de la relación acción–municipio
 
-2. **Funcionalidad de Trazabilidad**  
-   2.1 Los campos tabla_referida e id_elemento_referido deben garantizar la relación y trazabilidad con las tablas principales.   
-    2.2. Se debe poder listar todos los archivos asociados a un elemento con una sola consulta SQL, filtrando por tabla_referida y id_elemento_referido.
+1.1 El sistema debe guardar la relación entre la acción y uno o varios municipios seleccionados.                    
+1.2 Cada relación registrada debe estar asociada a una acción válida y a un municipio válido.
 
-3. **Política de Eliminación Lógica**  
-   3.1 Los archivos se deben eliminar de manera lógica (actualizando el campo estado = 'INACTIVO'), preservando su registro en la tabla para fines de auditoría y trazabilidad.
+### 2. Registro en cobertura departamental
+
+2.1 Cuando la acción tenga como alcance todo el departamento, el sistema debe registrar la relación de la acción con el departamento como cobertura total.                            
+2.2 En este caso, no debe ser obligatorio registrar relaciones individuales con cada municipio.
+
+### 3. Integridad y trazabilidad territorial
+
+3.1 El sistema debe garantizar la integridad referencial entre acción, departamento y municipios.                    
+3.2 La relación acción–municipio o acción–departamento debe permitir identificar claramente el territorio cubierto por la acción.
+
+### 4. Consistencia del modelo de datos
+
+4.1 La información de la relación territorial debe mantenerse consistente en los módulos de seguimiento, indicadores y reportes.                                  
+4.2 El sistema debe impedir duplicidades o registros inconsistentes en la relación acción–municipio.
+
+### Resultado esperado
+
+El sistema registra correctamente la relación entre cada acción y su cobertura territorial, ya sea por municipios específicos o por cobertura total del departamento, garantizando trazabilidad, integridad referencial y coherencia territorial en todo el modelo de datos del PIGCCT.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -36,8 +46,4 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-086.png)
-
-## ANEXOS
-
-- Script DDL (Data Definition Language) de la tabla adjuntos
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)

@@ -1,40 +1,42 @@
-## HU-pigcct-sym-082
+# HU-PIGCCT-SYM-082
+## Épica: Gestión territorial de la acción (municipios)
+### Definir el alcance territorial de la acción
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-082 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Visualización de Mensajes Informativos.
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** usuario del sistema.  \
-> **Quiero:** que el sistema me muestre notificaciones claras y rápidas sobre el resultado de mis interacciones.  \
-> **Para:** recibir retroalimentación visual inmediata sin interrumpir mi trabajo.
+> **Como:** administrador del sistema.                      
+> **Quiero:** definir el alcance territorial de la acción.                      
+> **Para:** indicar de manera precisa en qué territorio se ejecuta la intervención del PIGCCT.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1.	**Tipos y Consistencia Visual**  
-    1.1. El sistema debe mostrar notificaciones tipo toast o alert ante cualquier acción relevante.  
-    1.2. Los mensajes deben seguir un código de color estándar: 
-    - Verde: Éxito.
-    - Rojo: Error.
-    - Amarillo: Advertencia.
-    - Azul: Informativo.  
+### 1. Selección del alcance territorial
 
-    1.3. Los mensajes deben ser amigables y concisos para el usuario final
+1.1 El sistema debe permitir seleccionar el alcance territorial de la acción.                     
+1.2 Las opciones de alcance territorial deben incluir:                      
+- Municipios específicos.                   
+- Todo el departamento.
 
-2.	**Persistencia y Desaparición**  
-    2.1. Los mensajes se deben mostrar por un mínimo de 3 segundos (persistencia adecuada).  
-    2.2. El usuario debe tener la opción de cerrar el mensaje manualmente antes de que expire el tiempo.  
-    2.3. Los mensajes deben ser no intrusivos (no deben bloquear la interacción con el resto de la interfaz).
+### 2. Selección por municipios
 
-3.	**Referencia al Log**  
-    3.1. En caso de notificaciones de Error, el mensaje mostrado debe ser genérico e informar al usuario que el detalle técnico fue guardado en el log.
+2.1 Si el usuario selecciona municipios específicos, el sistema debe permitir elegir uno o varios municipios del listado oficial.                  
+2.2 El sistema debe validar que los municipios seleccionados pertenezcan al departamento correspondiente.
+
+### 3. Selección a nivel departamental
+
+3.1 Si el usuario selecciona todo el departamento, el sistema debe asociar automáticamente la acción a todos los municipios del departamento.                     
+3.2 En este caso, no debe ser obligatoria la selección individual de municipios.
+
+### 4. Validaciones y consistencia
+
+4.1 El sistema debe impedir guardar una acción sin definir su alcance territorial.                 
+
+### Resultado esperado
+
+El sistema permite definir de manera clara y validada el alcance territorial de cada acción, ya sea a nivel municipal o departamental, asegurando la correcta localización de las intervenciones del PIGCCT y la consistencia de la información en todos los módulos del sistema.
     
-
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -46,10 +48,6 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)
 
-## ANEXOS
-
-- Especificación de textos de notificaciones estándar.
-- Wireframe: Visualización de Mensajes Informativos.
 

@@ -1,32 +1,40 @@
-## HU-pigcct-sym-085
+# HU-PIGCCT-SYM-085
+## Épica: Gestión territorial de la acción (municipios)
+### Seleccionar de todo el departamento
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-085 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Política de almacenamiento unificado de archivos
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** administrador del sistema. \
-> **Quiero:**  unificar el almacenamiento de todos los archivos (documentales y geográficos) en una única estructura relacional.   \
-> **Para:** simplificar la administración de la base de datos, centralizar la trazabilidad y estandarizar la gestión de archivos en todo el módulo.
+> **Como:** administrador del sistema.
+> **Quiero:** indicar que la acción aplica a todo el departamento.
+> **Para:** definir una cobertura territorial total sin necesidad de seleccionar municipios de forma individual.
 
 ## CRITERIOS DE ACEPTACIÓN
 
+### 1. Selección de cobertura departamental
 
-1. **Estructura Unificada**  
-   1.1 El sistema debe almacenar el registro de todos los archivos subidos (generales/documentales y geográficos) en una única tabla relacional (tabla adjunto).     
-   1.2. La misma estructura debe servir para adjuntos documentales y geográficos.
+1.1 El sistema debe permitir al usuario seleccionar la opción “todo el departamento” como alcance territorial de la acción.      
+1.2 Esta opción debe estar disponible únicamente para el departamento asociado al PIGCCT.
 
-2. **Trazabilidad y Relación**  
-   2.1 La tabla de archivos debe contener campos (tabla_referida y id_elemento_referido) que garanticen la trazabilidad completa hacia el elemento principal al que está adjunto.
+### 2. Comportamiento del sistema al seleccionar todo el departamento
 
-3. **Gestión consistente**  
-   3.1 Las políticas de registro de eventos (Log) y eliminación de datos deben aplicarse de manera uniforme a todos los tipos de archivos (Ver [HU-pigcct-sym-087](/content/historias_usuario/HU-pigcct-sym-087/HU-pigcct-sym-087.md)).   
-   3.2. La eliminación de archivos debe ser lógica para preservar el historial. 
+2.1 Al seleccionar “todo el departamento”, el sistema debe deshabilitar la selección manual de municipios.                      
+2.2 El sistema debe interpretar automáticamente que la acción tiene cobertura sobre todos los municipios del departamento.
+
+### 3. Reglas de consistencia territorial
+
+3.1 El sistema no debe permitir combinar la opción “todo el departamento” con la selección manual de municipios.                       
+3.2 Si el usuario cambia de “todo el departamento” a municipios específicos, el sistema debe habilitar nuevamente la selección múltiple de municipios y requerir al menos uno.
+
+### 4. Uso y reflejo de la información
+
+4.1 La cobertura total del departamento debe reflejarse de manera consistente en los módulos de seguimiento, indicadores y reportes.                      
+4.2 El sistema debe mantener la trazabilidad del tipo de alcance territorial seleccionado para la acción.
+
+### Resultado esperado
+
+El sistema permite definir una acción con cobertura en todo el departamento, deshabilitando la selección manual de municipios e interpretando correctamente la intervención como de alcance total, garantizando coherencia territorial y consistencia de la información en todos los módulos del PIGCCT.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -38,8 +46,4 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-085.png)
-
-## ANEXOS
-
-- Diagrama Entidad-Relación (DER) preliminar para la tabla de adjuntos.
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)

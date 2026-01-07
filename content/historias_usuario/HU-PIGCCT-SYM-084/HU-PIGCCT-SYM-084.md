@@ -1,33 +1,40 @@
-## HU-pigcct-sym-084
+# HU-PIGCCT-SYM-084
+## Épica: Gestión territorial de la acción (municipios)
+### Seleccionar uno o varios municipios
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-084 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Consulta y Manejo de Errores Inesperados.
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** administrador y usuario final.  \
-> **Quiero:** que los errores inesperados sean manejados sin exponer información sensible, y que yo pueda consultar los logs para diagnóstico.  \
-> **Para:** mantener la seguridad del sistema y tener herramientas para el soporte técnico.
+> **Como:** administrador del sistema.                       
+> **Quiero:** seleccionar uno o varios municipios para la acción.                  
+> **Para:** definir con precisión el territorio exacto donde se ejecuta la intervención del PIGCCT.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1.	**Manejo de Errores No Controlados**  
-    1.1. Si ocurre un error no controlado/inesperado (unhandled exception), el sistema debe mostrar al usuario final un mensaje genérico y amigable: “Ocurrió un error inesperado. Intente nuevamente o contacte al administrador.”  
-    1.2. El evento de error no controlado debe registrarse en el log con un nivel ERROR, incluyendo el stack trace completo y los detalles técnicos para el diagnóstico. 
+### 1. Selección múltiple de municipios
 
+1.1 El sistema debe permitir la selección de uno o varios municipios de forma simultánea.                              
+1.2 La selección de municipios debe realizarse a partir del listado filtrado por el departamento del PIGCCT.
 
-2.	**Consulta y Acceso a Logs**  
-    2.1. Solo los usuarios con permisos de administrador (rol específico) pueden consultar, filtrar o exportar los logs de auditoría.  
-    2.2. La consulta debe permitir filtrar por fecha, usuario y tipo de acción (Ej: solo errores).
+## 2. Validaciones territoriales
 
-3.	**Seguridad del Acceso**  
-    3.1. El log debe estar protegido y el acceso debe requerir autenticación y autorización explícita de administrador.
-    
+2.1 El sistema debe validar que todos los municipios seleccionados pertenezcan al departamento asociado al PIGCCT.                      
+2.2 El sistema debe impedir la selección de municipios de otros departamentos.
+
+## 3. Reglas de obligatoriedad
+
+3.1 Cuando el alcance territorial de la acción sea municipios específicos, el sistema debe exigir la selección de al menos un municipio.                  
+3.2 El sistema no debe permitir guardar la acción si no se ha seleccionado ningún municipio cuando esta opción esté activa.
+
+## 4. Consistencia y uso de la información
+
+4.1 El sistema debe asociar correctamente la acción con todos los municipios seleccionados.                   
+4.2 La información de municipios asociados debe reflejarse de manera consistente en los módulos de seguimiento, indicadores y reportes.
+
+## Resultado esperado
+
+El sistema permite la selección múltiple de municipios para cada acción, asegurando que el territorio de intervención quede claramente definido, validado y alineado con el departamento del PIGCCT, manteniendo la coherencia territorial en todos los módulos del sistema.
 
 
 ## DIAGRAMA DE SECUENCIA
@@ -40,10 +47,4 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-084.png)
-
-## ANEXOS
-
-- Política de permisos y roles para la consulta de logs.
-- Wireframe: Consulta y Manejo de Errores Inesperados.
-
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)

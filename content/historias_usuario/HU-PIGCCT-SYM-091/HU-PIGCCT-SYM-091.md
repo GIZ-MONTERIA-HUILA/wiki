@@ -1,34 +1,40 @@
-## HU-pigcct-sym-091
+# HU-PIGCCT-SYM-091
+## Épica: Gestión territorial de la acción (municipios)
+### Identificar de acciones con cobertura departamental
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-091 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Gestión de archivos en disco y control de reemplazo
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+--- 
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** desarrollador de backend. \
-> **Quiero:**  almacenar de forma segura los archivos documentales y gestionar los casos de reemplazo de forma controlada.   \
-> **Para:** asegurar que los archivos no sean accesibles públicamente y mantener la integridad de la información asociada al registro.
+> **Como:** usuario del sistema.                              
+> **Quiero:** identificar fácilmente las acciones que cubren todo el departamento.                                   
+> **Para:** realizar análisis y reportes territoriales del PIGCCT.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Almacenamiento Seguro**  
-   1.1 Los archivos físicos deben almacenarse fuera del directorio público del servidor (no accesibles por URL directa).    
-   1.2. El acceso a los archivos debe ser mediante endpoints autenticados (Ver AUTENTICACIÓN) que verifican los permisos del usuario antes de servir el archivo.
+### 1. Identificación de cobertura departamental
 
-2. **Registro de Metadata**  
-   2.1 La metadata del archivo debe registrarse en la tabla ADJUNTO (Ver HU-086), incluyendo: id_archivo, nombre_original, nombre_sistema, tipo_mime, tamaño_bytes, ruta_almacenamiento, y las claves de trazabilidad (tabla_referida, id_elemento_referido).
+1.1 El sistema debe permitir identificar las acciones con cobertura sobre todo el departamento.                      
+1.2 Esta identificación debe basarse en el registro de cobertura departamental definido para la acción.
 
-3. **Control de Reemplazo**  
-   3.1 Si el usuario intenta subir un archivo con el mismo nombre y tipo sobre el mismo elemento/registro (tabla_referida + id_elemento_referido), el sistema debe mostrar una modal de confirmación para solicitar el reemplazo (Ver (Ver [HU-pigcct-sym-070](/content/historias_usuario/HU-pigcct-sym-070/HU-pigcct-sym-070.md))).      
-   3.2. Si el usuario confirma el reemplazo, el archivo anterior debe ser marcado como eliminación lógica (estado = 'INACTIVO') y el nuevo archivo se registra.
+### 2. Visualización clara
 
-4. **Notificación Final**  
-   4.1 Al finalizar la carga exitosamente, se debe mostrar el mensaje: “Archivo cargado exitosamente.” (Ver HU-082).
+2.1 Las acciones con cobertura departamental deben mostrarse con un indicador visual claro como: etiqueta, ícono o texto descriptivo.                   
+2.2 El sistema debe diferenciar visualmente estas acciones de aquellas con cobertura parcial por municipios.
+
+### 3. Filtros y consultas
+
+3.1 El sistema debe permitir filtrar o consultar acciones según su tipo de cobertura territorial (departamental o municipal).                  
+3.2 Esta funcionalidad debe estar disponible en los módulos de consulta, análisis y reportes.
+
+### 4. Consistencia de la información
+
+4.1 La identificación de acciones con cobertura departamental debe ser consistente en todos los módulos del sistema.                          
+4.2 El sistema debe garantizar que la información mostrada refleje correctamente la configuración territorial vigente de la acción.
+
+### Resultado esperado
+
+El sistema permite identificar de manera clara y consistente las acciones que cubren todo el departamento, facilitando el análisis territorial, la generación de reportes y la toma de decisiones dentro del PIGCCT, manteniendo coherencia e integridad de la información en todos los módulos del sistema.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -40,8 +46,5 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-091.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)
 
-## ANEXOS
-
-- Especificación del endpoint seguro para la descarga de archivos.

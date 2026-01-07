@@ -1,30 +1,47 @@
-## HU-pigcct-sym-087
+# HU-PIGCCT-SYM-087
+## Épica: Gestión territorial de la acción (municipios)
+### Registrar la cobertura departamental
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-087 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Registro de eventos para carga y gestión de archivos
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** administrador del sistema. \
-> **Quiero:**  que todos los eventos de gestión de archivos (carga, reemplazo y eliminación) queden registrados en el log de auditoría.  \
-> **Para:** asegurar la trazabilidad de la gestión de la documentación y los archivos geográfico.
+> **Como:** administrador del sistema.                 
+> **Quiero:** registrar cuando una acción tiene cobertura sobre todo el departamento.                      
+> **Para:** diferenciar claramente una cobertura departamental total de una selección parcial de municipios dentro del PIGCCT.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Integración con el Log de Auditoría (HU-083)**  
-   1.1 Los eventos de carga, reemplazo o eliminación lógica se deben registrar en el log de auditoría del sistema (Ver [HU-pigcct-sym-083](/content/historias_usuario/HU-pigcct-sym-083/HU-pigcct-sym-083.md)).   
-   1.2 El registro en el log debe cumplir con el Formato de Log estándar definido en la [HU-pigcct-sym-083](/content/historias_usuario/HU-pigcct-sym-083/HU-pigcct-sym-083.md).
+### 1. Registro de la cobertura departamental
 
-2. **Detalle Específico del Registro**  
-   2.1 El log debe incluir información específica que relacione el evento con el archivo, tales como: tipo de archivo (GENERAL o GEOGRÁFICO), ID del archivo (PK de la tabla adjuntos) y tabla referida. 
+1.1 El sistema debe permitir registrar que una acción cubre todo el departamento.                     
+1.2 Este registro debe diferenciarse explícitamente de la selección de municipios específicos.
 
-3. **Detalle Específico del Registro**  
-   3.1 Se debe registrar explícitamente cuando: un archivo se sube (Carga), un archivo se marca con estado 'INACTIVO' (Eliminación lógica) y cuando se sube una nueva versión de un archivo existente. 
+### 2. Reglas de negocio para la implementación
+
+El sistema debe implementar una de las siguientes opciones, garantizando el mismo comportamiento funcional:
+
+Opción A – Campo en la acción                 
+2.1 La entidad acción debe contar con un campo booleano **cobertura_departamental**.                    
+2.2 Cuando cobertura_departamental = true, el sistema debe interpretar que la acción cubre todo el departamento.
+
+Opción B – Registro especial en la relación acción–municipio                        
+2.3 El sistema debe registrar un **valor especial o flag** en la tabla de relación acción_municipio que indique cobertura total del departamento.             
+2.4 Este registro no debe representar un municipio específico, sino la cobertura departamental completa.
+
+### 3. Restricciones y consistencia territorial
+
+3.1 Cuando la acción tenga cobertura departamental, el sistema no debe permitir la coexistencia de registros de municipios específicos activos.                        
+3.2 Si se cambia de cobertura departamental a selección parcial, el sistema debe requerir la selección explícita de uno o más municipios.
+
+### 4. Uso de la información y trazabilidad
+
+4.1 La cobertura departamental debe reflejarse correctamente en los módulos de seguimiento, indicadores y reportes.                      
+4.2 El sistema debe permitir identificar de forma clara el tipo de cobertura territorial de la acción en consultas y auditorías.
+
+### Resultado esperado
+
+El sistema registra de manera explícita y consistente cuando una acción cubre todo el departamento, diferenciándola de una cobertura parcial por municipios y garantizando trazabilidad territorial, integridad del modelo de datos y claridad funcional en todos los módulos del PIGCCT.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -36,8 +53,5 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-087.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)
 
-## ANEXOS
-
-- Plantilla de mensaje de log para el evento de "Gestión de Archivo".
