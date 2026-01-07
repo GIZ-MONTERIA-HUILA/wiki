@@ -2,7 +2,7 @@
 
 # Estructura de Datos
 
-Este apartado describe los componentes principales que conforman la **estructura de datos del Módulo de Restauración SNIF**, incluyendo el diseño del modelo, el diccionario de datos y los procesos de migración y carga (ETLs).  
+Este apartado describe los componentes principales que conforman la **estructura de datos de la herramienta de monitoreo de los PIGGCT en los departamentos de Huila y Córdoba**, incluyendo el diseño del modelo, el diccionario de datos y los procesos de migración y carga (ETLs).  
 Su propósito es garantizar la coherencia, trazabilidad y calidad de la información que alimenta el sistema.
 
 ---
@@ -22,7 +22,7 @@ En este subapartado se presenta el **modelo conceptual y lógico** de la base de
 > - Estructura general del modelo de datos
 > - Relaciones clave entre entidades
 > - Principales atributos y restricciones
-> - Correspondencia con los módulos funcionales del SNIF
+> - Correspondencia con los módulos funcionales de la solución
 
 ---
 
@@ -54,24 +54,6 @@ Describe las fuentes de datos, los esquemas de transformación y las reglas apli
 > - Mapeo de campos y validaciones
 > - Procesos automatizados de migración
 > - Estrategia de control de calidad y auditoría de datos
-
----
-
-## a4. Lineamientos de Desarrollo para la Base de Datos
-
-Los **lineamientos de desarrollo** definen los criterios técnicos, normativos y de buenas prácticas que deben aplicarse en la creación, mantenimiento y actualización de la base de datos del Módulo de Restauración SNIF.
-
-Estos lineamientos aseguran la consistencia, el rendimiento y la seguridad de la información, facilitando su interoperabilidad con otros sistemas del **IDEAM** y el **SNIF**.
-
-- **Archivo asociado:**
-  <a href="https://itim-hub.github.io/wiki_desarrollos/#/content/db/" target="_blank">Lineamientos de desarrollo - bases de datos</a>
-
-> **Contenido:**
->
-> - Estructura general de esquemas
-> - Convenciones para nombres de tablas y campos
-> - Normas de integridad referencial
-> - Estándares de documentación y versionamiento
 
 ---
 

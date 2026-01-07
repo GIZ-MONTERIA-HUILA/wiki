@@ -1,130 +1,166 @@
 [Inicio](/README.md)
 
-# Proceso General del Módulo de Restauración SNIF – Descripción del Flujo BPMN
+# Alcance general del proceso – Diagrama de proceso PIGCCT
 
-En el diagrama en mención, se utiliza un modelado y notación de procesos de negocio, o diagrama BPMN (Business Process Model and Notation), que se utiliza para crear diagramas de flujo de modelos de procesos de negocio fáciles de leer, que se puedan compartir en distintas industrias y organizaciones. A continuación, se describen los elementos gráficos utilizados en el Diagrama de procesos del "nuevo" módulo de restauración del SNIF.
+El diagrama de proceso del **Sistema de Monitoreo y Seguimiento de los PIGCCT** representa de manera integral el ciclo de vida de la información asociada a la planeación, implementación, seguimiento, validación y análisis de los **Planes Integrales de Gestión del Cambio Climático Territoriales (PIGCCT)**, desde su configuración administrativa inicial hasta su visualización territorial, generación de reportes y consulta pública.
 
-El proceso general del **Módulo de Restauración SNIF** abarca la gestión integral de proyectos y áreas restauradas, desde el acceso y autenticación hasta la validación final y la consulta/exportación de datos, integrando funcionalidades SIG, gestión documental, reportes y control de calidad.
+El proceso está diseñado bajo principios de **integridad de la información, trazabilidad, control institucional, validación multinivel y enfoque territorial**, garantizando que los datos utilizados para la toma de decisiones sean consistentes, auditables y alineados con los marcos normativos nacionales.
+
+---
 
 <img src="assets/bpmn.png" class="zoomable" />
 
-## 1. Acceso y Autenticación
+## 1. Configuración y administración estructural del PIGCCT
 
-- El usuario accede a la plataforma IDEAM (vía enlace institucional o URL directa).
-- Se despliega el formulario de inicio de sesión, donde ingresa sus credenciales.
-- El sistema valida las credenciales (**Keycloak/LDAP**), registra el acceso y muestra la pantalla de bienvenida con ayuda contextual.
-- Si la autenticación falla, se notifica al usuario y se registra el intento en los logs.
+El proceso inicia con la **administración de la tabla maestra del PIGCCT**, donde el administrador del sistema registra los planes asociados a los departamentos, asegurando:
 
----
+- Unicidad por departamento y año.
+- Relación válida con el catálogo nacional de departamentos.
+- Gestión de estados activos e inactivos sin pérdida de información histórica.
 
-## 2. Navegación y Gestión de Proyectos
+A partir del PIGCCT, se estructura jerárquicamente el plan mediante:
 
-- Tras autenticarse, el usuario navega por el menú principal.
-- Según su rol (**Administrador**, **Editor**, **Consulta**), puede crear, editar o solo visualizar proyectos.
-- Al crear/editar un proyecto, se diligencia un formulario con validaciones automáticas (campos obligatorios, formatos, unicidad).
-- Al guardar, el sistema valida los datos, genera identificadores automáticos y habilita pestañas adicionales:
-  - Fuentes de financiación
-  - Adjuntos
-  - Áreas restauradas
+- **Ejes** (estratégicos y transversales),
+- **Medidas** (líneas estratégicas, líneas de acción y medidas),
+- **Indicadores**, que permiten medir productos, gestión e impactos.
+
+Cada nivel mantiene integridad referencial con el nivel superior, y puede ser activado o inactivado conservando trazabilidad histórica.
 
 ---
 
-## 3. Gestión de Fuentes de Financiación y Adjuntos
+## 2. Alineación estratégica y catálogos transversales
 
-- El usuario puede agregar, editar o eliminar fuentes de financiación asociadas al proyecto.
-- Puede cargar, descargar o eliminar adjuntos (documentos o archivos geográficos), con validaciones de tipo y tamaño.
-- El sistema almacena los archivos, registra metadatos y logs de cada acción.
+Las medidas del PIGCCT se alinean estratégicamente mediante relaciones N:M con catálogos maestros como:
 
----
+- Medios de implementación,
+- Líneas estratégicas e instrumentales del PNCC,
+- Enfoques diferenciales,
+- Dimensiones,
+- Objetivos de Desarrollo Sostenible (ODS).
 
-## 4. Gestión y Caracterización de Áreas Restauradas
-
-- El usuario selecciona un proyecto y accede a la gestión de áreas restauradas.
-- Puede cargar archivos geográficos (**Shapefile**, **KML**, **GeoJSON**) para registrar áreas (polígonos/multipolígonos).
-- El sistema valida formato, topología y proyección, realiza intersecciones espaciales automáticas con capas de referencia (municipios, veredas, áreas protegidas, etc.) y almacena atributos espaciales y temáticos.
-- El usuario puede visualizar, editar o eliminar áreas restauradas, así como registrar información detallada en pestañas especializadas:
-  - Acciones implementadas
-  - Técnicas de restauración
-  - Indicadores de monitoreo
-  - Disturbios/motores de degradación
-  - Estrategias de restauración
-  - Divulgación comunitaria
-  - **Gestión de especies:** registro de especies asociadas, procedencia, técnica, área cubierta
-  - Adjuntos (documentos y archivos geográficos asociados al área)
+Este componente permite analizar la coherencia del PIGCCT con políticas nacionales, agendas internacionales y enfoques transversales, habilitando filtros y análisis estratégicos posteriores.
 
 ---
 
-## 5. Consultas y Visualización SIG
+## 3. Registro y gestión de acciones territoriales
 
-- El usuario accede al visor geográfico integrado (**SIG**), con herramientas de navegación, zoom, medición, identificación y control de capas.
-- Puede realizar consultas:
-  - **Atributivas:** filtrar elementos por valores de campos.
-  - **Espaciales:** dibujar geometrías (punto, línea, polígono) y buscar elementos que intersecten, contengan o estén contenidos.
-  - **Por coordenada:** ingresar coordenadas y buscar elementos cercanos (buffer configurable).
-  - **Por capa geográfica:** importar una capa poligonal para delimitar la consulta.
-- Los resultados se visualizan en el mapa y en tablas, con opción de centrar, ver detalle y exportar.
+Sobre la estructura del plan, los usuarios registradores crean **acciones territoriales**, que representan proyectos o intervenciones concretas en el territorio. El proceso incluye:
 
----
+- Registro de información general, financiera y programática.
+- Definición de cobertura territorial (municipios específicos o todo el departamento).
+- Asociación jerárquica guiada a ejes, medidas e indicadores.
+- Definición de vigencias y periodicidad de evaluación.
 
-## 6. Exportación y Descarga de Datos
-
-- El usuario puede exportar resultados de consultas o capas completas en formatos soportados (**GeoJSON**, **Shapefile**, **Excel**, **KML**), con reproyección automática a **EPSG:4326**.
-- El sistema valida permisos, limita el volumen de datos y registra cada exportación en los logs.
+El sistema genera automáticamente los **seguimientos programados** por indicador, garantizando consistencia entre planeación y monitoreo.
 
 ---
 
-## 7. Integración con Reportes y Power BI
+## 4. Seguimiento, programación y control de avances
 
-- Los usuarios con permisos pueden acceder al módulo de administración de reportes.
-- Se gestionan reportes **Power BI** asociados a grupos temáticos, con metadatos y control de acceso.
-- Los reportes activos están disponibles para consulta y visualización embebida o en nueva pestaña.
+Cada acción genera registros de seguimiento según la frecuencia y vigencias definidas. El proceso distingue claramente entre:
 
----
+- **Valores proyectados** (planeación),
+- **Valores ejecutados** (avance real).
 
-## 8. Validación Jerárquica de Registros
+El sistema controla:
 
-- Todo registro creado inicia con estado `UNDER_REVISION`.
-- **Validación de Entidad:**
-  - Un revisor institucional revisa los registros, puede aprobarlos o devolverlos con observaciones.
-  - Si se aprueba, el registro pasa a estado `UNDER_REVISION_IDEAM`.
-- **Validación IDEAM:**
-  - Un validador designado por IDEAM revisa los registros, puede aprobarlos o devolverlos.
-  - Si se aprueba, el registro pasa a estado `VALIDATED` y queda disponible para consulta y reportes.
-- Todo el ciclo de validación, observaciones y cambios de estado queda registrado en logs de auditoría.
+- La coherencia temporal y numérica de los valores,
+- La edición de campos según la etapa del proceso,
+- El cálculo de avances por acción e indicador.
+
+Este diseño permite un monitoreo progresivo, estructurado y comparable en el tiempo.
 
 ---
 
-## 9. Cierre de Sesión y Seguridad
+## 5. Gestión de adjuntos y evidencias
 
-- El usuario puede cerrar sesión desde el menú de usuario.
-- El sistema invalida la sesión, registra el evento y notifica al usuario.
-- Se garantiza que no se pueda acceder a funcionalidades protegidas tras el cierre.
+El proceso incorpora un módulo transversal de **gestión documental**, que permite asociar evidencias a acciones y sus componentes, asegurando:
 
----
-
-## Resumen de Roles y Permisos
-
-| Rol                   | Descripción                                                                     |
-| --------------------- | ------------------------------------------------------------------------------- |
-| **Administrador**     | Acceso total a todas las funcionalidades, gestión de usuarios, reportes y logs. |
-| **Editor**            | Puede crear, editar y eliminar proyectos, áreas, especies y adjuntos.           |
-| **Validador Entidad** | Revisa y valida registros de su entidad.                                        |
-| **Validador IDEAM**   | Revisa y valida registros a nivel nacional.                                     |
-| **Consulta**          | Solo puede visualizar y exportar datos.                                         |
+- Validación de formatos y tamaños,
+- Relación explícita con el esquema, tabla y registro correspondiente,
+- Activación e inactivación de adjuntos sin pérdida histórica,
+- Descarga y consulta controlada según rol.
 
 ---
 
-## Puntos Clave del Proceso
+## 6. Flujo de eventos y validación institucional
 
-- Validaciones automáticas y jerárquicas en cada etapa para garantizar integridad y calidad de los datos.
-- Registro detallado de todas las acciones en logs de auditoría.
-- Gestión centralizada de archivos y adjuntos, con controles de seguridad y trazabilidad.
-- Interfaz SIG avanzada para navegación, consulta y exportación de datos espaciales.
-- Integración con reportes Power BI y gestión temática.
-- Flujos jerárquicos de validación para asegurar la aprobación institucional y nacional.
-- Interfaz dinámica y adaptativa según el rol y permisos del usuario.
+Uno de los ejes centrales del proceso es el **modelo de eventos**, que garantiza trazabilidad y control institucional.  
+Cada creación o modificación relevante genera un evento que:
+
+- Registra valores anteriores y nuevos,
+- Se asocia siempre a la acción como objeto principal,
+- Inicia un flujo de validación secuencial.
+
+El proceso de validación contempla:
+
+1. **Validación por la entidad responsable**,
+2. **Validación por la CAR**,  
+   asegurando doble control antes de que la información sea visible y usable en el sistema.
+
+Los registros validados quedan bloqueados para edición directa; cualquier cambio genera un nuevo evento y reinicia el ciclo de validación.
 
 ---
 
-> **Conclusión:**  
-> Este flujo asegura la trazabilidad, control y validación de la información de restauración ecológica, alineado con los requerimientos técnicos y normativos del **SNIF** y el **IDEAM**.
+## 7. Control de acceso, roles y visibilidad
+
+El proceso está gobernado por un esquema de **roles y permisos**, gestionado mediante autenticación y autorización:
+
+- Registradores,
+- Validadores de entidad,
+- Validadores CAR,
+- Administradores,
+- Usuarios de consulta,
+- Consulta pública sin autenticación.
+
+La visibilidad de la información depende del rol y del estado de validación, garantizando que solo información aprobada sea utilizada para análisis, reportes y visualización pública.
+
+---
+
+## 8. Navegación, formularios y experiencia de usuario
+
+El diagrama incorpora la lógica de interacción del usuario mediante:
+
+- Formularios guiados por pestañas,
+- Guardado progresivo y validaciones en tiempo real,
+- Habilitación dinámica de secciones según estado y rol,
+- Botones globales de acción (guardar, enviar, cancelar).
+
+Este enfoque reduce errores, mejora la calidad de los datos y facilita la adopción institucional del sistema.
+
+---
+
+## 9. Análisis territorial, visor geográfico y estadísticas
+
+La información validada alimenta el **visor geográfico del PIGCCT**, permitiendo:
+
+- Visualizar acciones por municipio o cobertura departamental,
+- Aplicar filtros temáticos, territoriales y temporales,
+- Analizar avances mediante mapas, gráficos y tableros sincronizados.
+
+El proceso soporta tanto análisis internos como visualización pública de información agregada y validada.
+
+---
+
+## 10. Reportes, tableros y consulta pública
+
+Finalmente, el proceso culmina en la generación de:
+
+- Tableros de control adaptados por rol,
+- Reportes territoriales, estratégicos y comparativos,
+- Exportación en formatos PDF y Excel,
+- Consulta pública transparente de información agregada.
+
+---
+
+## Síntesis del alcance
+
+En conjunto, el diagrama de proceso describe un **flujo integral, modular y trazable**, que cubre:
+
+- La estructuración del PIGCCT,
+- La gestión operativa de acciones,
+- El seguimiento técnico de indicadores,
+- La validación institucional multinivel,
+- La visualización territorial y rendición de cuentas.
+
+Este proceso garantiza que el Sistema PIGCCT sea una herramienta confiable para la planeación, el monitoreo y la evaluación de las acciones de cambio climático a nivel territorial.

@@ -2,14 +2,15 @@
 
 # Lineamientos de Diseño del SNIF Restauración
 
-Este documento compila los **principios, lineamientos y recursos de diseño visual y de experiencia de usuario (UX/UI)** definidos para el **Módulo de Restauración del SNIF**.  
+Este documento compila los **principios, lineamientos y recursos de diseño visual y de experiencia de usuario (UX/UI)** definidos para la **herramienta de monitoreo de los PIGGCT en
+los departamentos de Huila y Córdoba**.
 Su propósito es asegurar la **coherencia estética**, la **accesibilidad** y la **usabilidad** en todos los componentes de la interfaz del sistema.
 
 ---
 
 ## 1. Enlace al Prototipo en Figma
 
-El diseño visual y funcional del módulo se desarrolló en **Figma**, siguiendo una **arquitectura modular y adaptable** al ecosistema SNIF.
+El diseño visual y funcional del módulo se desarrolló en **Figma**, siguiendo una **arquitectura modular y adaptable**.
 
 🔗 **<a href="https://www.figma.com/design/7ZRUBBWkGXfVr5wPUA2rao/IDEAM?node-id=0-1&t=M10hcRBZEig5gbv8-1" target="_blank">Prototipo interactivo en Figma</a>**
 
@@ -26,7 +27,7 @@ _El prototipo se mantiene actualizado como referencia maestra para el desarrollo
 
 ## 2. Guía de Estilo: Paleta de Colores y Tipografías
 
-Este documento establece la **identidad visual del módulo**, garantizando uniformidad con la **línea gráfica del SNIF** y las **directrices institucionales del IDEAM**.
+Este documento establece la **identidad visual del módulo**, garantizando uniformidad con la **línea gráfica de la CVS y la CAM**.
 
 🔗 **<a href="https://drive.google.com/file/d/1urbszyKy69CxwyNfN1776WKFiSvNf1xN/view?usp=drive_link" target="_blank">Paleta de colores y fuentes SNIF Restauración (PDF)</a>**
 
@@ -36,7 +37,6 @@ Este documento establece la **identidad visual del módulo**, garantizando unifo
 - Escalas tonales y combinaciones de contraste
 - Tipografías principales y alternativas
 - Ejemplos de uso en componentes y formularios
-- Parámetros de accesibilidad visual (WCAG)
 
 ---
 
@@ -70,5 +70,5 @@ Para la construcción de la interfaz, se deben seguir las siguientes **directric
 ---
 
 **Nota:**  
-Esta página hace parte del componente **Arquitectura y Diseño del SNIF Restauración**.  
+Esta página hace parte del componente **Arquitectura y Diseño de la herramienta de monitoreo de los PIGGCT en los departamentos de Huila y Córdoba**.  
 Los documentos y enlaces aquí referenciados deben mantenerse **actualizados en el repositorio técnico del proyecto**.
