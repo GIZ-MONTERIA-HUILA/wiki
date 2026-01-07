@@ -1,34 +1,57 @@
-# PROYECTO SNIF IDEAM
+# PROYECTO HERRAMIENTA DE MONITOREO PIGCCT – HUILA Y CÓRDOBA
 
-## **Introducción general**
+**Programa SolNatura – GIZ / IDEAM**
 
-### Descripción del proyecto
+---
 
-Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM.
+## Introducción general
 
-### Alcance
+El presente proyecto se enmarca en el programa **“Promoviendo Soluciones Basadas en la Naturaleza (SolNatura)”**, implementado por la Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, en asocio con The Nature Conservancy (TNC) y Fondo Acción, y con el Ministerio de Ambiente y Desarrollo Sostenible como contraparte política. Su propósito es fortalecer las capacidades institucionales y territoriales para la implementación, seguimiento y reporte de acciones climáticas con enfoque de **Soluciones Basadas en la Naturaleza (SbN)**, alineadas con los compromisos nacionales e internacionales de Colombia.
 
-- Integración de datos geográficos y alfanuméricos.
-- Visualización, análisis y descarga de información.
-- Interoperabilidad con otros sistemas del IDEAM y entidades externas.
+En este contexto, el proyecto responde a la necesidad de contar con una **herramienta tecnológica de monitoreo, seguimiento y evaluación (M&E / MRV)** que permita a los departamentos de **Huila y Córdoba** gestionar de manera estandarizada, transparente y oportuna la información asociada a la implementación de sus **Planes Integrales de Gestión del Cambio Climático Territoriales (PIGCCT)**, conforme a la Ley 1981 de 2018 y la Ley 2169 de 2021.
 
-### Objetivo general
+---
 
-El presente proceso tiene por objetivo fortalecer y mejorar el Módulo de restauración y
-plantaciones forestales protectoras (en adelante Módulo de restauración) del Sistema
-Nacional de Información Forestal – SNIF, administrado por el Instituto de Hidrología,
-Meteorología y Estudios Ambientales – IDEAM.
+## Descripción del proyecto
 
-### Objetivos específicos
+Diseñar, desarrollar, validar y poner en funcionamiento una **herramienta informática de monitoreo de los PIGCCT** de los departamentos de Huila y Córdoba, que permita recopilar, sistematizar, analizar, visualizar y reportar información sobre acciones de adaptación, mitigación, indicadores, resultados y metas territoriales, con énfasis en SbN y enfoque de género, y articulación con metas de cambio climático y biodiversidad a nivel internacional, nacional y regional.
 
-Identificar las necesidades principales para el desarrollo del Módulo de restauración de acuerdo con la nueva legislación y los compromisos nacionales e internacionales.
+---
 
-- Diseñar, desarrollar y poner en funcionamiento el Módulo de restauración y plantaciones forestales protectoras del Sistema Nacional de Información Forestal – SNIF actualizado, conforme a los lineamientos técnicos, estructurales y tecnológicos de la subdirección de ecosistemas e información ambiental y la oficina informática del IDEAM.
-- Fortalecer el Módulo de restauración en su interoperabilidad interna y externa y la optimización de la cadena de consolidación y reporte con otros actores y/o entidades que contribuyan con la restauración en el país, incluido su articulación con otros sistemas o subsistemas del SIAC y el SNICC, y el reporte a la meta 2 del MGKM y
-  meta 2 del Plan de Acción de Biodiversidad Colombia 2030 y a las metas 24 y 26 de la NDC.
-- Vincular la información relacionada con los procesos de restauración por parte de las organizaciones, sector privado, pueblos indígenas y comunidades locales (tanto acciones voluntarias como las dispuestas por la Ley) mediante la optimización de la interoperabilidad entre sistemas. Incluyendo proyectos de restauración que han considerado en su implementación el enfoque en Soluciones Basadas en la Naturaleza.
+## Alcance
 
-### Enlaces relacionados
+- Evaluación diagnóstica del avance y cumplimiento del **Plan Huila 2050 (PIGCCT 2014)** y del **PIGCCT del departamento de Córdoba**.
+- Diseño y desarrollo de una herramienta web para monitoreo, seguimiento y evaluación de los PIGCCT.
+- Integración de información alfanumérica y geográfica asociada a acciones, metas e indicadores.
+- Implementación de módulos de:
+  - Acciones de adaptación
+  - Acciones de mitigación
+  - Reporte y seguimiento de indicadores
+  - Informes de resultados
+  - Visor geográfico
+- Interoperabilidad interna y externa con otros sistemas relevantes del orden territorial y nacional.
+- Soporte para procesos de captura, almacenamiento, análisis, visualización, descarga y consulta de información.
+- Puesta en operación de la herramienta y validación funcional con actores institucionales de ambos departamentos.
+
+---
+
+## Objetivo general
+
+Diseñar, desarrollar y poner en funcionamiento una **herramienta de monitoreo, seguimiento y evaluación** que permita a los departamentos de Huila y Córdoba revisar los avances y resultados esperados y alcanzados de las acciones ejecutadas en sus territorios en el cumplimiento de los planes de acción acordados en sus **PIGCCT**, en articulación con las metas nacionales de cambio climático, biodiversidad y género.
+
+---
+
+## Objetivos específicos
+
+- Realizar la evaluación diagnóstica del avance y cumplimiento del **Plan Huila 2050 (PIGCCT 2014)** y del **PIGCCT del departamento de Córdoba**.
+- Diseñar y desarrollar los módulos funcionales de la herramienta para ambos departamentos, incluyendo acciones de adaptación, mitigación, indicadores, informes y visor geográfico.
+- Garantizar que la herramienta cumpla criterios de interoperabilidad, escalabilidad, seguridad, compatibilidad, administración, mantenimiento y visualización de datos.
+- Implementar la herramienta considerando los lineamientos técnicos de la **CAM** y la **CVS**, permitiendo el acceso controlado de entidades y usuarios habilitados para el reporte y consulta de información.
+- Facilitar el seguimiento al aporte de las acciones territoriales a las metas de la **NDC**, el **Marco Global de Biodiversidad Kunming-Montreal**, los **ODS**, el **Plan de Acción de Biodiversidad 2023–2030** y otros instrumentos estratégicos.
+
+---
+
+## Enlaces relacionados
 
 - [Diagrama de proceso](content/diagrama_proceso/)
 - [Arquitectura de software](content/arquitectura_software/)
@@ -38,13 +61,26 @@ Identificar las necesidades principales para el desarrollo del Módulo de restau
 - [Casos de prueba](content/casos_prueba/)
 - [Documentación técnica](content/documentacion_tecnica/)
 
-### Colaboradores
+## Productos del proyecto
 
-| **Organización** | **Nombre del actor**              | **Cargo**                                          | **Correo electrónico**                                                |
-| ---------------- | --------------------------------- | -------------------------------------------------- | --------------------------------------------------------------------- |
-| IDEAM            | Raymond Alexander Jiménez Arteaga | Subdirector de Ecosistemas e Información Ambiental | [rjimenez@ideam.gov.co](mailto:rjimenez@ideam.gov.co)                 |
-| IDEAM            | Wilmer Espitia Muñoz              | Jefe de la Oficina de Informática                  | [wespitia@ideam.gov.co](mailto:wespitia@ideam.gov.co)                 |
-| IDEAM            | Amparo Rodríguez León             | Grupo de Bosques                                   | [arodriguezl@ideam.gov.co](mailto:arodriguezl@ideam.gov.co)           |
-| GIZ              | Jennifer Bocanegra Díaz           | Proyecto SolNatura – Asesora Técnica               | [jennifer.bocanegradiaz@giz.de](mailto:jennifer.bocanegradiaz@giz.de) |
-| GIZ              | Eliana Álvarez Grueso             | Asesora técnica Programa Global de Biodiversidad   | [eliana.alvarezgrueso@giz.de](mailto:eliana.alvarezgrueso@giz.de)     |
-| GIZ              | Vicky Guerrero Barrios            | Asesora Monitoreo Proyecto Interfaz IKI II         | [vicky.guerrerobarrios@giz.de](mailto:vicky.guerrerobarrios@giz.de)   |
+1. **Evaluación diagnóstica y documento metodológico**  
+   Evaluación del cumplimiento del Plan Huila 2050 (PIGCCT 2014) y del PIGCCT de Córdoba, y recopilación de insumos territoriales para la herramienta.
+
+2. **Diseño de la herramienta de monitoreo**  
+   Levantamiento de requerimientos y diseño funcional y técnico de los módulos de la herramienta para ambos departamentos.
+
+3. **Validación y puesta en funcionamiento**  
+   Pruebas funcionales, de integración y rendimiento, socialización y operación de la herramienta de monitoreo de los PIGCCT.
+
+---
+
+## Colaboradores
+
+| Organización | Nombre del actor                | Cargo                                            | Correo electrónico              |
+| ------------ | ------------------------------- | ------------------------------------------------ | ------------------------------- |
+| GIZ          | Jennifer Bocanegra Díaz         | Proyecto SolNatura – Asesora Técnica             | jennifer.bocanegradiaz@giz.de   |
+| GIZ          | Andrea Calderón Cancelada       | Proyecto SolNatura – Asesora Técnica             | andrea.calderoncancelada@giz.de |
+| CAM          | Dianny Marcela Albornoz Bonilla | Profesional de Cambio Climático                  | diannymarcela@gmail.com         |
+| CVS          | María José Pernett Vidal        | Asesora en Cambio Climático y Gestión del Riesgo | mariajosepernettvidal@gmail.com |
+
+---
