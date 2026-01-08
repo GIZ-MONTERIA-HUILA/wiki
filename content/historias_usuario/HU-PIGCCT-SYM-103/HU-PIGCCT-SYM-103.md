@@ -10,6 +10,8 @@
 > **Quiero:** filtrar las medidas del PIGCCT utilizando criterios estratégicos.                      
 > **Para:** realizar análisis transversales del PIGCCT, identificar patrones de alineación y apoyar la toma de decisiones en los procesos de planificación, seguimiento y evaluación.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Acceso a la funcionalidad de filtrado
@@ -76,10 +78,13 @@
 8.2 El sistema debe permitir modificar los filtros sin recargar la vista completa.                  
 8.3 El sistema debe prevenir la pérdida de información al cambiar de criterios.
 
+---
+
 ### Resultado esperado
 
 Un listado dinámico de medidas del PIGCCT filtradas por criterios estratégicos, que permita realizar análisis transversales, comprender patrones de alineación y fortalecer los procesos de planificación, seguimiento y evaluación del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

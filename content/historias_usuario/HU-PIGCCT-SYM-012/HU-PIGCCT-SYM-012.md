@@ -10,7 +10,7 @@
 > **Quiero:** crear un eje asociado a un PIGCCT.  
 > **Para:** estructurar los componentes estratégicos y transversales del plan de gestión de cambio climático.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -72,15 +72,14 @@
 8.1 El sistema debe mostrar mensajes claros de confirmación al registrar el eje.  
 8.2 En caso de error o validación fallida, el sistema debe mostrar mensajes descriptivos que indiquen la causa.
 
-
+---
 
 ### Resultado esperado
 
 El administrador puede **registrar ejes asociados a un PIGCCT activo**, garantizando estructura estratégica del plan, integridad referencial, unicidad y trazabilidad de la información.
 
+---
 
-
-   
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-012.png)

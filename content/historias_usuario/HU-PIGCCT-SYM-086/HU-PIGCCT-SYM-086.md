@@ -10,6 +10,8 @@
 > **Quiero:** registrar la relación entre la acción y los municipios asociados.                        
 > **Para:** mantener la trazabilidad territorial de la acción dentro del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Registro de la relación acción–municipio
@@ -53,10 +55,13 @@
 7.2 El sistema debe permitir cancelar la operación sin guardar cambios.                     
 7.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
+---
 
 ### Resultado esperado
 
 El sistema registra correctamente la relación entre cada acción y su cobertura territorial, ya sea por municipios específicos o por cobertura total del departamento, garantizando trazabilidad, integridad referencial y coherencia territorial en todo el modelo de datos del PIGCCT.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

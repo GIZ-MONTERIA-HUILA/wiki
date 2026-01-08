@@ -10,7 +10,7 @@
 > **Quiero:** asegurar que todo indicador esté asociado a una medida válida.  
 > **Para:** mantener la consistencia, coherencia e integridad del modelo de datos del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -62,13 +62,13 @@
 - Fecha del cambio.  
 - Usuario que realizó la modificación.
 
-
+---
 
 ### Resultado esperado
 
 El sistema garantiza que todos los indicadores del PIGCCT estén correctamente asociados a una medida válida, preservando la integridad referencial, la coherencia jerárquica y la confiabilidad de la información en todos los módulos del sistema.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

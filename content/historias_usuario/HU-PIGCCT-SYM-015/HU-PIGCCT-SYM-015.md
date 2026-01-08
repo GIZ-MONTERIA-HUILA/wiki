@@ -10,7 +10,7 @@
 > **Quiero:** visualizar los ejes asociados a un PIGCCT.  
 > **Para:** comprender la estructura estratégica y transversal del plan territorial de gestión de cambio climático.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -88,12 +88,13 @@
 
 8.2 El sistema debe permitir regresar fácilmente al listado de PIGCCT.
 
-
+---
 
 ### Resultado esperado
 
 El usuario puede **consultar y comprender la estructura de ejes de un PIGCCT**, identificando su alcance, estado y relación con otros componentes del plan, en un entorno de solo lectura y fácil navegación.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

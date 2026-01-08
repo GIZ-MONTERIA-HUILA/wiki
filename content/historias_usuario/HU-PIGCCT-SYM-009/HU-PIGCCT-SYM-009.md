@@ -10,7 +10,7 @@
 > **Quiero:** consultar PIGCCT inactivos.  
 > **Para:** realizar análisis históricos, comparativos y de trazabilidad de los planes departamentales.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -83,13 +83,13 @@
 8.2 El sistema debe permitir regresar fácilmente al listado general o cambiar filtros.  
 8.3 Los mensajes y etiquetas deben indicar claramente que la información es histórica.
 
-
+---
 
 ### Resultado esperado
 
 El administrador puede **consultar, filtrar y analizar PIGCCT inactivos**, manteniendo la integridad, trazabilidad y disponibilidad de la información histórica para procesos de evaluación y comparación.
 
-   
+---
 
 ## DIAGRAMA DE SECUENCIA
 

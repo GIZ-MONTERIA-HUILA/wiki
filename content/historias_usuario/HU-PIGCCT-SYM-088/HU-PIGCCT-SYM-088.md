@@ -10,6 +10,8 @@
 > **Quiero:** validar que los municipios asociados a una acción pertenezcan al departamento del PIGCCT.                             
 > **Para:** garantizar la coherencia territorial del plan y la integridad de la información registrada.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Validación territorial con el PIGCCT
@@ -29,11 +31,15 @@
 
 ### 4. Consistencia en todos los módulos
 
-4.1 Las validaciones de coherencia territorial deben mantenerse en los módulos de acciones, seguimientos, indicadores y reportes.                                
+4.1 Las validaciones de coherencia territorial deben mantenerse en los módulos de acciones, seguimientos, indicadores y reportes.   
+
+---                             
 
 ### Resultado esperado
 
 El sistema valida de forma estricta que los municipios y la cobertura departamental asociados a cada acción correspondan al departamento definido en el PIGCCT, garantizando coherencia territorial, integridad referencial y confiabilidad de la información del plan en todos los módulos del sistema.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

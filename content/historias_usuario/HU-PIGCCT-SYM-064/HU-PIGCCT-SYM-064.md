@@ -10,6 +10,8 @@
 > **Quiero:** clasificar el impacto de una acción territorial.                      
 > **Para:** caracterizar su alcance territorial o institucional.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Definición del tipo de impacto
@@ -39,10 +41,13 @@
 4.2 El sistema debe permitir cancelar la operación sin guardar cambios.
 4.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
+---
+
 ### Resultado esperado
 
 El sistema permite clasificar el impacto de las acciones territoriales mediante valores definidos, garantizando una caracterización consistente de su alcance territorial o institucional para el seguimiento de los indicadores del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

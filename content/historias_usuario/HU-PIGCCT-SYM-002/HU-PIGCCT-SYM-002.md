@@ -10,6 +10,7 @@
 > **Quiero:** que el sistema valide automáticamente la unicidad del PIGCCT por departamento y año.  
 > **Para:** evitar la duplicación de planes y garantizar la consistencia, integridad y confiabilidad de la información registrada en la tabla maestra de PIGCCT.
 
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -56,9 +57,13 @@
 - Fecha y hora.
 - Valores de departamento y año involucrados.
 
+---
+
 ### Resultado esperado
 
 El sistema garantiza que **exista un único PIGCCT por departamento y año**, evitando duplicidades, asegurando la integridad de la información y fortaleciendo la confiabilidad del módulo de administración del PIGCCT.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

@@ -10,6 +10,8 @@
 > **Quiero:** usar la información territorial de la acción en los análisis de seguimiento.                    
 > **Para:** desagregar y analizar los resultados por municipio o a nivel departamental dentro del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Uso de la cobertura territorial en análisis
@@ -28,9 +30,13 @@
 3.2 La información utilizada en el análisis debe reflejar la configuración territorial vigente de la acción.                                
 3.3 El sistema debe mantener coherencia entre los resultados analizados y la cobertura territorial mostrada.
 
+---
+
 ### Resultado esperado
 
 El sistema permite utilizar la cobertura territorial de las acciones como un elemento clave en el análisis de seguimiento, facilitando la desagregación de resultados por municipio o a nivel departamental, y fortaleciendo la evaluación territorial del PIGCCT con información consistente y confiable.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

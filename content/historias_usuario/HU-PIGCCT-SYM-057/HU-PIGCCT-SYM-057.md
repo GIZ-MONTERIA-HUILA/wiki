@@ -10,7 +10,7 @@
 > **Quiero:** consultar los indicadores asociados a una medida específica.  
 > **Para:** realizar un seguimiento estructurado y organizado del avance del PIGCCT conforme a su jerarquía (PIGCCT → Eje → Medida → Indicador).
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -65,13 +65,13 @@
 6.1 La consulta de indicadores debe realizarse de forma eficiente, incluso cuando una medida tenga múltiples indicadores asociados.  
 6.2 El sistema debe mostrar un mensaje informativo cuando una medida no tenga indicadores registrados.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite consultar de forma clara y estructurada los indicadores asociados a una medida, facilitando el seguimiento, análisis y evaluación del PIGCCT conforme a su estructura jerárquica.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

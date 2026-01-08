@@ -10,7 +10,7 @@
 > **Quiero:** definir la función objetivo del indicador.  
 > **Para:** orientar correctamente el análisis y la interpretación de los resultados del seguimiento del PIGCCT, identificando si el desempeño esperado es maximizar o minimizar el valor del indicador.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -47,12 +47,13 @@
 5.1 La función objetivo debe quedar asociada de manera directa y permanente al indicador.  
 5.2 El sistema debe asegurar consistencia entre la función objetivo y el tipo de indicador cuando aplique.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite definir de forma clara si un indicador busca maximizar o minimizar su valor, fortaleciendo la correcta interpretación, análisis comparativo y toma de decisiones en el seguimiento del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

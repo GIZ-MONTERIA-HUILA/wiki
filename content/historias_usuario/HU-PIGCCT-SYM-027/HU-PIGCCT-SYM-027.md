@@ -10,7 +10,7 @@
 > **Quiero:** registrar acciones asociadas a una medida del PIGCCT, clasificadas por horizonte temporal.  
 > **Para:** planificar de manera progresiva y ordenada la implementación de la medida en el corto, mediano y largo plazo.
 
-
+---
 
 ## DEFINICIÓN DE HORIZONTES TEMPORALES
 
@@ -22,7 +22,7 @@ El sistema debe manejar, como mínimo, los siguientes horizontes:
 
 Estos valores deben ser controlados por catálogo o configuración del sistema.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -97,15 +97,14 @@ Campos adicionales (opcional según diseño):
 - Registro de indicadores.
 - Reportes de avance del PIGCCT.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **planificar la implementación de cada medida mediante acciones claramente definidas y organizadas por horizonte temporal**, facilitando la programación, el seguimiento y la evaluación progresiva del PIGCCT.
 
-
-
-   
+---
+ 
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-027.png)

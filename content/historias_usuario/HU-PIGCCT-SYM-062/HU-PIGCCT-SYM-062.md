@@ -10,6 +10,8 @@
 > **Quiero:** registrar una acción territorial.                     
 > **Para:** documentar los proyectos que dan cumplimiento a los indicadores del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Registro de la acción territorial
@@ -55,10 +57,13 @@
 7.2 El sistema debe permitir cancelar la operación sin guardar cambios.                     
 7.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
+---
+
 ### Resultado esperado
 
 El sistema permite registrar acciones territoriales asociadas a indicadores del PIGCCT, garantizando la integridad, coherencia y disponibilidad de la información para el seguimiento y análisis del cumplimiento de los indicadores.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

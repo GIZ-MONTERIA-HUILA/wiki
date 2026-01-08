@@ -10,7 +10,7 @@
 > **Quiero:** filtrar las medidas del PIGCCT por tipo de alcance.  
 > **Para:** distinguir y analizar de manera diferenciada las líneas estratégicas, líneas de acción y medidas, según su rol dentro del plan.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -64,14 +64,13 @@
 7.1 El sistema debe garantizar que el tipo de alcance mostrado corresponda a la definición registrada para cada medida.  
 7.2 Si no existen medidas para el tipo de alcance seleccionado, el sistema debe informar claramente al usuario.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **filtrar y analizar las medidas del PIGCCT por su tipo de alcance**, facilitando la comprensión de la estructura del plan y apoyando la toma de decisiones en los procesos de planeación, seguimiento y evaluación.
 
-
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

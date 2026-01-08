@@ -10,6 +10,8 @@
 > **Quiero:** asociar uno o varios Objetivos de Desarrollo Sostenible (ODS) a una medida del PIGCCT.                                  
 > **Para:** alinear la medida con la Agenda 2030, garantizando coherencia con los compromisos internacionales de desarrollo sostenible y facilitando el análisis de contribución del PIGCCT a los ODS.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Acceso a la funcionalidad
@@ -77,9 +79,13 @@
 8.2 El sistema debe permitir cancelar la operación sin guardar cambios.
 8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
+---
+
 ### Resultado esperado
 
 Una medida del PIGCCT correctamente alineada con uno o varios Objetivos de Desarrollo Sostenible (ODS), evidenciando su contribución a la Agenda 2030 y quedando disponible para su análisis, seguimiento y evaluación dentro del sistema.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

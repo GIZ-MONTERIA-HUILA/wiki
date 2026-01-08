@@ -10,7 +10,7 @@
 > **Quiero:** registrar el área territorial de intervención asociada a una medida del PIGCCT.  
 > **Para:** ubicar geográficamente la implementación de la medida y facilitar su análisis espacial y territorial.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -88,12 +88,13 @@ Campos adicionales (opcional según diseño):
 - Cruces territoriales con indicadores.
 - Reportes cartográficos y temáticos.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **ubicar y gestionar espacialmente la implementación de cada medida del PIGCCT**, fortaleciendo el análisis territorial, el seguimiento geográfico y la toma de decisiones basadas en información espacial.
 
+---
    
 ## DIAGRAMA DE SECUENCIA
 

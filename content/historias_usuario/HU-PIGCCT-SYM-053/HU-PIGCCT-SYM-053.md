@@ -10,7 +10,7 @@
 > **Quiero:** registrar el detalle de la línea base del indicador.  
 > **Para:** almacenar el año de referencia y el resultado inicial que servirán como punto de comparación para el seguimiento y evaluación del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -53,10 +53,13 @@
 5.1 El detalle de la línea base debe estar directamente asociado al indicador correspondiente.
 5.2 El sistema debe impedir inconsistencias entre el estado del campo Tiene línea base y el contenido del campo línea_base_detalle.
 
+---
 
 ### Resultado esperado
 
 El sistema permite registrar y gestionar de forma controlada el detalle de la línea base de los indicadores del PIGCCT, garantizando consistencia metodológica, trazabilidad y un punto de referencia sólido para el seguimiento y la evaluación del plan.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

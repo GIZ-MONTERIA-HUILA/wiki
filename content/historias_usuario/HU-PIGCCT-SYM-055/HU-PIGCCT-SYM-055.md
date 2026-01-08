@@ -19,21 +19,21 @@
 1.2 El campo debe permitir el ingreso de texto libre.  
 1.3 El registro de observaciones debe ser **opcional**.
 
----
+
 
 ### 2. Contenido y validaciones
 2.1 El campo debe permitir registrar observaciones técnicas, metodológicas, supuestos, restricciones o aclaraciones relevantes.  
 2.2 El sistema debe validar una longitud máxima configurable para evitar textos excesivamente extensos.  
 2.3 El sistema debe permitir el uso de caracteres especiales y saltos de línea.
 
----
+
 
 ### 3. Visualización y edición
 3.1 Las observaciones deben ser visibles en el formulario de creación y edición del indicador.  
 3.2 El usuario administrador debe poder editar las observaciones en cualquier momento.  
 3.3 El sistema debe mostrar las observaciones en los módulos de consulta y detalle del indicador.
 
----
+
 
 ### 4. Trazabilidad
 4.1 El sistema debe conservar el historial de cambios realizados sobre el campo **observaciones**.  
@@ -41,7 +41,7 @@
 - Fecha del cambio.  
 - Usuario que realizó la modificación.
 
----
+
 
 ### 5. Integridad con el indicador
 5.1 Las observaciones deben estar directamente asociadas al indicador correspondiente.  
@@ -53,6 +53,7 @@
 
 El sistema permite documentar observaciones adicionales de los indicadores del PIGCCT, fortaleciendo la claridad, la trazabilidad y la correcta interpretación técnica y metodológica de la información.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

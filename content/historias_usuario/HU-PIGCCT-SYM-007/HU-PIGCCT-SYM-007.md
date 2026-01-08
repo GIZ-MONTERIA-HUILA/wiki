@@ -10,7 +10,7 @@
 > **Quiero:** actualizar el estado de un PIGCCT (activar o desactivar).  
 > **Para:** controlar su vigencia operativa sin eliminar información histórica ni afectar la trazabilidad del plan.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -78,13 +78,13 @@
 8.2 El sistema debe diferenciar visualmente los PIGCCT inactivos en los listados.  
 8.3 El sistema debe prevenir cambios accidentales mediante confirmaciones.
 
-
+---
 
 ### Resultado esperado
 
 El administrador puede **activar o desactivar un PIGCCT de forma controlada**, asegurando la gestión de su vigencia sin pérdida de información histórica y manteniendo la integridad y trazabilidad del sistema.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

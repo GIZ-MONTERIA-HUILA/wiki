@@ -10,7 +10,7 @@
 > **Quiero:** cambiar el estado activo o inactivo de una medida del PIGCCT.  
 > **Para:** gestionar su vigencia operativa sin eliminar la información histórica ni afectar la trazabilidad del plan.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -69,12 +69,13 @@
 7.1 El sistema debe permitir filtrar medidas por estado (activa / inactiva).  
 7.2 Debe existir una opción para consultar medidas inactivas con fines históricos o de análisis.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **gestionar la vigencia de las medidas del PIGCCT mediante su activación o inactivación**, garantizando la conservación de la información histórica, la trazabilidad de los cambios y la coherencia del plan en todos los módulos del sistema.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

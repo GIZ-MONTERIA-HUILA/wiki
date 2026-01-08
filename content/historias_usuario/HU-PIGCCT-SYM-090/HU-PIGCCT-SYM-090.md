@@ -10,6 +10,8 @@
 > **Quiero:** consultar la cobertura territorial de una acción.
 > **Para:** conocer los municipios asociados y el alcance territorial de la intervención del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Visualización de la cobertura territorial
@@ -39,9 +41,13 @@
 6.1 La vista de la cobertura territorial de la acción debe ser clara, ordenada y consistente con el diseño general del sistema.  
 6.2 Los filtros aplicados deben poder limpiarse fácilmente.
 
+---
+
 ### Resultado esperado
 
 El sistema permite consultar de forma clara y precisa la cobertura territorial de cada acción, mostrando los municipios asociados o indicando cobertura total del departamento, garantizando comprensión del alcance territorial y coherencia de la información en todos los módulos del PIGCCT.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

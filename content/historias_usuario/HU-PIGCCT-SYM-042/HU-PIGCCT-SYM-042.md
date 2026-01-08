@@ -10,7 +10,7 @@
 > **Quiero:** registrar un indicador asociado a una medida del PIGCCT.  
 > **Para:** realizar el seguimiento, monitoreo y evaluación del avance e impacto del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -76,13 +76,13 @@
 8.1 El sistema debe garantizar la integridad referencial entre indicadores y medidas.  
 8.2 No debe permitirse eliminar una medida si tiene indicadores asociados.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite registrar indicadores claramente asociados a una medida del PIGCCT, garantizando coherencia técnica, trazabilidad y una base sólida para el seguimiento y evaluación del plan.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

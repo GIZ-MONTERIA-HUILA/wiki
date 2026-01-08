@@ -10,7 +10,7 @@
 > **Quiero:** usar los indicadores definidos en el sistema para seguimiento, reportes y tableros.  
 > **Para:** evaluar de manera clara y estructurada el avance del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -90,13 +90,13 @@
 - Fuente de información.  
 - Observaciones relevantes.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite utilizar los indicadores del PIGCCT de forma integral en procesos de seguimiento, reportes y tableros, garantizando consistencia metodológica, trazabilidad de la información y soporte efectivo para la evaluación del avance del plan.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

@@ -10,6 +10,8 @@
 > **Quiero:** visualizar todas las asociaciones estratégicas de una medida del PIGCCT.                      
 > **Para:** comprender su alineación institucional, nacional e internacional, facilitando el análisis, seguimiento y evaluación integral de la medida dentro del marco estratégico del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Acceso a la funcionalidad de consulta
@@ -74,9 +76,13 @@
 7.2 El sistema debe permitir regresar fácilmente a la gestión de la medida o al listado general.                         
 7.3 El tiempo de respuesta de la consulta debe ser óptimo, incluso con múltiples asociaciones.
 
+---
+
 ### Resultado esperado
 
 Una visualización completa y clara de la alineación estratégica de una medida del PIGCCT, permitiendo comprender su coherencia institucional, nacional e internacional, y apoyando los procesos de análisis, seguimiento y toma de decisiones.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

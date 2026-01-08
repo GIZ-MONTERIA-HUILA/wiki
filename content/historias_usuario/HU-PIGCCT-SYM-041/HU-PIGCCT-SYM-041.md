@@ -10,7 +10,7 @@
 > **Quiero:** utilizar las medidas del PIGCCT como base para indicadores, acciones, seguimiento y reportes.  
 > **Para:** evaluar de manera integral y trazable el avance en la implementación del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -82,12 +82,13 @@
 7.1 El sistema debe garantizar integridad referencial entre medidas y los módulos posteriores.  
 7.2 No debe permitirse eliminar una medida si está siendo utilizada en indicadores, acciones o seguimiento.
 
-
+---
 
 ### Resultado esperado
 
 Las medidas del PIGCCT funcionan como el **eje articulador** de los módulos de indicadores, acciones, seguimiento y reportes, permitiendo una evaluación integral, trazable y consistente del avance del plan.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

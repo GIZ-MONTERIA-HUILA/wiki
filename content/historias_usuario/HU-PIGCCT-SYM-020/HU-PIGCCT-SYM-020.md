@@ -10,7 +10,7 @@
 > **Quiero:** marcar un eje del PIGCCT como inactivo sin eliminarlo del sistema.  
 > **Para:** conservar la trazabilidad histórica del plan y permitir análisis retrospectivos de su estructura.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -74,13 +74,13 @@
 
 7.2 En caso de error, el sistema debe mostrar mensajes claros y orientados a la corrección.
 
-
+---
 
 ### Resultado esperado
 
 El usuario administrador puede **inactivar un eje del PIGCCT sin eliminarlo**, garantizando la conservación de la información histórica, la trazabilidad del plan y la integridad del sistema.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

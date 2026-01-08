@@ -10,6 +10,8 @@
 > **Quiero:** asociar uno o varios enfoques a una medida del PIGCCT.                        
 > **Para:** incorporar criterios diferenciales y transversales en la formulación e implementación de la medida, garantizando su coherencia con los principios de equidad, inclusión, enfoque territorial y gestión integral del cambio climático.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Acceso a la funcionalidad
@@ -77,9 +79,13 @@
 8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                     
 8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
+---
+
 ### Resultado esperado
 
 Una medida del PIGCCT correctamente asociada a uno o varios enfoques, incorporando criterios diferenciales y transversales que fortalecen su formulación, implementación y evaluación dentro del sistema.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

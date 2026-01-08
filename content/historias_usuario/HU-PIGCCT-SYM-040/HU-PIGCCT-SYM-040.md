@@ -10,7 +10,7 @@
 > **Quiero:** asegurar que cada medida del PIGCCT esté asociada a un eje válido.  
 > **Para:** mantener la consistencia del modelo de datos, la correcta estructura jerárquica del plan y la integridad de la información.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -65,12 +65,13 @@
 - Reportes y tableros de control.  
 - Módulos de seguimiento y evaluación.
 
-
+---
 
 ### Resultado esperado
 
 El sistema garantiza que **toda medida del PIGCCT esté correctamente asociada a un eje válido**, asegurando integridad referencial, consistencia estructural y confiabilidad de la información en todo el sistema.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

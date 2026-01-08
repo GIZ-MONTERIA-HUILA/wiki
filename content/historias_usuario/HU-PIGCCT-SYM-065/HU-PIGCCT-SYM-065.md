@@ -8,7 +8,9 @@
 
 > **Como:** usuario del sistema.                   
 > **Quiero:** definir la fase de una acción territorial.                  
-> **Para:** identificar su estado dentro del ciclo del proyecto.         
+> **Para:** identificar su estado dentro del ciclo del proyecto.     
+
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -38,10 +40,13 @@
 4.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
 4.2 El sistema debe permitir cancelar la operación sin guardar cambios.
 
+---
+
 ### Resultado esperado
 
 El sistema permite identificar de forma consistente la fase de las acciones territoriales dentro del ciclo del proyecto, facilitando el seguimiento y análisis del cumplimiento de los indicadores del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

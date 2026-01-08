@@ -10,7 +10,7 @@
 > **Quiero:** definir y registrar el tipo de indicador.  
 > **Para:** clasificarlo como de producto, gestión o impacto y diferenciar su nivel dentro del sistema de seguimiento y evaluación del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -52,12 +52,13 @@
 - Fecha del cambio.  
 - Usuario que realizó la modificación.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite clasificar los indicadores del PIGCCT como de producto, gestión o impacto, garantizando una correcta jerarquización metodológica y facilitando el análisis, seguimiento y evaluación del desempeño del plan.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

@@ -10,6 +10,8 @@
 > **Quiero:** registrar la información financiera de una acción territorial.
 > **Para:** garantizar la trazabilidad financiera de la acción.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Registro del valor invertido
@@ -32,10 +34,13 @@
 4.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
 4.2 El sistema debe permitir cancelar la operación sin guardar cambios.
 
+---
+
 ### Resultado esperado
 
 El sistema permite registrar información financiera básica de las acciones territoriales, garantizando la trazabilidad y disponibilidad de los datos para el seguimiento del cumplimiento de los indicadores del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

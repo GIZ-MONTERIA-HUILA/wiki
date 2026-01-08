@@ -10,6 +10,8 @@
 > **Quiero:** que el sistema evite la creación de asociaciones duplicadas entre una medida del PIGCCT y los elementos de los catálogos estratégicos.                        
 > **Para:** mantener la consistencia, integridad y calidad de la información, asegurando una correcta trazabilidad estratégica de las medidas.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Alcance de la validación de duplicidad
@@ -70,9 +72,13 @@
 6.1 El mensaje de validación por duplicidad debe ser claro, comprensible y orientado a la corrección de la acción.                          
 6.2 El sistema debe permitir continuar con la operación sin pérdida de las demás asociaciones válidas seleccionadas.
 
+---
+
 ### Resultado esperado
 
 Un sistema robusto y consistente, que previene asociaciones duplicadas entre medidas y catálogos estratégicos, asegurando la calidad, integridad y trazabilidad de la información del PIGCCT.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

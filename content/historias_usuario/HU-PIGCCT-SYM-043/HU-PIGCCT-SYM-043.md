@@ -10,7 +10,7 @@
 > **Quiero:** definir el nombre, las variables y la descripción de un indicador.  
 > **Para:** documentar claramente qué mide el indicador, cómo se calcula y cómo debe interpretarse dentro del seguimiento del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -53,12 +53,13 @@
 5.1 El sistema debe validar que los campos obligatorios (nombre y descripción) estén completos antes de guardar.  
 5.2 El sistema debe impedir el registro de indicadores sin una medida asociada válida.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite definir de forma estructurada y clara el nombre, las variables y la descripción del indicador, asegurando una correcta comprensión técnica y una interpretación homogénea para el seguimiento y evaluación del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

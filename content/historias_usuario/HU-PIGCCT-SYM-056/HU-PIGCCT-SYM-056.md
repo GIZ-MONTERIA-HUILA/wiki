@@ -10,7 +10,7 @@
 > **Quiero:** activar o inactivar un indicador.  
 > **Para:** gestionar su vigencia dentro del PIGCCT sin eliminar información histórica, garantizando trazabilidad y consistencia en el seguimiento.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -60,12 +60,13 @@
 6.1 El estado del indicador debe mantenerse consistente con la medida, eje y PIGCCT asociados.  
 6.2 El sistema debe impedir inconsistencias que afecten la integridad referencial del sistema.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite activar o inactivar indicadores del PIGCCT de forma controlada, preservando la información histórica y garantizando una gestión adecuada de la vigencia de los indicadores en los procesos de seguimiento y evaluación.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

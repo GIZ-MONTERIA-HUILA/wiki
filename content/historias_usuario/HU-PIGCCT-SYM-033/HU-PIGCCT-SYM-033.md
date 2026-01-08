@@ -10,7 +10,7 @@
 > **Quiero:** documentar las barreras para la implementación de una medida del PIGCCT.  
 > **Para:** anticipar riesgos, identificar limitaciones y apoyar la definición de estrategias de mitigación que aseguren el cumplimiento de las metas del plan.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -95,13 +95,13 @@ Campos opcionales:
 - Reportes de gestión del riesgo.
 - Análisis para la formulación de estrategias de mitigación y ajustes al plan.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **identificar, documentar y analizar las barreras de implementación de las medidas del PIGCCT**, facilitando la gestión de riesgos, la toma de decisiones y la mejora continua en la ejecución del plan.
 
-
+---
    
 ## DIAGRAMA DE SECUENCIA
 

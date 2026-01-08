@@ -10,7 +10,7 @@
 > **Quiero:** filtrar el listado de PIGCCT por departamento.  
 > **Para:** consultar de manera rápida y focalizada la información territorial asociada a un departamento específico.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -57,11 +57,13 @@
 7.2 El departamento seleccionado debe permanecer visible mientras el filtro esté activo.  
 7.3 El sistema debe permitir cambiar el departamento seleccionado sin necesidad de limpiar manualmente el filtro.
 
-
+---
 
 ### Resultado esperado
 
 El usuario puede **filtrar eficientemente los PIGCCT por departamento**, accediendo de manera ágil a la información territorial relevante y mejorando la consulta y análisis de los planes de gestión del cambio climático.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

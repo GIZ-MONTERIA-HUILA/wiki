@@ -10,6 +10,8 @@
 > **Quiero:** que el sistema cree automáticamente los registros de seguimiento de los indicadores asociados a una acción territorial.                          
 > **Para:** facilitar el control y monitoreo según la forma de evaluación y las vigencias definidas.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Creación automática de registros de seguimiento
@@ -30,11 +32,13 @@
 3.1 Los campos de seguimiento deben crearse en estado inicial (null).                        
 3.2 Los registros deben quedar disponibles para su posterior diligenciamiento.
 
+---
+
 ### Resultado esperado
 
 El sistema crea automáticamente los registros de seguimiento en indicador_accion_valor para cada indicador asociado a una acción territorial, de acuerdo con la forma de evaluación y las vigencias definidas, garantizando la disponibilidad de los datos para el monitoreo del PIGCCT.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

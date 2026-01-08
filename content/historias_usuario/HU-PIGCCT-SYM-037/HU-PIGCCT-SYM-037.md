@@ -10,7 +10,7 @@
 > **Quiero:** consultar únicamente las medidas activas del PIGCCT.  
 > **Para:** trabajar con información vigente y relevante para los procesos de planeación, seguimiento y evaluación.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -59,14 +59,13 @@
 7.1 El sistema debe garantizar que solo las medidas con estado activo sean incluidas en los resultados.  
 7.2 Si no existen medidas activas para el contexto seleccionado, el sistema debe informar claramente al usuario.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **visualizar únicamente las medidas activas del PIGCCT**, asegurando que los usuarios trabajen con información vigente y facilitando la eficiencia en los procesos de gestión y toma de decisiones.
 
-
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

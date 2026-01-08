@@ -10,7 +10,7 @@
 > **Quiero:** asociar cada PIGCCT a un departamento válido de Colombia.  
 > **Para:** garantizar la integridad referencial, consistencia territorial y confiabilidad de la información en la base de datos.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -79,13 +79,13 @@
 
 7.2 La información debe estar disponible para procesos de control y seguimiento institucional.
 
-
+---
 
 ### Resultado esperado
 
 Cada PIGCCT queda **correctamente relacionado a un departamento válido de Colombia**, asegurando integridad referencial, consistencia territorial y trazabilidad histórica dentro del sistema.
 
-
+---
    
 ## DIAGRAMA DE SECUENCIA
 

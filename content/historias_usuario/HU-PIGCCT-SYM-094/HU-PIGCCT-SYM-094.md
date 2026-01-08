@@ -10,6 +10,8 @@
 > **Quiero:** asociar uno o varios medios de implementación a una medida del PIGCCT.                     
 > **Para:** indicar de forma explícita cómo se ejecutará la medida, garantizando coherencia entre la planificación estratégica y los mecanismos operativos de implementación.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Acceso a la funcionalidad
@@ -77,9 +79,13 @@
 8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                            
 8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas al cierre del formulario.
 
+---
+
 ### Resultado esperado
 
 Una medida del PIGCCT correctamente asociada a uno o varios medios de implementación, reflejando de manera clara y estructurada los mecanismos mediante los cuales se ejecutará, y quedando disponible para su seguimiento y evaluación dentro del sistema.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

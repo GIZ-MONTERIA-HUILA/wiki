@@ -10,7 +10,7 @@
 > **Quiero:** consultar y visualizar el listado de todos los PIGCCT registrados en el sistema.  
 > **Para:** conocer los planes existentes por departamento, año y estado, y facilitar su consulta, análisis y gestión según mi rol y permisos.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -18,7 +18,6 @@
 1.1 El sistema debe permitir el acceso al listado de PIGCCT a los usuarios autenticados, de acuerdo con su rol y permisos.  
 1.2 La opción **“Listado de PIGCCT”** debe estar disponible desde el módulo de **Administración** o **Gestión del PIGCCT**.  
 1.3 Al acceder, el sistema debe mostrar una vista tipo tabla con los registros existentes.
-
 
 
 ### 2. Información mínima del listado
@@ -78,11 +77,13 @@
 8.2 El sistema debe permitir refrescar el listado para visualizar cambios recientes.  
 8.3 Los filtros aplicados deben poder limpiarse fácilmente.
 
-
+---
 
 ### Resultado esperado
 
 El usuario puede **consultar de forma clara y eficiente el listado de PIGCCT registrados**, identificar los planes existentes por departamento y año, y acceder a las acciones permitidas según su rol, fortaleciendo la gestión y control de la información del PIGCCT.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

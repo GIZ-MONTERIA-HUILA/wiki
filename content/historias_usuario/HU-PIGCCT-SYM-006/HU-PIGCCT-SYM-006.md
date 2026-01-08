@@ -10,7 +10,7 @@
 > **Quiero:** editar la información administrativa de un PIGCCT registrado.  
 > **Para:** corregir, actualizar o ajustar el nombre y/o la descripción del plan, manteniendo la consistencia y trazabilidad de la información.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -20,7 +20,7 @@
 - El listado de PIGCCT (acción por registro).
 - La vista de detalle del PIGCCT.
 
-
+---
 
 ### 2. Campos editables
 2.1 El sistema debe permitir editar únicamente los siguientes campos:
@@ -69,12 +69,13 @@
 7.2 El sistema debe permitir cancelar la edición sin guardar cambios.  
 7.3 El sistema debe prevenir la pérdida de información mediante confirmaciones o advertencias previas al cierre.
 
-
+---
 
 ### Resultado esperado
 
 El administrador puede **editar correctamente el nombre y/o la descripción de un PIGCCT**, asegurando la actualización de la información administrativa sin afectar la integridad, unicidad ni trazabilidad del plan.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

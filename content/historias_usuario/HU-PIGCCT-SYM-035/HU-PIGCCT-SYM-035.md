@@ -10,7 +10,7 @@
 > **Quiero:** consultar las medidas asociadas a un eje del PIGCCT.  
 > **Para:** comprender la estructura jerárquica del plan y analizar cómo se organizan las líneas estratégicas, líneas de acción y medidas dentro de cada eje.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -67,13 +67,13 @@
 - Reportes del PIGCCT.  
 - Módulos de planeación operativa.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **visualizar y analizar las medidas asociadas a cada eje del PIGCCT**, facilitando la comprensión de la estructura jerárquica del plan y apoyando los procesos de seguimiento, evaluación y toma de decisiones.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

@@ -10,6 +10,8 @@
 > **Quiero:** identificar fácilmente las acciones que cubren todo el departamento.                                   
 > **Para:** realizar análisis y reportes territoriales del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Identificación de cobertura departamental
@@ -34,9 +36,13 @@
 5.1 La vista de las acciones con cobertura territorial debe ser clara, ordenada y consistente con el diseño general del sistema.  
 5.2 Los filtros aplicados deben poder limpiarse fácilmente.
 
+---
+
 ### Resultado esperado
 
 El sistema permite identificar de manera clara y consistente las acciones que cubren todo el departamento, facilitando el análisis territorial, la generación de reportes y la toma de decisiones dentro del PIGCCT, manteniendo coherencia e integridad de la información en todos los módulos del sistema.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

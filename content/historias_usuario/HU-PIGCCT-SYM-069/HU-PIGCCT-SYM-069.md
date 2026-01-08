@@ -10,6 +10,8 @@
 > **Quiero:** definir la periodicidad de evaluación de una acción territorial.                      
 > **Para:** determinar la cantidad de seguimientos por vigencia.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Definición de la periodicidad de evaluación
@@ -39,10 +41,13 @@
 4.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
 4.2 El sistema debe permitir cancelar la operación sin guardar cambios.
 
+---
+
 ### Resultado esperado
 
 El sistema permite definir de forma consistente la periodicidad de evaluación de las acciones territoriales, asegurando la correcta determinación de los seguimientos por vigencia para el monitoreo de los indicadores del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 
