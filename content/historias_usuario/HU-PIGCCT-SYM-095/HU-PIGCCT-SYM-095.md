@@ -1,38 +1,85 @@
-## HU-pigcct-sym-095
+# HU-PIGCCT-SYM-095
+## Épica: Alineación estratégica de las medidas del PIGCCT
+### Asociar líneas estratégicas del PNCC a la medida
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-095 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Formulario Proyecto: creación y asignación automática de identificadores
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** usuario del sistema con rol adecuado. \
-> **Quiero:**  registrar un nuevo proyecto de restauración.  \
-> **Para:** iniciar la trazabilidad y la administración de los planes y sus atributos clave, obteniendo un identificador único y legible.
+> **Como:** administrador del sistema.                                  
+> **Quiero:** asociar una o varias líneas estratégicas del Plan Nacional de Cambio Climático (PNCC) a una medida del PIGCCT.                                      
+> **Para:** garantizar la alineación de la medida con la política nacional de cambio climático, facilitando su coherencia, trazabilidad y análisis estratégico a nivel territorial y nacional.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Control de acceso**  
-   1.1 Solo los usuarios con el rol adecuado (Ej: Editor/Administrador) pueden crear o editar proyectos.   
-   1.2 El registro en el log debe cumplir con el Formato de Log estándar definido en la HU-083.
+### 1. Acceso a la funcionalidad
 
-2. **Asignación de UUID**  
-   2.1 El sistema debe asignar un UUID automático e irrepetible al crear un nuevo formulario (guardado inicial). 
+1.1 El sistema debe permitir el acceso a la opción “Líneas estratégicas del PNCC” únicamente a usuarios con rol de administrador del sistema.                               
+1.2 La funcionalidad debe estar disponible desde el módulo de Gestión de medidas del PIGCCT.                          
+1.3 El usuario debe seleccionar previamente un PIGCCT en estado Activo y una medida registrada.
 
-3. **Generador de identificador especial**  
-   3.1 Al guardar el registro exitosamente, el sistema debe generar el identificador especial con la estructura: PROY_<YYYYMMDD>_<número consecutivo>.   
-   3.2 Si ocurre un error durante el guardado (falla de DB/validación), el sistema no debe generar ni consumir el consecutivo para mantener la integridad.
+### 2. Catálogo de líneas estratégicas del PNCC
 
-4. **Validación de unicidad**  
-   4.1 El campo del identificador especial (PROY_...) no es visible durante la creación o edición del formulario, solo después de que el registro ha sido guardado.   
-   4.2 El campo del identificador especial no es editable por el usuario.
+2.1 El sistema debe mostrar el catálogo maestro de líneas estratégicas del PNCC, cargado automáticamente desde las tablas maestras del sistema.                            
+2.2 La selección de líneas estratégicas debe ser múltiple.                             
+2.3 Cada línea estratégica debe presentarse con su denominación oficial.
 
-5. **Visibilidad y editabilidad**  
-   5.1 El sistema debe validar que tanto el UUID como el identificador especial (PROY_...) sean únicos dentro de la tabla de proyectos. 
+### 3. Asociación de líneas estratégicas
+
+3.1 El sistema debe permitir:
+
+- Asociar una o varias líneas estratégicas del PNCC a la medida.
+- Visualizar las líneas estratégicas ya asociadas.
+- Eliminar asociaciones previamente registradas.
+
+3.2 La relación entre medida y línea estratégica del PNCC debe ser de tipo N:M.
+3.3 El sistema no debe permitir la duplicación de una misma línea estratégica para la misma medida.
+
+### 4. Validaciones
+
+4.1 El sistema debe validar que:
+
+- La medida pertenezca a un PIGCCT en estado **Activo**.
+- Las líneas estratégicas seleccionadas se encuentren **Activos** en el catálogo maestro.
+
+4.2 Si alguna validación falla, el sistema debe:
+
+- Bloquear el guardado de la información.
+- Mostrar un mensaje claro indicando la causa del error.
+
+### 5. Almacenamiento de la información
+
+5.1 Al confirmar la operación, el sistema debe almacenar las asociaciones en la tabla relacional correspondiente.                       
+5.2 Las asociaciones deben quedar disponibles para:
+
+- Análisis de alineación con la política nacional.
+- Seguimiento y monitoreo de medidas del PIGCCT.
+- Reportes institucionales y nacionales.
+
+### 6. Mensajes y retroalimentación al usuario
+
+6.1 El sistema debe mostrar un mensaje de confirmación cuando las líneas estratégicas se asocien exitosamente.                           
+6.2 En caso de error, el sistema debe informar la causa y permitir la corrección sin pérdida de información.
+
+### 7. Auditoría y trazabilidad
+
+7.1 El sistema debe registrar automáticamente:
+
+- Usuario que realiza la asociación.
+- Fecha y hora de creación o modificación.
+- Medida asociada y líneas estratégicas vinculadas.
+
+7.2 Esta información debe estar disponible para fines de auditoría, control y seguimiento institucional.
+
+### 8. Usabilidad y experiencia de usuario
+
+8.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.                  
+8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                        
+8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
+
+### Resultado esperado
+
+Una medida del PIGCCT correctamente alineada con una o varias líneas estratégicas del PNCC, asegurando coherencia con la política nacional de cambio climático y quedando disponible para su análisis, seguimiento y evaluación dentro del sistema.
 
 ## DIAGRAMA DE SECUENCIA
 

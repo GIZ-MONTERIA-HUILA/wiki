@@ -1,6 +1,6 @@
 # HU-PIGCCT-SYM-062
 ## Épica: Gestión de acciones territoriales del PIGCCT
-### Registro de acción territorial
+### Registrar de acción territorial
 
 ---
 
@@ -39,13 +39,21 @@
 5.1 Las acciones territoriales registradas deben ser utilizadas por los módulos de seguimiento, análisis y reportes.                
 5.2 El sistema debe garantizar la consistencia de la información entre módulos.
 
-### 6. Trazabilidad básica
+### 6. Auditoría y trazabilidad
 
-6.1 El sistema debe registrar: 
-- Fecha de creación.
-- Usuario que realizó el registro.
+6.1 El sistema debe registrar automáticamente:
 
-6.2 El sistema debe conservar la información histórica de las acciones territoriales.
+- Usuario que registra.
+- Fecha y hora de registro.
+- Estado inicial del registro.
+
+6.2 El sistema debe conservar la información histórica de las acciones territoriales para fines de auditoría y control.
+
+### 7. Usabilidad y experiencia de usuario
+
+7.1 El formulario debe ser claro y consistente con el diseño general del sistema.                      
+7.2 El sistema debe permitir cancelar la operación sin guardar cambios.                     
+7.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
 ### Resultado esperado
 

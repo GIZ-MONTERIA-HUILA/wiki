@@ -27,6 +27,11 @@
 3.1 Los seguimientos consultados deben corresponder a la acción e indicador seleccionados.                      
 3.2 La información debe ser consistente con los registros almacenados en el sistema.
 
+### 4. Usabilidad y experiencia de usuario
+4.1 La vista del listado debe ser clara, ordenada y consistente con el diseño general del sistema.  
+4.2 El sistema debe permitir refrescar el listado para visualizar cambios recientes.  
+4.3 Los filtros aplicados deben poder limpiarse fácilmente.
+
 ### Resultado esperado
 
 El sistema permite a los usuarios visualizar los seguimientos programados de las acciones e indicadores, facilitando el monitoreo y control del cumplimiento del PIGCCT.

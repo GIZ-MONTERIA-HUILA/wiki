@@ -22,6 +22,11 @@
 2.1 El número de vigencias debe quedar asociado a la acción territorial.                        
 2.2 La información de vigencias debe ser utilizada para el seguimiento de la acción.
 
+### 3. Usabilidad y experiencia de usuario
+
+3.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
+3.2 El sistema debe permitir cancelar la operación sin guardar cambios.
+
 ### Resultado esperado
 
 El sistema permite definir de forma consistente la duración del seguimiento de las acciones territoriales mediante la asignación de vigencias anuales.

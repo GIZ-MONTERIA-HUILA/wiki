@@ -1,37 +1,85 @@
-## HU-pigcct-sym-098
+# HU-PIGCCT-SYM-098
+## Épica: Alineación estratégica de las medidas del PIGCCT
+### Asociar dimensiones a la medida
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-098 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Formulario Proyecto: flujo de guardado y habilitación de pestañas 
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** usuario del sistema. \
-> **Quiero:**  guardar el formulario principal del proyecto y obtener una retroalimentación clara.   \
-> **Para:** : asegurar el registro inicial y habilitar las opciones de gestión avanzada (financiamiento y adjuntos).
+> **Como:** administrador del sistema.                   
+> **Quiero:** asociar una o varias dimensiones a una medida del PIGCCT.                      
+> **Para:** clasificar la medida dentro del marco analítico del plan, facilitando su análisis integral, organización estratégica y evaluación en los procesos de planificación, seguimiento y monitoreo del PIGCCT.            
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Flujo de Guardado Principal**  
-   1.1 Al presionar Guardar, el sistema debe validar todos los campos obligatorios (incluyendo condicionales) y la integridad referencial de los dominios.   
-   1.2. Si falla la validación, se muestran mensajes contextuales por campo (Ver HU-073).   
-   1.3. Si todo es correcto, se guarda el registro, se genera el identificador (PROY_...), y se muestra mensaje de éxito: “El proyecto ha sido registrado exitosamente con el código PROY_20251108_004”.   
-   1.4. Se deben controlar errores de base de datos o duplicados con mensajes genéricos (Ver [HU-pigcct-sym-071](/content/historias_usuario/HU-pigcct-sym-071/HU-pigcct-sym-071.md) y [HU-pigcct-sym-084](/content/historias_usuario/HU-pigcct-sym-084/HU-pigcct-sym-084.md)).
+### 1. Acceso a la funcionalidad
 
-2. **Registro de Logs de Auditoría**  
-   2.1 Toda operación (Crear, Editar) debe registrarse en el log de auditoría (Ver [HU-pigcct-sym-083](/content/historias_usuario/HU-pigcct-sym-083/HU-pigcct-sym-083.md)) con: usuario, fecha_hora, acción (CREAR/EDITAR), tabla_afectada (proyecto) e id_proyecto.   
+1.1 El sistema debe permitir el acceso a la opción “Dimensiones” únicamente a usuarios con rol de administrador del sistema.                
+1.2 La funcionalidad debe estar disponible desde el módulo de Gestión de medidas del PIGCCT.                   
+1.3 El usuario debe seleccionar previamente un PIGCCT en estado Activo y una medida registrada.          
 
-3. **Habilitación de Pestañas**  
-   3.1. Las pestañas "Gestión de fuentes de financiación" y "Gestión de adjuntos" solo se habilitan una vez que el proyecto ha sido guardado exitosamente y existe un id_proyecto válido.     
-   3.2. Si el usuario intenta acceder a las pestañas sin guardar, se muestra el mensaje: “Debe guardar el proyecto antes de acceder a esta información".    
-   3.3. Las pestañas pueden editarse en cualquier momento (modo edición).  
-   
-4. **Controles de Abandono**  
-   4.1 Si el usuario intenta abandonar el formulario con cambios no guardados, se mostrará una modal de confirmación: “Tiene cambios sin guardar. ¿Desea salir sin guardar?” (Ver [HU-pigcct-sym-070](/content/historias_usuario/HU-pigcct-sym-070/HU-pigcct-sym-070.md)).  
+### 2. Catálogo de dimensiones
+
+2.1 El sistema debe mostrar el catálogo maestro de dimensiones, cargado automáticamente desde las tablas maestras del sistema.                 
+2.2 La selección de dimensiones debe ser múltiple.                  
+2.3 Cada dimensión debe presentarse con su denominación oficial.
+
+### 3. Asociación de dimensiones
+
+3.1 El sistema debe permitir:
+
+- Asociar una o varias dimensiones a la medida.
+- Visualizar las dimensiones ya asociadas.
+- Eliminar asociaciones previamente registradas.
+
+3.2 La relación entre medida y dimensión debe ser de tipo N:M.                   
+3.3 El sistema no debe permitir la duplicación de una misma dimensión para la misma medida.
+
+### 4. Validaciones
+
+4.1 El sistema debe validar que:
+
+- La medida pertenezca a un PIGCCT en estado**Activo**.
+- Las dimensiones seleccionadas se encuentren **Activos** en el catálogo maestro.
+
+4.2 En caso de incumplimiento de alguna validación, el sistema debe:
+
+- Bloquear el guardado de la información.
+- Mostrar un mensaje claro indicando la causa del error.
+
+### 5. Almacenamiento de la información
+
+5.1 Al confirmar la operación, el sistema debe almacenar las asociaciones en la tabla relacional correspondiente.               
+5.2 Las asociaciones deben quedar disponibles para:
+
+- Clasificación analítica y estratégica de la medida.
+- Seguimiento y monitoreo del PIGCCT.
+- Reportes institucionales y técnicos.
+
+### 6. Mensajes y retroalimentación al usuario
+
+6.1 El sistema debe mostrar un mensaje de confirmación cuando las dimensiones se asocien exitosamente.                    
+6.2 En caso de error, el sistema debe informar la causa y permitir la corrección sin pérdida de información.
+
+### 7. Auditoría y trazabilidad
+
+7.1 El sistema debe registrar automáticamente:
+
+- Usuario que realiza la asociación.
+- Fecha y hora de creación o modificación.
+- Medida asociada y dimensiones vinculadas.
+
+7.2 Esta información debe estar disponible para fines de auditoría, control y seguimiento institucional.
+
+### 8. Usabilidad y experiencia de usuario
+
+8.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.                
+8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                
+8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
+
+### Resultado esperado
+
+Una medida del PIGCCT correctamente clasificada en una o varias dimensiones, permitiendo su análisis integral dentro del marco analítico del plan y fortaleciendo los procesos de planificación, seguimiento y evaluación.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -43,8 +91,4 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-098.png)
-
-## ANEXOS
-
-- Mapeo de errores de validación a mensajes específicos.
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-093-104.png)

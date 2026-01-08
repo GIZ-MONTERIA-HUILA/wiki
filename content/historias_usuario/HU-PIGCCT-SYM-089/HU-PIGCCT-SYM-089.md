@@ -35,6 +35,7 @@
 ### Resultado esperado
 
 El sistema evita la duplicación de la relación acción–municipio y previene inconsistencias entre coberturas parciales y departamentales, garantizando integridad territorial, coherencia del modelo de datos y confiabilidad de la información del PIGCCT en todos los módulos del sistema.
+
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-089.png)
