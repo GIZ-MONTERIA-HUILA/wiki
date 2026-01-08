@@ -10,7 +10,7 @@
 > **Quiero:** registrar la población beneficiada estimada asociada a una medida del PIGCCT.  
 > **Para:** analizar el alcance social de la medida y su contribución al bienestar de la población.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -93,13 +93,13 @@ Campos adicionales (opcional según diseño):
 - Reportes de impacto social.
 - Indicadores agregados del PIGCCT.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **medir y analizar el alcance social de cada medida del PIGCCT**, facilitando la evaluación de su impacto en la población beneficiaria y apoyando la toma de decisiones con enfoque social.
 
-
+---
    
 ## DIAGRAMA DE SECUENCIA
 

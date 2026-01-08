@@ -2,11 +2,15 @@
 ## Épica: Gestión de acciones territoriales y seguimiento de indicadores del PIGCCT
 ### Seleccionar eje, medida e indicadores
 
-DESCRIPCIÓN HISTORIA DE USUARIO
+---
+
+## DESCRIPCIÓN HISTORIA DE USUARIO
 
 > **Como:** usuario del sistema.                  
 > **Quiero:** asociar una acción territorial a uno o varios indicadores del PIGCCT.                  
 > **Para:** definir a qué componentes del PIGCCT da respuesta la acción.
+
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -40,10 +44,13 @@ DESCRIPCIÓN HISTORIA DE USUARIO
 5.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
 5.2 El sistema debe permitir cancelar la operación sin guardar cambios.
 
+---
+
 ### Resultado esperado
 
 El sistema permite asociar acciones territoriales a uno o varios indicadores del PIGCCT mediante una selección jerárquica coherente de eje, medida e indicador, garantizando consistencia en el seguimiento y análisis de la información.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

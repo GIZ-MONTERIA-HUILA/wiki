@@ -10,7 +10,7 @@
 > **Quiero:** definir y seleccionar la tipología especificada del indicador.  
 > **Para:** ajustar el indicador a las clasificaciones metodológicas definidas por la entidad y garantizar estandarización en el sistema de seguimiento del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -50,12 +50,13 @@
 - Fecha de modificación.  
 - Usuario que realizó el cambio.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite clasificar los indicadores del PIGCCT mediante tipologías metodológicas estandarizadas, fortaleciendo la coherencia técnica, la comparabilidad y la calidad del seguimiento y evaluación del plan.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

@@ -8,7 +8,9 @@
 
 > **Como:** administrador del sistema.                   
 > **Quiero:** asociar una o varias dimensiones a una medida del PIGCCT.                      
-> **Para:** clasificar la medida dentro del marco analítico del plan, facilitando su análisis integral, organización estratégica y evaluación en los procesos de planificación, seguimiento y monitoreo del PIGCCT.            
+> **Para:** clasificar la medida dentro del marco analítico del plan, facilitando su análisis integral, organización estratégica y evaluación en los procesos de planificación, seguimiento y monitoreo del PIGCCT.         
+
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -77,9 +79,13 @@
 8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                
 8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
+---
+
 ### Resultado esperado
 
 Una medida del PIGCCT correctamente clasificada en una o varias dimensiones, permitiendo su análisis integral dentro del marco analítico del plan y fortaleciendo los procesos de planificación, seguimiento y evaluación.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

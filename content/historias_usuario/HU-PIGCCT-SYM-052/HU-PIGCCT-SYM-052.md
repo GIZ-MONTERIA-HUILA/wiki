@@ -10,7 +10,7 @@
 > **Quiero:** indicar si el indicador cuenta con una línea base.  
 > **Para:** establecer un punto de referencia inicial que permita comparar y evaluar el avance del indicador en el tiempo.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -38,11 +38,13 @@
 4.1 El sistema debe asociar el estado de línea base directamente al indicador correspondiente.  
 4.2 El cambio del valor del campo debe quedar registrado en la trazabilidad del indicador.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite definir de manera clara y controlada si un indicador cuenta o no con línea base, estableciendo un punto de referencia inicial que fortalece el análisis, el seguimiento y la evaluación del PIGCCT.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

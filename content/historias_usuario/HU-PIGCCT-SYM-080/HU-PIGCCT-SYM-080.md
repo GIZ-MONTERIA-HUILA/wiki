@@ -10,6 +10,8 @@
 > **Quiero:** activar o inactivar una acción territorial.                         
 > **Para:** gestionar su vigencia sin perder la información histórica asociada.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Activación e inactivación de la acción
@@ -41,9 +43,13 @@
 5.1 La interfaz debe ser clara y consistente con el diseño general del sistema.                      
 5.2 El sistema debe permitir cancelar la operación sin guardar cambios.  
 
+---
+
 ### Resultado esperado
 
 El sistema permite a los usuarios administradores activar o inactivar acciones territoriales, garantizando la gestión de su vigencia y la conservación de la información histórica para el seguimiento de los indicadores del PIGCCT.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

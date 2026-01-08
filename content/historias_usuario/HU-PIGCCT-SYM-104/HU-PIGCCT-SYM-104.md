@@ -10,6 +10,8 @@
 > **Quiero:** crear, editar, activar o inactivar los registros de los catálogos maestros.                     
 > **Para:** mantener la información actualizada, confiable y disponible para la asociación con las medidas del PIGCCT, garantizando consistencia y trazabilidad estratégica.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Acceso a la funcionalidad
@@ -83,10 +85,13 @@
 8.2 El sistema debe permitir cancelar cualquier acción sin guardar cambios.                        
 8.3 El sistema debe prevenir la pérdida de información mediante validaciones y confirmaciones previas a guardar cambios.
 
+---
+
 ### Resultado esperado
 
 Los catálogos maestros del sistema administrados correctamente, con registros actualizados, activos o inactivos según corresponda, asegurando la disponibilidad, consistencia y trazabilidad de la información para la asociación con las medidas del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

@@ -10,7 +10,7 @@
 > **Quiero:** marcar un PIGCCT como **Inactivo**.  
 > **Para:** evitar su uso en procesos futuros, conservando la información histórica y la trazabilidad del plan.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -76,13 +76,13 @@
 8.2 El sistema debe prevenir inactivaciones accidentales mediante confirmaciones claras.  
 8.3 El administrador debe poder cancelar la acción antes de confirmar.
 
-
+---
 
 ### Resultado esperado
 
 El administrador puede **inactivar un PIGCCT de manera segura y controlada**, evitando su uso futuro sin afectar la información histórica ni la trazabilidad del plan dentro del sistema.
 
-   
+---  
 
 ## DIAGRAMA DE SECUENCIA
 

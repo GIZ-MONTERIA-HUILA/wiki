@@ -10,7 +10,7 @@
 > **Quiero:** visualizar únicamente los ejes activos de un PIGCCT.  
 > **Para:** trabajar exclusivamente con información vigente en el análisis y seguimiento del plan territorial de gestión del cambio climático.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -60,14 +60,13 @@
 6.1 El control de filtro debe ser claro e intuitivo (checkbox, switch o selector).  
 6.2 El sistema debe indicar de forma visible cuando el filtro **“Solo ejes activos”** se encuentre aplicado.
 
-
+---
 
 ### Resultado esperado
 
 El usuario puede **visualizar y trabajar únicamente con los ejes activos de un PIGCCT**, garantizando que los análisis, consultas y procesos se realicen sobre información vigente y relevante.
 
-
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

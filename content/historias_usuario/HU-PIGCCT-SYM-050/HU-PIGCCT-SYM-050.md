@@ -10,7 +10,7 @@
 > **Quiero:** registrar y asignar los responsables del indicador.  
 > **Para:** definir claramente la rendición de cuentas, la gestión de la información y el seguimiento efectivo de los indicadores del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -53,13 +53,13 @@
 - Fecha de la acción.  
 - Usuario que realizó la modificación.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite asignar responsables claros a los indicadores del PIGCCT, fortaleciendo la rendición de cuentas, la gestión interinstitucional y el seguimiento efectivo del desempeño del plan.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

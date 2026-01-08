@@ -10,7 +10,7 @@
 > **Quiero:** registrar la información estratégica de una medida del PIGCCT.  
 > **Para:** documentar claramente su propósito, alcance conceptual y estado inicial, facilitando el seguimiento, evaluación y análisis del plan.
 
-
+---
 
 ## CAMPOS ESTRATÉGICOS DE LA MEDIDA
 
@@ -86,15 +86,14 @@ La información estratégica mínima que debe permitir registrar el sistema es:
 8.1 El usuario administrador debe poder actualizar el objetivo, descripción o línea base.  
 8.2 El sistema debe conservar trazabilidad histórica si la funcionalidad está habilitada.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **documentar de manera estructurada la información estratégica de cada medida del PIGCCT**, asegurando claridad sobre su objetivo, descripción y estado inicial, y fortaleciendo los procesos de planificación, seguimiento y evaluación.
 
+---
 
-
-   
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-026.png)

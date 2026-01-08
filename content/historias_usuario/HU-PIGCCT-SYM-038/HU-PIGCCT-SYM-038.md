@@ -10,7 +10,7 @@
 > **Quiero:** actualizar la información de una medida del PIGCCT.  
 > **Para:** ajustar su formulación técnica o administrativa, manteniendo la coherencia del plan y la trazabilidad de los cambios realizados.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -80,13 +80,13 @@
 
 7.2 El sistema debe advertir al usuario si los cambios afectan información ya reportada o consolidada.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **editar y actualizar de forma controlada la información de una medida del PIGCCT**, garantizando consistencia técnica, trazabilidad de los cambios y correcta integración con los demás módulos del sistema.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

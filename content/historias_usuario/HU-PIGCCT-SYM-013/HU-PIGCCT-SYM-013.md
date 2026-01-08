@@ -10,7 +10,7 @@
 > **Quiero:** clasificar cada eje del PIGCCT como **estratégico** o **transversal**.  
 > **Para:** diferenciar claramente su rol, nivel de intervención y función dentro del plan de gestión de cambio climático.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -81,16 +81,14 @@
 8.1 El sistema debe mostrar mensajes claros al confirmar la definición o modificación del alcance.  
 8.2 En caso de error, el sistema debe indicar claramente la causa.
 
-
+---
 
 ### Resultado esperado
 
 Cada eje del PIGCCT queda **claramente clasificado como estratégico o transversal**, permitiendo una mejor organización, análisis y uso del plan dentro del sistema.
 
+---
 
-
-
-   
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-013.png)

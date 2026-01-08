@@ -10,6 +10,8 @@
 > **Quiero:** que el sistema controle qué campos son editables según la etapa del seguimiento.                      
 > **Para:** evitar modificaciones indebidas en la información registrada.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Control de edición por etapa
@@ -23,10 +25,13 @@
 2.1 Los valores registrados en etapas anteriores no deben ser modificables.                  
 2.2 El control de edición debe garantizar la integridad de la información de seguimiento.
 
+---
+
 ### Resultado esperado
 
 El sistema controla de forma consistente la edición de campos según la etapa del seguimiento, evitando modificaciones indebidas y preservando la integridad de la información del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

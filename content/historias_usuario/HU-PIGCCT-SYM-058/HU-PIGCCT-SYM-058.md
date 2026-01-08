@@ -10,7 +10,7 @@
 > **Quiero:** filtrar los indicadores por tipo (producto, gestión o impacto).  
 > **Para:** analizar los resultados del PIGCCT de acuerdo con el nivel de seguimiento y evaluación correspondiente.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -51,13 +51,13 @@
 5.1 El sistema debe realizar el filtrado de manera eficiente, incluso con un número elevado de indicadores.  
 5.2 El filtrado debe apoyarse en consultas optimizadas sobre el campo **tipo_indicador**.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite filtrar los indicadores del PIGCCT por tipo (producto, gestión o impacto), facilitando un análisis estructurado y enfocado de los resultados según su nivel dentro del sistema de seguimiento y evaluación.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

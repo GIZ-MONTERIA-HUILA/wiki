@@ -10,7 +10,7 @@
 > **Quiero:** definir y registrar la fórmula de cálculo de un indicador.  
 > **Para:** garantizar consistencia metodológica, trazabilidad técnica y comparabilidad en la medición del avance del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -56,13 +56,13 @@
 - Fecha de modificación.  
 - Usuario que realizó el cambio.  
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite registrar, validar y documentar la fórmula de cálculo de los indicadores del PIGCCT, asegurando consistencia metodológica, transparencia técnica y soporte para el seguimiento y evaluación del plan.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

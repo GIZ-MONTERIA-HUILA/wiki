@@ -10,7 +10,7 @@
 > **Quiero:** registrar los actores involucrados en el indicador.  
 > **Para:** facilitar la coordinación interinstitucional, la articulación de roles y la gestión colaborativa en el seguimiento del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -60,13 +60,13 @@
 - Fecha de la acción.  
 - Usuario que realizó la modificación.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite identificar y gestionar los actores involucrados en los indicadores del PIGCCT, fortaleciendo la coordinación interinstitucional, la transparencia y la gobernanza del proceso de seguimiento y evaluación del plan.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

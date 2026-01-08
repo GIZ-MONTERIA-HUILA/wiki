@@ -10,7 +10,7 @@
 > **Quiero:** filtrar los ejes de un PIGCCT por su alcance (estratégico o transversal).  
 > **Para:** analizar de manera focalizada los componentes específicos del plan territorial de gestión del cambio climático.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -62,13 +62,13 @@
 6.1 El filtro debe ser claro, intuitivo y accesible desde la vista principal de ejes.  
 6.2 El sistema debe recordar el filtro aplicado mientras el usuario permanezca en la vista del PIGCCT seleccionado.
 
-
+---
 
 ### Resultado esperado
 
 El usuario puede **filtrar y analizar los ejes de un PIGCCT según su alcance estratégico o transversal**, facilitando la comprensión y evaluación de los componentes del plan de forma segmentada y eficiente.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

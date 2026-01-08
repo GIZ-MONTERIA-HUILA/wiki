@@ -10,7 +10,7 @@
 > **Quiero:** registrar los costos aproximados asociados a una medida del PIGCCT.  
 > **Para:** facilitar la planeación presupuestal, la priorización de inversiones y el análisis financiero del plan.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -85,13 +85,13 @@ Campos adicionales (opcional según diseño):
 - Priorización de medidas.
 - Reportes de ejecución presupuestal.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **estimar y analizar los costos asociados a cada medida del PIGCCT**, apoyando la toma de decisiones financieras y la planificación eficiente de recursos para la implementación del plan.
 
-
+---
    
 ## DIAGRAMA DE SECUENCIA
 

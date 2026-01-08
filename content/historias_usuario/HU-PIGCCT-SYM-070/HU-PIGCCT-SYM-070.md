@@ -10,6 +10,8 @@
 > **Quiero:** definir el número de vigencias anuales de una acción territorial.                 
 > **Para:** establecer la duración del seguimiento.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Definición de vigencias
@@ -27,10 +29,13 @@
 3.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
 3.2 El sistema debe permitir cancelar la operación sin guardar cambios.
 
+---
+
 ### Resultado esperado
 
 El sistema permite definir de forma consistente la duración del seguimiento de las acciones territoriales mediante la asignación de vigencias anuales.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

@@ -10,7 +10,7 @@
 > **Quiero:** consultar los ejes inactivos de un PIGCCT.  
 > **Para:** realizar análisis históricos, comparativos y de evolución de la estructura del plan territorial de gestión del cambio climático.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -72,12 +72,13 @@
 8.1 El acceso a la consulta de ejes inactivos debe ser claro y accesible desde la vista principal de ejes.  
 8.2 El sistema debe mantener el contexto del PIGCCT seleccionado al cambiar entre filtros.
 
-
+---
 
 ### Resultado esperado
 
 El usuario puede **consultar los ejes inactivos de un PIGCCT**, accediendo a información histórica confiable que permita análisis comparativos y evaluación de la evolución del plan a lo largo del tiempo.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

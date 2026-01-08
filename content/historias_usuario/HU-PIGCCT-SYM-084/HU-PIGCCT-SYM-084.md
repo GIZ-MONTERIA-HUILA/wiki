@@ -10,6 +10,8 @@
 > **Quiero:** seleccionar uno o varios municipios para la acción.                  
 > **Para:** definir con precisión el territorio exacto donde se ejecuta la intervención del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Selección múltiple de municipios
@@ -32,10 +34,13 @@
 4.1 El sistema debe asociar correctamente la acción con todos los municipios seleccionados.                   
 4.2 La información de municipios asociados debe reflejarse de manera consistente en los módulos de seguimiento, indicadores y reportes.
 
+---
+
 ## Resultado esperado
 
 El sistema permite la selección múltiple de municipios para cada acción, asegurando que el territorio de intervención quede claramente definido, validado y alineado con el departamento del PIGCCT, manteniendo la coherencia territorial en todos los módulos del sistema.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

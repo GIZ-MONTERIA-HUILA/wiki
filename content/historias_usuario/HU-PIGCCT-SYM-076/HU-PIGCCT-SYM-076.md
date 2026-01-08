@@ -10,6 +10,8 @@
 > **Quiero:** que el sistema valide la coherencia entre el valor ejecutado y el valor proyectado.
 > **Para:** alertar desviaciones significativas, si aplican reglas futuras.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Validación de coherencia
@@ -22,10 +24,13 @@
 2.1 El sistema debe permitir identificar posibles desviaciones entre los valores ejecutado y proyectado.                       
 2.2 Las desviaciones deben quedar disponibles para su análisis en los módulos de seguimiento.
 
+---
+
 ### Resultado esperado
 
 El sistema valida la coherencia entre los valores proyectados y ejecutados de los seguimientos, dejando la base preparada para la identificación y análisis de desviaciones significativas en el cumplimiento de los indicadores del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

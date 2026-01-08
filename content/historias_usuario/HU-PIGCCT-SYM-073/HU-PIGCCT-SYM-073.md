@@ -10,6 +10,8 @@
 > **Quiero:** consultar los seguimientos programados de una acción e indicador.                       
 > **Para:** realizar el monitoreo correspondiente.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Consulta de seguimientos
@@ -32,11 +34,13 @@
 4.2 El sistema debe permitir refrescar el listado para visualizar cambios recientes.  
 4.3 Los filtros aplicados deben poder limpiarse fácilmente.
 
+---
+
 ### Resultado esperado
 
 El sistema permite a los usuarios visualizar los seguimientos programados de las acciones e indicadores, facilitando el monitoreo y control del cumplimiento del PIGCCT.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

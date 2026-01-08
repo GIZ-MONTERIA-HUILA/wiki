@@ -10,7 +10,7 @@
 > **Quiero:** filtrar el listado de PIGCCT para visualizar únicamente aquellos que se encuentren en estado **Activo**.  
 > **Para:** trabajar exclusivamente con información vigente y relevante para la gestión, seguimiento y toma de decisiones.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -60,13 +60,13 @@
 7.2 El estado seleccionado debe permanecer visible mientras el filtro esté activo.  
 7.3 El sistema debe permitir alternar entre estados sin perder los filtros previamente aplicados.
 
-
+---
 
 ### Resultado esperado
 
 El usuario puede **visualizar exclusivamente los PIGCCT activos**, asegurando que las operaciones y análisis se realicen únicamente sobre planes vigentes y fortaleciendo la eficiencia en la gestión del PIGCCT.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

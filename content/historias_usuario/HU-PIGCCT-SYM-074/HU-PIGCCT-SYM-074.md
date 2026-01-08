@@ -10,6 +10,8 @@
 > **Quiero:** registrar el avance del seguimiento de una acción territorial.                        
 > **Para:** reportar el estado real de la acción.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Registro del avance del seguimiento
@@ -46,11 +48,15 @@
 ### 5. Usabilidad y experiencia de usuario
 
 5.1 La interfaz debe ser clara y consistente con el diseño general del sistema.                      
-5.2 El sistema debe permitir cancelar la operación sin guardar cambios.    
+5.2 El sistema debe permitir cancelar la operación sin guardar cambios. 
+
+---
 
 ### Resultado esperado
 
 El sistema permite registrar de forma consistente el avance real de los seguimientos, garantizando la disponibilidad de información actualizada para el monitoreo del cumplimiento de los indicadores del PIGCCT.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

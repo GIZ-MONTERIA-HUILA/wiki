@@ -10,7 +10,7 @@
 > **Quiero:** registrar el potencial de reducción de gases de efecto invernadero (GEI) asociado a una medida del PIGCCT.  
 > **Para:** evaluar y analizar el impacto climático de la medida en términos de mitigación del cambio climático.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -83,15 +83,14 @@ Campos adicionales (opcional según diseño):
 - Reportes de mitigación del cambio climático.
 - Indicadores agregados del PIGCCT.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **cuantificar y analizar el impacto climático de cada medida del PIGCCT**, facilitando la evaluación de la contribución del plan a la reducción de emisiones de GEI y al cumplimiento de compromisos climáticos.
 
+---
 
-
-   
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-028.png)

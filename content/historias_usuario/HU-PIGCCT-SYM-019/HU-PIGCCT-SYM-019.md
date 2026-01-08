@@ -10,7 +10,7 @@
 > **Quiero:** activar o inactivar un eje del PIGCCT.  
 > **Para:** gestionar su vigencia operativa sin eliminar información histórica ni afectar la trazabilidad del plan.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -78,14 +78,13 @@
 
 8.2 En caso de error, el sistema debe mostrar mensajes claros que permitan identificar y corregir el problema.
 
-
+---
 
 ### Resultado esperado
 
 El usuario administrador puede **activar o inactivar ejes del PIGCCT de forma controlada**, asegurando la vigencia operativa del plan, la integridad de la información y la conservación del histórico.
 
-
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

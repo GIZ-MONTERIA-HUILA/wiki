@@ -10,6 +10,8 @@
 > **Quiero:** asociar una o varias líneas instrumentales del Plan Nacional de Cambio Climático (PNCC) a una medida del PIGCCT.                   
 > **Para:** identificar de manera clara los instrumentos normativos, técnicos, financieros y de gestión que soportan la implementación de la medida, fortaleciendo su coherencia y viabilidad.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Acceso a la funcionalidad
@@ -77,9 +79,13 @@
 8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                     
 8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
+---
+
 ### Resultado esperado
 
 Una medida del PIGCCT correctamente asociada a una o varias líneas instrumentales del PNCC, permitiendo identificar los instrumentos que la soportan y fortaleciendo su análisis, seguimiento y evaluación dentro del sistema.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

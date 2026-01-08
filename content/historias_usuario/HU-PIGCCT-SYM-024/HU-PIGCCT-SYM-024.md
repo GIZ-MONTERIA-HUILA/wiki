@@ -10,7 +10,7 @@
 > **Quiero:** registrar una medida del PIGCCT asociada a un eje.  
 > **Para:** definir y estructurar las líneas estratégicas, líneas de acción y medidas concretas que componen el plan territorial de gestión del cambio climático.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -78,15 +78,14 @@
 - Cancelar el registro sin guardar información.
 - Redirigir al usuario al listado de medidas del eje correspondiente.
 
-
+---
 
 ### Resultado esperado
 
 El administrador puede **registrar medidas del PIGCCT asociadas a un eje específico**, asegurando la correcta estructuración del plan, la integridad referencial y la trazabilidad de la información.
 
-
-
-   
+---
+ 
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-024.png)

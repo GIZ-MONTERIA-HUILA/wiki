@@ -10,7 +10,7 @@
 > **Quiero:** seleccionar un eje del PIGCCT desde otros módulos del sistema.  
 > **Para:** alinear la planificación operativa, el seguimiento y el reporte de acciones, indicadores y proyectos con la estructura estratégica del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -78,12 +78,13 @@
 8.1 Si el usuario intenta guardar un registro sin seleccionar un eje obligatorio, el sistema debe mostrar un mensaje claro.  
 8.2 En caso de error en la asociación, el sistema debe informar la causa y orientar la corrección.
 
-
+---
 
 ### Resultado esperado
 
 El usuario puede **seleccionar ejes del PIGCCT desde otros módulos del sistema**, asegurando la alineación operativa, la coherencia estructural del plan y la integridad de la información en todo el sistema.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

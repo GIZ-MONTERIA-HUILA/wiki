@@ -10,6 +10,8 @@
 > **Quiero:** que el sistema cree automáticamente la relación entre acción e indicador.                    
 > **Para:** formalizar la relación N:M entre acción e indicador del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Creación automática de la relación
@@ -32,9 +34,13 @@
 4.1 La relación acción–indicador debe ser utilizada por los módulos de seguimiento y análisis.                     
 4.2 El sistema debe garantizar la consistencia de esta relación en los diferentes módulos.
 
+---
+
 ### Resultado esperado
 
 El sistema crea y gestiona automáticamente la relación N:M entre acciones territoriales e indicadores del PIGCCT, asegurando integridad, coherencia y disponibilidad de la información para el seguimiento y análisis.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

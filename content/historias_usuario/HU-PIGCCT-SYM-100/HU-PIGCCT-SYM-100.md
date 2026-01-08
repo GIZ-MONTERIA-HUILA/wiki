@@ -10,6 +10,8 @@
 > **Quiero:** que el sistema registre y mantenga las relaciones N:M entre las medidas del PIGCCT y los distintos catálogos estratégicos.                     
 > **Para:** garantizar la trazabilidad estratégica, consistencia del modelo de datos y disponibilidad de la información para análisis, seguimiento, monitoreo y reporte del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Alcance de las relaciones N:M
@@ -72,9 +74,13 @@
 6.1 El registro de relaciones debe realizarse de forma transparente para el usuario, como resultado de las acciones de asociación en cada módulo.                               
 6.2 El sistema debe manejar los errores de persistencia de manera controlada, informando claramente al usuario.
 
+---
+
 ### Resultado esperado
 
 Un modelo de datos relacional consistente, con asociaciones N:M correctamente registradas entre las medidas del PIGCCT y los catálogos estratégicos, garantizando la trazabilidad, integridad y disponibilidad de la información para la gestión integral del cambio climático territorial.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

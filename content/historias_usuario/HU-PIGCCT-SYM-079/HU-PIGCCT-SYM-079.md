@@ -10,6 +10,8 @@
 > **Quiero:** consultar el avance de un indicador del PIGCCT.                           
 > **Para:** analizar el aporte de las acciones asociadas.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Consulta del avance del indicador
@@ -31,9 +33,13 @@
 4.1 La vista del avance por indicador debe ser clara, ordenada y consistente con el diseño general del sistema.  
 4.2 Los filtros aplicados deben poder limpiarse fácilmente.
 
+---
+
 ### Resultado esperado
 
 El sistema permite consultar de forma consolidada el avance de los indicadores del PIGCCT, facilitando el análisis del aporte de las acciones territoriales para su seguimiento y evaluación.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

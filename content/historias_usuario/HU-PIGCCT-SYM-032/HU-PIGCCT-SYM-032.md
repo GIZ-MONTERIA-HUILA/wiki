@@ -10,7 +10,7 @@
 > **Quiero:** registrar e identificar los actores involucrados en la implementación de una medida del PIGCCT.  
 > **Para:** coordinar la gestión interinstitucional, definir responsabilidades y fortalecer la articulación entre entidades y actores clave.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -84,13 +84,13 @@ Campos adicionales (opcional según diseño):
 - Reportes de gobernanza del PIGCCT.
 - Análisis de articulación interinstitucional.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **identificar y gestionar claramente los actores involucrados en cada medida del PIGCCT**, fortaleciendo la coordinación interinstitucional, la asignación de responsabilidades y la efectividad en la implementación del plan.
 
-
+---
    
 ## DIAGRAMA DE SECUENCIA
 

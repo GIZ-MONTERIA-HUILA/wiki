@@ -10,7 +10,7 @@
 > **Quiero:** visualizar únicamente los indicadores activos.  
 > **Para:** trabajar con información vigente y evitar el uso de indicadores que ya no se encuentran en operación dentro del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -48,13 +48,13 @@
 5.1 El sistema debe realizar el filtrado de forma eficiente incluso con un alto volumen de indicadores.  
 5.2 El filtrado debe apoyarse en consultas optimizadas sobre el campo de estado del indicador.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite consultar exclusivamente los indicadores activos del PIGCCT, facilitando el trabajo con información vigente y mejorando la claridad y eficiencia en los procesos de seguimiento y análisis.
 
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

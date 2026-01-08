@@ -10,7 +10,7 @@
 > **Quiero:** registrar las fuentes de financiación asociadas a una medida del PIGCCT.  
 > **Para:** asegurar la sostenibilidad financiera, facilitar la planeación presupuestal y hacer seguimiento a los recursos destinados a la implementación de la medida.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -97,12 +97,13 @@ Campos opcionales:
 - Reportes de ejecución financiera.
 - Análisis de sostenibilidad y toma de decisiones.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite **registrar, gestionar y analizar las fuentes de financiación de las medidas del PIGCCT**, fortaleciendo la sostenibilidad financiera, la transparencia y el seguimiento a la inversión asociada al plan.
 
+---
    
 ## DIAGRAMA DE SECUENCIA
 

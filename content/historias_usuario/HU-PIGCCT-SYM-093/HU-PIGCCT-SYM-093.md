@@ -10,6 +10,8 @@
 > **Quiero:** asociar una medida del PIGCCT con uno o varios elementos de los catálogos estratégicos definidos.                
 > **Para:** garantizar la alineación estratégica de las medidas con los lineamientos nacionales, enfoques transversales, dimensiones de gestión y compromisos de desarrollo sostenible, permitiendo una correcta estructuración, seguimiento y análisis del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Acceso a la funcionalidad de asociación
@@ -82,9 +84,13 @@
 8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                     
 8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
+---
+
 ### Resultado esperado
 
 Una medida del PIGCCT correctamente alineada estratégicamente, asociada de forma N:M con los catálogos de medio de implementación, lineamientos PNCC, enfoques, dimensiones y ODS, lista para su análisis, seguimiento y evaluación dentro del sistema.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

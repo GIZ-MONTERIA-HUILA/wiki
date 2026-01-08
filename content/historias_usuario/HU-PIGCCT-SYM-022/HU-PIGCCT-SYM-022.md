@@ -10,7 +10,7 @@
 > **Quiero:** asegurar que todo eje del PIGCCT esté asociado a un PIGCCT válido.  
 > **Para:** mantener la consistencia, integridad referencial y confiabilidad de la información en la base de datos del sistema.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -60,13 +60,13 @@
 
 6.2 Los mensajes deben orientar al usuario a corregir la acción.
 
-
+---
 
 ### 7. Auditoría y trazabilidad
 7.1 El sistema debe conservar la trazabilidad de la relación eje–PIGCCT para fines de auditoría.  
 7.2 Los cambios de estado del PIGCCT no deben alterar la relación histórica con sus ejes.
 
-
+---
 
 ### Resultado esperado
 

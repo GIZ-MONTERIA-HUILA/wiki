@@ -10,7 +10,7 @@
 > **Quiero:** definir y seleccionar la unidad de medida del indicador.  
 > **Para:** interpretar correctamente los resultados, garantizar consistencia en la medición y facilitar el análisis y comparación del avance del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -59,12 +59,13 @@
 - Fecha de modificación.  
 - Usuario que realizó el cambio.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite definir unidades de medida claras y coherentes para los indicadores del PIGCCT, asegurando una correcta interpretación de los resultados, estandarización metodológica y soporte efectivo para el seguimiento y evaluación del plan.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

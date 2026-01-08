@@ -10,6 +10,8 @@
 > **Quiero:** definir el alcance territorial de la acción.                      
 > **Para:** indicar de manera precisa en qué territorio se ejecuta la intervención del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Selección del alcance territorial
@@ -31,12 +33,15 @@
 
 ### 4. Validaciones y consistencia
 
-4.1 El sistema debe impedir guardar una acción sin definir su alcance territorial.                 
+4.1 El sistema debe impedir guardar una acción sin definir su alcance territorial.   
+
+---
 
 ### Resultado esperado
 
 El sistema permite definir de manera clara y validada el alcance territorial de cada acción, ya sea a nivel municipal o departamental, asegurando la correcta localización de las intervenciones del PIGCCT y la consistencia de la información en todos los módulos del sistema.
-    
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

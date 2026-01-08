@@ -10,6 +10,8 @@
 > **Quiero:** que el sistema garantice la integridad referencial entre acciones, indicadores y seguimientos.                       
 > **Para:** mantener la consistencia del modelo de datos del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Integridad entre acción, indicador y seguimiento
@@ -27,10 +29,13 @@
 3.1 Las relaciones entre acción, indicador y seguimientos deben mantenerse consistentes en todos los módulos.                          
 3.2 El sistema debe prevenir inconsistencias en el modelo de datos.
 
+---
+
 ### Resultado esperado
 
 El sistema garantiza la integridad referencial entre acciones, indicadores y seguimientos, preservando la coherencia y confiabilidad del modelo de datos del PIGCCT en todos los módulos del sistema.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

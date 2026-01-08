@@ -10,6 +10,8 @@
 > **Quiero:** indicar que la acción aplica a todo el departamento.
 > **Para:** definir una cobertura territorial total sin necesidad de seleccionar municipios de forma individual.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Selección de cobertura departamental
@@ -32,9 +34,13 @@
 4.1 La cobertura total del departamento debe reflejarse de manera consistente en los módulos de seguimiento, indicadores y reportes.                      
 4.2 El sistema debe mantener la trazabilidad del tipo de alcance territorial seleccionado para la acción.
 
+---
+
 ### Resultado esperado
 
 El sistema permite definir una acción con cobertura en todo el departamento, deshabilitando la selección manual de municipios e interpretando correctamente la intervención como de alcance total, garantizando coherencia territorial y consistencia de la información en todos los módulos del PIGCCT.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

@@ -10,7 +10,7 @@
 > **Quiero:** modificar el nombre o la descripción de un eje del PIGCCT.  
 > **Para:** ajustar o corregir su definición sin afectar la estructura general del plan ni su trazabilidad.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -75,14 +75,13 @@
 
 8.2 El sistema debe redirigir al usuario a la vista de detalle o al listado de ejes después de guardar o cancelar.
 
-
+---
 
 ### Resultado esperado
 
 El usuario administrador puede **editar de forma controlada el nombre y la descripción de un eje del PIGCCT**, manteniendo la integridad, unicidad y trazabilidad de la información del plan.
 
-
-
+---
 
 ## DIAGRAMA DE SECUENCIA
 

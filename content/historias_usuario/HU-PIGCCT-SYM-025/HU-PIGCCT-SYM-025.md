@@ -10,7 +10,7 @@
 > **Quiero:** clasificar una medida del PIGCCT según su alcance.  
 > **Para:** diferenciar claramente entre **Línea estratégica**, **Línea de acción** o **Medida**, facilitando la estructuración, jerarquización y análisis del plan.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -69,13 +69,13 @@
 
 7.2 Al guardar correctamente, el sistema debe confirmar la operación.
 
-
+---
 
 ### Resultado esperado
 
 El usuario administrador puede **definir y gestionar el alcance de cada medida del PIGCCT**, asegurando una correcta clasificación entre líneas estratégicas, líneas de acción y medidas, y fortaleciendo la claridad estructural del plan.
 
-
+---
    
 ## DIAGRAMA DE SECUENCIA
 

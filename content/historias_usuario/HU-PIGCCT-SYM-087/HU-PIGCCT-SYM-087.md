@@ -10,6 +10,8 @@
 > **Quiero:** registrar cuando una acción tiene cobertura sobre todo el departamento.                      
 > **Para:** diferenciar claramente una cobertura departamental total de una selección parcial de municipios dentro del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Registro de la cobertura departamental
@@ -60,9 +62,13 @@ Opción B – Registro especial en la relación acción–municipio
 8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                     
 8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
+---
+
 ### Resultado esperado
 
 El sistema registra de manera explícita y consistente cuando una acción cubre todo el departamento, diferenciándola de una cobertura parcial por municipios y garantizando trazabilidad territorial, integridad del modelo de datos y claridad funcional en todos los módulos del PIGCCT.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

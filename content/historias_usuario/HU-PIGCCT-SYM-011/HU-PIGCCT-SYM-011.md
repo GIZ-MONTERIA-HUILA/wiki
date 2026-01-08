@@ -10,7 +10,7 @@
 > **Quiero:** seleccionar un PIGCCT desde otros módulos del sistema.  
 > **Para:** asociar proyectos, indicadores, reportes u otros elementos al plan de gestión de cambio climático correspondiente.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -84,11 +84,13 @@
 8.1 La selección del PIGCCT debe ser consistente en todos los módulos (mismos criterios, filtros y etiquetas).  
 8.2 El sistema debe mostrar mensajes claros cuando no existan PIGCCT activos disponibles para selección.
 
-
+---
 
 ### Resultado esperado
 
 Los usuarios pueden **seleccionar de forma controlada un PIGCCT activo desde otros módulos**, asegurando asociaciones correctas, integridad referencial y trazabilidad de la información en todo el sistema.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

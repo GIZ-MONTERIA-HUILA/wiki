@@ -10,7 +10,7 @@
 > **Quiero:** registrar la fuente de información del indicador.  
 > **Para:** garantizar la trazabilidad, confiabilidad y transparencia de los datos utilizados en el seguimiento y evaluación del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -57,12 +57,13 @@
 - Fecha de la acción.  
 - Usuario responsable.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite documentar y gestionar las fuentes de información de los indicadores del PIGCCT, fortaleciendo la trazabilidad, la confiabilidad de los datos y la transparencia del proceso de seguimiento y evaluación del plan.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

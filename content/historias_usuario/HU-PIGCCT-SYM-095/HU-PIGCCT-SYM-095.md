@@ -10,6 +10,8 @@
 > **Quiero:** asociar una o varias líneas estratégicas del Plan Nacional de Cambio Climático (PNCC) a una medida del PIGCCT.                                      
 > **Para:** garantizar la alineación de la medida con la política nacional de cambio climático, facilitando su coherencia, trazabilidad y análisis estratégico a nivel territorial y nacional.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Acceso a la funcionalidad
@@ -77,9 +79,13 @@
 8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                        
 8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
+---
+
 ### Resultado esperado
 
 Una medida del PIGCCT correctamente alineada con una o varias líneas estratégicas del PNCC, asegurando coherencia con la política nacional de cambio climático y quedando disponible para su análisis, seguimiento y evaluación dentro del sistema.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

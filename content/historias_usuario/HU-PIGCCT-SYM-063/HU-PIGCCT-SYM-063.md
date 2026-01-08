@@ -10,6 +10,8 @@
 > **Quiero:** que el sistema valide las fechas de una acción territorial.                    
 > **Para:** garantizar la coherencia temporal de la acción.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Validación de fechas
@@ -23,10 +25,13 @@
 2.1 El sistema debe aplicar la validación de fechas al crear o editar una acción territorial.                     
 2.2 La validación debe garantizar coherencia temporal en los módulos de seguimiento y análisis.
 
+---
+
 ### Resultado esperado
 
 El sistema garantiza que las acciones territoriales cuenten con fechas coherentes, asegurando la consistencia temporal de la información utilizada para el seguimiento de los indicadores del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

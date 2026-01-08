@@ -10,6 +10,8 @@
 > **Quiero:** evitar la duplicidad de la relación entre una acción y un municipio.                       
 > **Para:** mantener la consistencia, integridad y confiabilidad de la información territorial del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Prevención de duplicidades
@@ -32,9 +34,13 @@
 4.1 La información territorial debe reflejarse de manera consistente en los módulos de seguimiento, indicadores y reportes.                        
 4.2 El sistema debe mantener reglas de validación que eviten inconsistencias territoriales derivadas de duplicidades.
 
+---
+
 ### Resultado esperado
 
 El sistema evita la duplicación de la relación acción–municipio y previene inconsistencias entre coberturas parciales y departamentales, garantizando integridad territorial, coherencia del modelo de datos y confiabilidad de la información del PIGCCT en todos los módulos del sistema.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 

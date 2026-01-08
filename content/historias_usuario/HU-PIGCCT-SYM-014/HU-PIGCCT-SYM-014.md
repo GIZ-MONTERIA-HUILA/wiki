@@ -10,7 +10,7 @@
 > **Quiero:** que el sistema valide la unicidad del nombre de los ejes dentro de un mismo PIGCCT.  
 > **Para:** evitar duplicidades, mantener claridad conceptual y garantizar coherencia en la estructura del plan.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -71,15 +71,14 @@
 
 8.2 El sistema no debe perder la información ya ingresada en el formulario tras un error de validación.
 
-
+---
 
 ### Resultado esperado
 
 El sistema **garantiza que no existan ejes duplicados dentro de un mismo PIGCCT**, asegurando claridad, coherencia estructural e integridad de la información del plan.
 
+---
 
-
-   
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-014.png)

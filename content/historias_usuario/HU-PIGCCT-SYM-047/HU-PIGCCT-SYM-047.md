@@ -10,7 +10,7 @@
 > **Quiero:** definir el tipo de cálculo del indicador.  
 > **Para:** indicar si el indicador es cuantitativo o cualitativo y así establecer su forma de medición, análisis y seguimiento dentro del PIGCCT.
 
-
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
@@ -60,12 +60,13 @@
 - Fecha de modificación.  
 - Usuario que realizó el cambio.
 
-
+---
 
 ### Resultado esperado
 
 El sistema permite definir claramente si un indicador del PIGCCT es cuantitativo o cualitativo, garantizando una medición adecuada, coherente y alineada con los lineamientos metodológicos del seguimiento y evaluación del plan.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 

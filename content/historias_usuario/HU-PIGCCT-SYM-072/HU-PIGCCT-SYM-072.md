@@ -10,6 +10,8 @@
 > **Quiero:** registrar el valor proyectado de cada seguimiento.                      
 > **Para:** planificar el cumplimiento del indicador.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Registro del valor proyectado
@@ -32,10 +34,13 @@
 4.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
 4.2 El sistema debe permitir cancelar la operación sin guardar cambios.
 
+---
+
 ### Resultado esperado
 
 El sistema permite registrar únicamente los valores proyectados de los seguimientos, garantizando una planificación clara y consistente del cumplimiento de los indicadores del PIGCCT.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 
