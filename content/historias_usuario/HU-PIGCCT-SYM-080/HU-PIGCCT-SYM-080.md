@@ -27,6 +27,20 @@
 3.1 El estado de la acción debe reflejarse de forma consistente en los módulos de seguimiento y consulta.                      
 3.2 El sistema debe impedir la edición de acciones inactivas, salvo reactivación por un administrador.
 
+### 4. Auditoría y trazabilidad
+
+4.1 El sistema debe registrar automáticamente:
+
+- Usuario que registra.
+- Fecha y hora de registro.
+
+4.2 El sistema debe conservar la información histórica para fines de auditoría y control.
+
+### 5. Usabilidad y experiencia de usuario
+
+5.1 La interfaz debe ser clara y consistente con el diseño general del sistema.                      
+5.2 El sistema debe permitir cancelar la operación sin guardar cambios.  
+
 ### Resultado esperado
 
 El sistema permite a los usuarios administradores activar o inactivar acciones territoriales, garantizando la gestión de su vigencia y la conservación de la información histórica para el seguimiento de los indicadores del PIGCCT.

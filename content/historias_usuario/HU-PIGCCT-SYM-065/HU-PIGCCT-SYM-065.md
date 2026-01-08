@@ -33,6 +33,11 @@
 3.1 La fase de la acción debe quedar asociada a la acción territorial.                    
 3.2 La información de la fase debe estar disponible para los módulos de seguimiento y análisis.
 
+### 4. Usabilidad y experiencia de usuario
+
+4.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
+4.2 El sistema debe permitir cancelar la operación sin guardar cambios.
+
 ### Resultado esperado
 
 El sistema permite identificar de forma consistente la fase de las acciones territoriales dentro del ciclo del proyecto, facilitando el seguimiento y análisis del cumplimiento de los indicadores del PIGCCT.

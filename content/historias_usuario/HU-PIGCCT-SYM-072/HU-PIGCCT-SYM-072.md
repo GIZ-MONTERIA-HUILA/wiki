@@ -27,6 +27,11 @@
 3.1 El valor_proyectado debe quedar asociado al registro de seguimiento correspondiente.              
 3.2 La información debe estar disponible para los módulos de seguimiento y análisis.
 
+### 4. Usabilidad y experiencia de usuario
+
+4.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
+4.2 El sistema debe permitir cancelar la operación sin guardar cambios.
+
 ### Resultado esperado
 
 El sistema permite registrar únicamente los valores proyectados de los seguimientos, garantizando una planificación clara y consistente del cumplimiento de los indicadores del PIGCCT.

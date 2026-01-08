@@ -1,31 +1,85 @@
-## HU-pigcct-sym-097
+# HU-PIGCCT-SYM-097
+## Épica: Alineación estratégica de las medidas del PIGCCT
+### Asociar enfoques a la medida
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-097 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Formulario Proyecto: lógica condicional de sostenibilidad y monitoreo
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+--- 
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** usuario del sistema. \
-> **Quiero:**  ingresar la descripción de la estrategia de sostenibilidad y el programa de monitoreo, solo si el proyecto cuenta con ellos.  \
-> **Para:** asegurar que solo se soliciten y registren los datos pertinentes al proyecto.
+> **Como:** administrador del sistema.                       
+> **Quiero:** asociar uno o varios enfoques a una medida del PIGCCT.                        
+> **Para:** incorporar criterios diferenciales y transversales en la formulación e implementación de la medida, garantizando su coherencia con los principios de equidad, inclusión, enfoque territorial y gestión integral del cambio climático.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Estrategia de Sostenibilidad**  
-   1.1 El sistema debe mostrar una lista obligatoria: “¿El proyecto tiene estrategia de sostenibilidad?” (Opciones: Sí / No).   
-   1.2. Lógica Condicional: Si el usuario selecciona Sí, se habilita el textarea Estrategia de sostenibilidad. Si selecciona No, el textarea se oculta y limpia.   
-   1.3. Validación Condicional: Si se selecciona Sí, el campo de texto es obligatorio, con longitud mínima de 20 y máxima de 1000 caracteres, y no puede contener solo espacios.
+### 1. Acceso a la funcionalidad
 
-2. **Programa de Monitoreo**  
-   2.1 El campo “¿Tiene programa de monitoreo?” es obligatorio (Sí/No).    
-   2.2. Lógica Condicional: Si el usuario selecciona Sí, se habilitan los siguientes campos, todos obligatorios: Línea base (textarea), Objetivo del programa (textarea), Frecuencia (lista enum), Metodología (textarea).  
-   2.3. Si se selecciona No, todos los campos anteriores se desactivan y se limpian.   
-   2.4. Validaciones Específicas: Los textos tienen longitud mínima de 10 caracteres (si son obligatorios) y la frecuencia debe pertenecer al enum y no puede ser nula si la opción es Sí. 
+1.1 El sistema debe permitir el acceso a la opción “Enfoques” únicamente a usuarios con rol de administrador del sistema.                     
+1.2 La funcionalidad debe estar disponible desde el módulo de Gestión de medidas del PIGCCT.                 
+1.3 El usuario debe seleccionar previamente un PIGCCT en estado Activo y una medida registrada.
+
+### 2. Catálogo de enfoques
+
+2.1 El sistema debe mostrar el catálogo maestro de enfoques, cargado automáticamente desde las tablas maestras del sistema.                      
+2.2 La selección de enfoques debe ser múltiple.                
+2.3 Cada enfoque debe presentarse con su denominación oficial.
+
+### 3. Asociación de enfoques
+
+3.1 El sistema debe permitir:
+
+- Asociar uno o varios enfoques a la medida.
+- Visualizar los enfoques ya asociados.
+- Eliminar asociaciones previamente registradas.
+
+3.2 La relación entre medida y enfoque debe ser de tipo N:M.                    
+3.3 El sistema no debe permitir la duplicación de un mismo enfoque para la misma medida.              
+
+### 4. Validaciones
+
+4.1 El sistema debe validar que:
+
+- La medida pertenezca a un PIGCCT en estado **Activo**.
+- Los enfoques seleccionados se encuentren **Activos** en el catálogo maestro.
+
+4.2 En caso de incumplimiento de alguna validación, el sistema debe:
+
+- Bloquear el guardado de la información.
+- Mostrar un mensaje claro indicando la causa del error.
+
+### 5. Almacenamiento de la información
+
+5.1 Al confirmar la operación, el sistema debe almacenar las asociaciones en la tabla relacional correspondiente.                 
+5.2 Las asociaciones deben quedar disponibles para:
+
+- Análisis transversal y diferencial de la medida.
+- Seguimiento y monitoreo del PIGCCT.
+- Reportes estratégicos e institucionales.
+
+### 6. Mensajes y retroalimentación al usuario
+
+6.1 El sistema debe mostrar un mensaje de confirmación cuando los enfoques se asocien exitosamente.                     
+6.2 En caso de error, el sistema debe informar la causa y permitir la corrección sin pérdida de información.
+
+### 7. Auditoría y trazabilidad
+
+7.1 El sistema debe registrar automáticamente:
+
+- Usuario que realiza la asociación.
+- Fecha y hora de creación o modificación.
+- Medida asociada y enfoques vinculados.
+
+7.2 Esta información debe estar disponible para fines de auditoría, control y seguimiento institucional.
+
+### 8. Usabilidad y experiencia de usuario
+
+8.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.                    
+8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                     
+8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
+
+### Resultado esperado
+
+Una medida del PIGCCT correctamente asociada a uno o varios enfoques, incorporando criterios diferenciales y transversales que fortalecen su formulación, implementación y evaluación dentro del sistema.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -37,8 +91,4 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-097.png)
-
-## ANEXOS
-
-- Listado de valores de la enumeración enum frecuencia_monitoreo.
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-093-104.png)

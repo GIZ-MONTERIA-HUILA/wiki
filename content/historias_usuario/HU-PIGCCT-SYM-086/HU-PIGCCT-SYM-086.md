@@ -32,6 +32,28 @@
 4.1 La información de la relación territorial debe mantenerse consistente en los módulos de seguimiento, indicadores y reportes.                                  
 4.2 El sistema debe impedir duplicidades o registros inconsistentes en la relación acción–municipio.
 
+### 5. Mensajes y retroalimentación al usuario
+
+5.1 El sistema debe mostrar un mensaje de confirmación cuando la relación acción–municipio se registren exitosamente.                         
+5.2 En caso de error, el sistema debe informar la causa y permitir la corrección sin pérdida de información.
+
+### 6. Auditoría y trazabilidad
+
+6.1 El sistema debe registrar automáticamente:
+
+- Usuario que registra.
+- Fecha y hora de registro.
+- Estado inicial del registro.
+
+6.2 Esta información debe estar disponible para fines de auditoría y control.
+
+### 7. Usabilidad y experiencia de usuario
+
+7.1 El formulario debe ser claro y consistente con el diseño general del sistema.                      
+7.2 El sistema debe permitir cancelar la operación sin guardar cambios.                     
+7.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
+
+
 ### Resultado esperado
 
 El sistema registra correctamente la relación entre cada acción y su cobertura territorial, ya sea por municipios específicos o por cobertura total del departamento, garantizando trazabilidad, integridad referencial y coherencia territorial en todo el modelo de datos del PIGCCT.

@@ -1,34 +1,85 @@
-## HU-pigcct-sym-094
+# HU-PIGCCT-SYM-094
+## Épica: Alineación estratégica de las medidas del PIGCCT
+### Asociar medios de implementación a la medida
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-094 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Estandarización, metadatos adicionales y control de acceso
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
-
+---
+ 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** usuario del sistema.  \
-> **Quiero:**  que mi archivo geográfico sea estandarizado y correctamente asociado al registro, y recibir una vista previa en el mapa.   \
-> **Para:** confirmar que los datos se cargaron y se visualizan correctamente.
+> **Como:** administrador del sistema.                    
+> **Quiero:** asociar uno o varios medios de implementación a una medida del PIGCCT.                     
+> **Para:** indicar de forma explícita cómo se ejecutará la medida, garantizando coherencia entre la planificación estratégica y los mecanismos operativos de implementación.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Estandarización y Persistencia**  
-   1.1  El sistema debe estandarizar todos los archivos cargados (GeoJSON, KML, Shapefile) al formato GeoJSON interno para su almacenamiento y uso en el frontend.    
-   1.2. El archivo queda enlazado al elemento correspondiente (proyecto, predio, zona) mediante id_elemento_referido y tabla_referida.
+### 1. Acceso a la funcionalidad
 
-2. **Metadatos Geográficos Adicionales**  
-   2.1 Se registra en la tabla adjuntos con los campos mínimos, además de los siguientes metadatos específicos para archivos geográficos: tipo_archivo = 'geográfico', epsg_origen, n_features (número de elementos cargados) y extensión_origen.
+1.1 El sistema debe permitir el acceso a la opción “Medios de implementación” únicamente a usuarios con rol de administrador del sistema.                    
+1.2 La funcionalidad debe estar disponible desde el módulo de Gestión de medidas del PIGCCT.                       
+1.3 El usuario debe seleccionar previamente un PIGCCT en estado Activo y una medida registrada.
 
-3. **Control de Acceso (Autenticación)**  
-   3.1 Solo los usuarios con rol editor o superior pueden subir estos archivos geográficos (Ver AUTENTICACIÓN).
+### 2. Catálogo de medios de implementación
 
-4. **Experiencia de Usuario (UX)**  
-   4.1  Tras subir el archivo, el sistema debe mostrar una vista previa inmediata en el mapa, delimitando el bounding box o la geometría cargada.    
-   4.2. Si ya existe un archivo geográfico para ese elemento y tipo, se debe invocar una modal de confirmación para el reemplazo (Ver [HU-pigcct-sym-070](/content/historias_usuario/HU-pigcct-sym-070/HU-pigcct-sym-070.md)).
+2.1 El sistema debe mostrar un catálogo maestro de medios de implementación, cargado automáticamente desde las tablas maestras del sistema.                        
+2.2 La selección de medios de implementación debe ser múltiple.                          
+2.3 Cada medio de implementación debe mostrarse con su denominación oficial.
+
+### 3. Asociación de medios de implementación
+
+3.1 El sistema debe permitir:
+
+- Asociar uno o varios medios de implementación a la medida.
+- Visualizar los medios de implementación ya asociados.
+- Eliminar uno o varios medios de implementación previamente asociados.
+
+3.2 La relación entre medida y medio de implementación debe ser de tipo N:M.                       
+3.3 El sistema no debe permitir la duplicación de un mismo medio de implementación para la misma medida.
+
+### 4. Validaciones
+
+4.1 El sistema debe validar que:
+
+- La medida pertenezca a un PIGCCT **Activo**.
+- Los medios de implementación seleccionados se encuentren **Activos** en el catálogo maestro.
+
+4.2 En caso de incumplimiento de alguna validación, el sistema debe:
+
+- Bloquear el guardado de la información.
+- Mostrar un mensaje claro indicando la causa del error.
+
+### 5. Almacenamiento de la información
+
+5.1 Al confirmar la operación, el sistema debe almacenar las asociaciones en la tabla relacional correspondiente.                      
+5.2 Las asociaciones deben quedar disponibles para:
+
+- Análisis de ejecución de la medida.
+- Seguimiento y monitoreo del PIGCCT.
+- Reportes estratégicos y operativos.
+
+### 6. Mensajes y retroalimentación al usuario
+
+6.1 El sistema debe mostrar un mensaje de confirmación cuando los medios de implementación se asocien exitosamente.                     
+6.2 En caso de error, el sistema debe informar la causa y permitir la corrección sin pérdida de información.
+
+### 7. Auditoría y trazabilidad
+
+7.1 El sistema debe registrar automáticamente:
+
+- Usuario que realiza la asociación.
+- Fecha y hora de creación o modificación.
+- Medida asociada y medio de implementación vinculados.
+
+7.2 Esta información debe estar disponible para fines de auditoría, control y seguimiento institucional.
+
+### 8. Usabilidad y experiencia de usuario
+
+8.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.                     
+8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                            
+8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas al cierre del formulario.
+
+### Resultado esperado
+
+Una medida del PIGCCT correctamente asociada a uno o varios medios de implementación, reflejando de manera clara y estructurada los mecanismos mediante los cuales se ejecutará, y quedando disponible para su seguimiento y evaluación dentro del sistema.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -40,8 +91,5 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-094.png)
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-093-104.png)
 
-## ANEXOS
-
-- Protocolo de visualización de geometrías en el mapa (Ej: Leaflet o similar).

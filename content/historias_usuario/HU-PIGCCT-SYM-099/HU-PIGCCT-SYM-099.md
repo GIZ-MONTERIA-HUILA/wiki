@@ -1,40 +1,85 @@
-## HU-pigcct-sym-099
+# HU-PIGCCT-SYM-099
+## Épica: Alineación estratégica de las medidas del PIGCCT
+### Asociar Objetivos de Desarrollo Sostenible (ODS) a la medida
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-099 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Gestión de Fuentes de Financiación
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** usuario del sistema. \
-> **Quiero:**  agregar, editar o eliminar múltiples fuentes de financiación asociadas al proyecto.   \
-> **Para:** : registrar los aportes y recursos financieros de forma detallada.
+> **Como:** administrador del sistema.                       
+> **Quiero:** asociar uno o varios Objetivos de Desarrollo Sostenible (ODS) a una medida del PIGCCT.                                  
+> **Para:** alinear la medida con la Agenda 2030, garantizando coherencia con los compromisos internacionales de desarrollo sostenible y facilitando el análisis de contribución del PIGCCT a los ODS.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Control de habilitación**  
-   1.1 La pestaña solo se habilita una vez que el proyecto está guardado, es decir el id_proyecto existe.   
-   1.2. El sistema debe validar que el proyecto  tenga un id_proyecto váliddo, antes de permitir agregar fuentes.   
+### 1. Acceso a la funcionalidad
 
-2. **Funcionalidad de Adición y Edición**  
-   2.1 El usuario puede agregar varias fuentes de financiación. \
-   2.2 Cada fuente se selecciona desde la tabla maestra de fuentes de financiación y puede registrar un monto asignado (numérico, positivo) y una descripción opcional.  
+1.1 El sistema debe permitir el acceso a la opción “Objetivos de Desarrollo Disponible - ODS” únicamente a usuarios con rol de administrador del sistema.                        
+1.2 La funcionalidad debe estar disponible desde el módulo de Gestión de medidas del PIGCCT.                      
+1.3 El usuario debe seleccionar previamente un PIGCCT en estado Activo y una medida registrada.
 
-3. **Validaciones**  
-   3.1. Validar que cada fuente seleccionada exista en su respectiva tabla maestra.     
-   3.2. Validar que el monto sea numérico y mayor a 0.    
-   3.3. No permitir duplicar una misma fuente de financiación para un mismo proyecto.  
-   
-4. **Almacenamiento y Visualización**  
-   4.1 Los datos se almacenan en la tabla fuente_financiacion_proyecto, referenciados por id_proyecto.  
-   4.2 El sistema debe mostrar un resumen tabular de las fuentes agregadas con las opciones: Editar y Eliminar.
+### 2. Catálogo de Objetivos de Desarrollo Sostenible
 
-5. **Eliminación**  
-   5.1 Al eliminar una fuente, se debe mostrar un mensaje de confirmación: “¿Desea eliminar esta fuente de financiación del proyecto?” (Ver [HU-pigcct-sym-070](/content/historias_usuario/HU-pigcct-sym-070/HU-pigcct-sym-070.md)).
+2.1 El sistema debe mostrar el catálogo maestro de Objetivos de Desarrollo Sostenible (ODS), cargado automáticamente desde las tablas maestras del sistema.                     
+2.2 La selección de ODS debe ser múltiple.                  
+2.3 Cada ODS debe presentarse con su número y denominación oficial.
+
+### 3. Asociación de ODS
+
+3.1 El sistema debe permitir:
+
+- Asociar uno o varios ODS a la medida.
+- Visualizar los ODS ya asociados.
+- Eliminar asociaciones previamente registradas.
+
+3.2 La relación entre medida y ODS debe ser de tipo N:M.
+3.3 El sistema no debe permitir la duplicación de un mismo ODS para la misma medida.
+
+### 4. Validaciones
+
+4.1 El sistema debe validar que:
+
+- La medida pertenezca a un PIGCCT en estado **Activo**.
+- Los ODS seleccionados se encuentren **Activos** en el catálogo maestro.
+
+4.2 En caso de incumplimiento de alguna validación, el sistema debe:
+
+- Bloquear el guardado de la información.
+- Mostrar un mensaje claro indicando la causa del error.
+
+### 5. Almacenamiento de la información
+
+5.1 Al confirmar la operación, el sistema debe almacenar las asociaciones en la tabla relacional correspondiente.
+5.2 Las asociaciones deben quedar disponibles para:
+
+- Análisis de contribución del PIGCCT a la Agenda 2030.
+- Seguimiento y monitoreo de medidas.
+- Reportes institucionales, nacionales e internacionales.
+
+### 6. Mensajes y retroalimentación al usuario
+
+6.1 El sistema debe mostrar un mensaje de confirmación cuando los ODS se asocien exitosamente.
+6.2 En caso de error, el sistema debe informar la causa y permitir la corrección sin pérdida de información.
+
+### 7. Auditoría y trazabilidad
+
+7.1 El sistema debe registrar automáticamente:
+
+- Usuario que realiza la asociación.
+- Fecha y hora de creación o modificación.
+- Medida asociada y ODS vinculados.
+
+7.2 Esta información debe estar disponible para fines de auditoría, control y seguimiento institucional.
+
+### 8. Usabilidad y experiencia de usuario
+
+8.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
+8.2 El sistema debe permitir cancelar la operación sin guardar cambios.
+8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
+
+### Resultado esperado
+
+Una medida del PIGCCT correctamente alineada con uno o varios Objetivos de Desarrollo Sostenible (ODS), evidenciando su contribución a la Agenda 2030 y quedando disponible para su análisis, seguimiento y evaluación dentro del sistema.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -46,9 +91,4 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-099.png)
-
-## ANEXOS
-
-- Mapeo de errores de validación a mensajes específicos.
-- Estructura de la tabla fuente_financiacion_proyecto.
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-093-104.png)

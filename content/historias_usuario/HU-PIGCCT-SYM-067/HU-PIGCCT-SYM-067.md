@@ -35,6 +35,11 @@ DESCRIPCIÓN HISTORIA DE USUARIO
 4.1 La asociación eje–medida–indicador debe quedar registrada para la acción territorial.                    
 4.2 La información debe estar disponible para los módulos de seguimiento y análisis.
 
+### 5. Usabilidad y experiencia de usuario
+
+5.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
+5.2 El sistema debe permitir cancelar la operación sin guardar cambios.
+
 ### Resultado esperado
 
 El sistema permite asociar acciones territoriales a uno o varios indicadores del PIGCCT mediante una selección jerárquica coherente de eje, medida e indicador, garantizando consistencia en el seguimiento y análisis de la información.
