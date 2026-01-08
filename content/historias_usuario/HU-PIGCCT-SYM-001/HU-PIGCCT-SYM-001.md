@@ -10,6 +10,8 @@
 > **Quiero:** registrar un nuevo Plan Integral de Gestión del Cambio Climático Territorial (PIGCCT) en la tabla maestra del sistema.  
 > **Para:** almacenar, administrar y gestionar la información base del plan asociado a un departamento de Colombia, garantizando su unicidad y disponibilidad para la estructuración, seguimiento y monitoreo del PIGCCT.
 
+---
+
 ## CRITERIOS DE ACEPTACIÓN
 
 ### 1. Acceso a la funcionalidad de registro
@@ -65,22 +67,25 @@
 8.2 El sistema debe permitir cancelar el registro sin guardar cambios.  
 8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas al cierre del formulario.
 
+---
+
 ### Resultado esperado
 
 Un **PIGCCT registrado correctamente** en la tabla maestra del sistema, asociado a un departamento y año específicos, listo para ser estructurado, monitoreado y utilizado como base para la gestión integral del cambio climático territorial.
 
+---
 
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-001.png)
 
-
+---
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-001.png)
 
-
+---
 
 ## PROTOTIPO PRELIMINAR
 
