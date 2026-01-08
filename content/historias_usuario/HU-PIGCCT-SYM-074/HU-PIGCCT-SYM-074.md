@@ -34,6 +34,20 @@
 3.1 La información registrada debe corresponder al seguimiento seleccionado.                      
 3.2 Los datos deben estar disponibles para el módulo de seguimiento.
 
+### 4. Auditoría y trazabilidad
+
+4.1 El sistema debe registrar automáticamente:
+
+- Usuario que registra.
+- Fecha y hora de registro.
+
+4.2 El sistema debe conservar la información histórica para fines de auditoría y control.
+
+### 5. Usabilidad y experiencia de usuario
+
+5.1 La interfaz debe ser clara y consistente con el diseño general del sistema.                      
+5.2 El sistema debe permitir cancelar la operación sin guardar cambios.    
+
 ### Resultado esperado
 
 El sistema permite registrar de forma consistente el avance real de los seguimientos, garantizando la disponibilidad de información actualizada para el monitoreo del cumplimiento de los indicadores del PIGCCT.

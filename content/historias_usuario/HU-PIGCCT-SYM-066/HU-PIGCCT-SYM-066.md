@@ -27,6 +27,11 @@
 3.1 La información financiera registrada debe estar asociada a la acción territorial.                            
 3.2 La información financiera debe estar disponible para los módulos de seguimiento y análisis.
 
+### 4. Usabilidad y experiencia de usuario
+
+4.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
+4.2 El sistema debe permitir cancelar la operación sin guardar cambios.
+
 ### Resultado esperado
 
 El sistema permite registrar información financiera básica de las acciones territoriales, garantizando la trazabilidad y disponibilidad de los datos para el seguimiento del cumplimiento de los indicadores del PIGCCT.

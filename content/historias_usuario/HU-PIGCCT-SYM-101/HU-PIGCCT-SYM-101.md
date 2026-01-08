@@ -1,27 +1,78 @@
-## HU-pigcct-sym-101
+# HU-PIGCCT-SYM-101
+## Épica: Alineación estratégica de las medidas del PIGCCT
+### Evitar duplicidades de asociaciones entre medidas y catálogos
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-101 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Formulario Gestión de Áreas de Restauración
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** usuario del sistema. \
-> **Quiero:** acceder al formulario para cargar, validar y gestionar todas las áreas de restauración asociadas a un proyecto, incluyendo sus atributos temáticos (acciones, técnicas, monitoreo, etc.).   \
-> **Para:** registrar la información espacial y documental necesaria para el seguimiento completo de la restauración.
+> **Como:** administrador del sistema.                  
+> **Quiero:** que el sistema evite la creación de asociaciones duplicadas entre una medida del PIGCCT y los elementos de los catálogos estratégicos.                        
+> **Para:** mantener la consistencia, integridad y calidad de la información, asegurando una correcta trazabilidad estratégica de las medidas.
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Funcionales generales**  
-   1.1 Debe permitir el acceso al formulario. \
-   1.2 Debe permitir cargar y administrar las áreas de restauración asociadas a proyectos previamente registrados. \
-   1.3 Permitir la carga de archivo geográfico con geometría poligono o multipoligono. \
-   1.4 Validar de topología y atributos de los archivos geográficos cargados. \
-   1.5 Cuando la validación sea exitosa, cuando se completa la carga, entonces el sistema debe mostrar el polígono en el visor de mapa con un estilo diferenciado.
+### 1. Alcance de la validación de duplicidad
+
+1.1 El sistema debe validar la duplicidad en las asociaciones entre medidas y los siguientes catálogos maestros:
+
+- Medios de implementación.
+- Líneas estratégicas del PNCC.
+- Líneas instrumentales del PNCC.
+- Enfoques.
+- Dimensiones.
+- Objetivos de Desarrollo Sostenible (ODS).
+
+1.2 La validación debe aplicarse a todas las funcionalidades de asociación definidas en las HU:
+
+- [HU-PIGCCT-SYM-094](/content/historias_usuario/HU-PIGCCT-SYM-094/HU-PIGCCT-SYM-094.md)
+- [HU-PIGCCT-SYM-095](/content/historias_usuario/HU-PIGCCT-SYM-095/HU-PIGCCT-SYM-095.md)
+- [HU-PIGCCT-SYM-096](/content/historias_usuario/HU-PIGCCT-SYM-096/HU-PIGCCT-SYM-096.md)
+- [HU-PIGCCT-SYM-097](/content/historias_usuario/HU-PIGCCT-SYM-097/HU-PIGCCT-SYM-097.md)
+- [HU-PIGCCT-SYM-098](/content/historias_usuario/HU-PIGCCT-SYM-098/HU-PIGCCT-SYM-098.md)
+- [HU-PIGCCT-SYM-099](/content/historias_usuario/HU-PIGCCT-SYM-099/HU-PIGCCT-SYM-099.md)
+
+### 2. Comportamiento del sistema ante duplicidad
+
+2.1 Si el usuario intenta asociar un elemento del catálogo que ya se encuentra vinculado a la medida, el sistema debe:
+
+- Bloquear el registro de la asociación duplicada.
+- Mantener intactas las asociaciones existentes.
+
+2.2 El sistema debe mostrar un mensaje claro indicando que la asociación ya existe.
+
+### 3. Reglas de consistencia
+
+3.1 Una asociación se considera duplicada cuando existe una relación activa entre:
+
+- El mismo identificador de medida.
+- El mismo identificador del elemento del catálogo.
+
+3.2 El sistema debe validar la duplicidad antes de persistir la información en la base de datos.
+
+### 4. Integridad y desempeño
+
+4.1 La validación de duplicidad debe realizarse tanto a nivel de lógica de negocio como a nivel de base de datos (restricciones únicas o claves compuestas).                     
+4.2 El sistema no debe afectar el desempeño general durante la validación de asociaciones múltiples.
+
+### 5. Auditoría y trazabilidad
+
+5.1 El sistema debe registrar intentos fallidos de asociación por duplicidad, incluyendo:
+
+- Usuario que realizó el intento.
+- Fecha y hora.
+- Tipo de catálogo involucrado.
+
+5.2 Esta información debe estar disponible para auditoría y control, cuando aplique.
+
+### 6. Usabilidad y experiencia de usuario
+
+6.1 El mensaje de validación por duplicidad debe ser claro, comprensible y orientado a la corrección de la acción.                          
+6.2 El sistema debe permitir continuar con la operación sin pérdida de las demás asociaciones válidas seleccionadas.
+
+### Resultado esperado
+
+Un sistema robusto y consistente, que previene asociaciones duplicadas entre medidas y catálogos estratégicos, asegurando la calidad, integridad y trazabilidad de la información del PIGCCT.
 
 ## DIAGRAMA DE SECUENCIA
 
@@ -33,8 +84,4 @@
 
 ## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-101.png)
-
-## ANEXOS
-
--	Historias de usuario del HU-102 a HU-114
+![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-093-104.png)

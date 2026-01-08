@@ -14,7 +14,7 @@
 
 ### 1. Registro de la cobertura departamental
 
-1.1 El sistema debe permitir registrar que una acción cubre todo el departamento.                     
+1.1 El sistema debe permitir registrar que una acción cubra todo el departamento.                     
 1.2 Este registro debe diferenciarse explícitamente de la selección de municipios específicos.
 
 ### 2. Reglas de negocio para la implementación
@@ -38,6 +38,27 @@ Opción B – Registro especial en la relación acción–municipio
 
 4.1 La cobertura departamental debe reflejarse correctamente en los módulos de seguimiento, indicadores y reportes.                      
 4.2 El sistema debe permitir identificar de forma clara el tipo de cobertura territorial de la acción en consultas y auditorías.
+
+### 5. Mensajes y retroalimentación al usuario
+
+5.1 El sistema debe mostrar un mensaje de confirmación cuando la cobertura departamental se registre exitosamente.                         
+5.2 En caso de error, el sistema debe informar la causa y permitir la corrección sin pérdida de información.
+
+### 6. Auditoría y trazabilidad
+
+6.1 El sistema debe registrar automáticamente:
+
+- Usuario que registra.
+- Fecha y hora de registro.
+- Estado inicial del registro.
+
+6.2 Esta información debe estar disponible para fines de auditoría y control.
+
+### 8. Usabilidad y experiencia de usuario
+
+8.1 El formulario debe ser claro y consistente con el diseño general del sistema.                      
+8.2 El sistema debe permitir cancelar la operación sin guardar cambios.                     
+8.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
 
 ### Resultado esperado
 

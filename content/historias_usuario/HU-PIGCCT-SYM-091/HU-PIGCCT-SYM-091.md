@@ -17,20 +17,22 @@
 1.1 El sistema debe permitir identificar las acciones con cobertura sobre todo el departamento.                      
 1.2 Esta identificación debe basarse en el registro de cobertura departamental definido para la acción.
 
-### 2. Visualización clara
-
-2.1 Las acciones con cobertura departamental deben mostrarse con un indicador visual claro como: etiqueta, ícono o texto descriptivo.                   
-2.2 El sistema debe diferenciar visualmente estas acciones de aquellas con cobertura parcial por municipios.
-
 ### 3. Filtros y consultas
 
-3.1 El sistema debe permitir filtrar o consultar acciones según su tipo de cobertura territorial (departamental o municipal).                  
-3.2 Esta funcionalidad debe estar disponible en los módulos de consulta, análisis y reportes.
+2.1 El sistema debe permitir filtrar o consultar acciones según su tipo de cobertura territorial (departamental o municipal).                  
+2.2 Esta funcionalidad debe estar disponible en los módulos de consulta, análisis y reportes.
 
-### 4. Consistencia de la información
+### 3. Consistencia de la información
 
-4.1 La identificación de acciones con cobertura departamental debe ser consistente en todos los módulos del sistema.                          
-4.2 El sistema debe garantizar que la información mostrada refleje correctamente la configuración territorial vigente de la acción.
+3.1 La identificación de acciones con cobertura departamental debe ser consistente en todos los módulos del sistema.                          
+3.2 El sistema debe garantizar que la información mostrada refleje correctamente la configuración territorial vigente de la acción.
+
+### 4. Control de visibilidad por estado y rol
+4.1 Los usuarios sin permisos de administración solo deben poder visualizar la información, sin opciones de edición.
+
+### 5. Usabilidad y experiencia de usuario
+5.1 La vista de las acciones con cobertura territorial debe ser clara, ordenada y consistente con el diseño general del sistema.  
+5.2 Los filtros aplicados deben poder limpiarse fácilmente.
 
 ### Resultado esperado
 

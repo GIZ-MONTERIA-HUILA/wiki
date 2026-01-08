@@ -32,6 +32,13 @@
 4.1 La consulta de la cobertura territorial debe estar disponible para los perfiles de usuario con permisos de lectura de acciones.                             
 4.2 El sistema debe permitir utilizar esta información como referencia en reportes, seguimientos e indicadores.
 
+### 5. Control de visibilidad por estado y rol
+5.1 Los usuarios sin permisos de administración solo deben poder visualizar la información, sin opciones de edición.
+
+### 6. Usabilidad y experiencia de usuario
+6.1 La vista de la cobertura territorial de la acción debe ser clara, ordenada y consistente con el diseño general del sistema.  
+6.2 Los filtros aplicados deben poder limpiarse fácilmente.
+
 ### Resultado esperado
 
 El sistema permite consultar de forma clara y precisa la cobertura territorial de cada acción, mostrando los municipios asociados o indicando cobertura total del departamento, garantizando comprensión del alcance territorial y coherencia de la información en todos los módulos del PIGCCT.

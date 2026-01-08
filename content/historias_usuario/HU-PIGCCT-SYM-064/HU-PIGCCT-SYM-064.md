@@ -33,6 +33,12 @@
 3.1 El tipo de impacto debe quedar asociado a la acción territorial.                   
 3.2 La clasificación del impacto debe estar disponible para los módulos de seguimiento y análisis.
 
+### 4. Usabilidad y experiencia de usuario
+
+4.1 La interfaz debe ser clara, intuitiva y consistente con el diseño general del sistema.
+4.2 El sistema debe permitir cancelar la operación sin guardar cambios.
+4.3 El sistema debe prevenir la pérdida de información mediante validaciones previas.
+
 ### Resultado esperado
 
 El sistema permite clasificar el impacto de las acciones territoriales mediante valores definidos, garantizando una caracterización consistente de su alcance territorial o institucional para el seguimiento de los indicadores del PIGCCT.

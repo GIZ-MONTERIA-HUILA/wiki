@@ -27,6 +27,10 @@
 3.1 La información consultada debe corresponder al indicador seleccionado.                           
 3.2 El avance del indicador debe ser consistente con los datos almacenados en el sistema.
 
+### 4. Usabilidad y experiencia de usuario
+4.1 La vista del avance por indicador debe ser clara, ordenada y consistente con el diseño general del sistema.  
+4.2 Los filtros aplicados deben poder limpiarse fácilmente.
+
 ### Resultado esperado
 
 El sistema permite consultar de forma consolidada el avance de los indicadores del PIGCCT, facilitando el análisis del aporte de las acciones territoriales para su seguimiento y evaluación.

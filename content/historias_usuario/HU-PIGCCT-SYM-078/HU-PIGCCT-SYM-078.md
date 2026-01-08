@@ -27,6 +27,10 @@
 3.1 La información consultada debe corresponder a la acción seleccionada.                     
 3.2 El avance consolidado debe ser consistente con los datos almacenados en el sistema.
 
+### 4. Usabilidad y experiencia de usuario
+4.1 La vista del avance por acción debe ser clara, ordenada y consistente con el diseño general del sistema.  
+4.2 Los filtros aplicados deben poder limpiarse fácilmente.
+
 ### Resultado esperado
 
 El sistema permite a los usuarios consultar el avance consolidado de las acciones territoriales, facilitando la evaluación de su desempeño a lo largo del tiempo para el seguimiento de los indicadores del PIGCCT.

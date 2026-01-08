@@ -22,7 +22,7 @@
 2.1 La fecha registrada debe quedar asociada al seguimiento correspondiente.                       
 2.2 La fecha debe utilizarse para garantizar la trazabilidad de la información.
 
-Resultado esperado
+### Resultado esperado
 
 El sistema registra automáticamente la fecha de los seguimientos, asegurando la trazabilidad y confiabilidad de la información utilizada para el monitoreo de los indicadores del PIGCCT.
 
