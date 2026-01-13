@@ -88,12 +88,8 @@ El usuario puede **seleccionar ejes del PIGCCT desde otros módulos del sistema*
 
 ## DIAGRAMA DE SECUENCIA
 
-![IMAGEN DIAGRAMA DE SECUENCIA ](assets/secuencia-atributiva-HU-pigcct-sym-023.png)
+![IMAGEN DIAGRAMA DE SECUENCIA ](assets/secuencia-hu-pigcct-sym-023.png)
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
-![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-atributiva-HU-pigcct-sym-023.png)
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-012-023.png)
+![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-023.png)

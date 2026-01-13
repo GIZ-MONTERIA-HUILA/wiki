@@ -85,7 +85,3 @@ El administrador puede **editar correctamente el nombre y/o la descripción de u
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-006.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-001-011.png)
-

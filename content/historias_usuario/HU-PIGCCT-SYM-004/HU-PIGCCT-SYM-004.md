@@ -73,6 +73,3 @@ El usuario puede **filtrar eficientemente los PIGCCT por departamento**, accedie
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-004.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-001-011.png)
