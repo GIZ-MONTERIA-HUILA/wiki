@@ -87,7 +87,4 @@ El sistema **garantiza que no existan ejes duplicados dentro de un mismo PIGCCT*
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-014.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-012-023.png)
 

@@ -84,7 +84,3 @@ El usuario administrador puede **definir y gestionar el alcance de cada medida d
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-025.png)
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-024-041.png)
