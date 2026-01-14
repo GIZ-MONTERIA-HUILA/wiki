@@ -101,7 +101,3 @@ El sistema permite **estimar y analizar los costos asociados a cada medida del P
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-031.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-024-041.png)
-

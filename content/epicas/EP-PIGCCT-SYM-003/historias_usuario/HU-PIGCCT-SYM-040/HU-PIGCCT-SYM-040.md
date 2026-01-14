@@ -81,6 +81,3 @@ El sistema garantiza que **toda medida del PIGCCT esté correctamente asociada a
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-040.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-024-041.png)

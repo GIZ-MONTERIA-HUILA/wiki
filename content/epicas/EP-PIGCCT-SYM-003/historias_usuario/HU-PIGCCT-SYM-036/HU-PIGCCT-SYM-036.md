@@ -80,8 +80,4 @@ El sistema permite **filtrar y analizar las medidas del PIGCCT por su tipo de al
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-036.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-024-041.png)
-
 

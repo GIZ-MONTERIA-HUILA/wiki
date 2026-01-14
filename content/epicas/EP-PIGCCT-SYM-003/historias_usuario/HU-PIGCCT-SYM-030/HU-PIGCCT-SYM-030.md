@@ -109,7 +109,3 @@ El sistema permite **medir y analizar el alcance social de cada medida del PIGCC
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-030.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-024-41.png)
-
