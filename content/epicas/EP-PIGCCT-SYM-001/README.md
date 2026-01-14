@@ -66,17 +66,17 @@ El módulo de administración del PIGCCT se organiza en:
 8. Integración con otros módulos  
 
 ## 8. Historias de usuario asociadas
-- [**HU-PIGGCT-SYM-001**: Registrar PIGCCT](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-001/HU-PIGCCT-SYM-001.md)  
-- [**HU-PIGGCT-SYM-002**: Validar unicidad del PIGCCT por departamento y año](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-002/HU-PIGCCT-SYM-002.md)  
-- **HU-PIGGCT-SYM-003**: Consultar listado de PIGCCT  
-- **HU-PIGGCT-SYM-004**: Filtrar PIGCCT por departamento  
-- **HU-PIGGCT-SYM-005**: Filtrar PIGCCT activos  
-- **HU-PIGGCT-SYM-006**: Editar información del PIGCCT  
-- **HU-PIGGCT-SYM-007**: Actualizar estado del PIGCCT  
-- **HU-PIGGCT-SYM-008**: Inactivar PIGCCT  
-- **HU-PIGGCT-SYM-009**: Conservar historial de planes  
-- **HU-PIGGCT-SYM-010**: Relación con catálogo de departamentos  
-- **HU-PIGGCT-SYM-011**: Uso del PIGCCT en otros módulos  
+- [**HU-PIGGCT-SYM-001**: Registrar PIGCCT.](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-001/HU-PIGCCT-SYM-001.md)  
+- [**HU-PIGGCT-SYM-002**: Validar unicidad del PIGCCT por departamento y año.](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-002/HU-PIGCCT-SYM-002.md)  
+- [**HU-PIGGCT-SYM-003**: Consultar listado de PIGCCT.](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-003/HU-PIGCCT-SYM-003.md)    
+- [**HU-PIGGCT-SYM-004**: Filtrar PIGCCT por departamento.](/content/epicas/EP-PIGCCT-SYM-00/historias_usuario/HU-PIGCCT-SYM-004/HU-PIGCCT-SYM-004.md)      
+- [**HU-PIGGCT-SYM-005**: Filtrar PIGCCT activos.](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-005/HU-PIGCCT-SYM-005.md)      
+- [**HU-PIGGCT-SYM-006**: Editar información del PIGCCT.](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-006/HU-PIGCCT-SYM-006.md)      
+- [**HU-PIGGCT-SYM-007**: Actualizar estado del PIGCCT.](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-007/HU-PIGCCT-SYM-007.md)      
+- [**HU-PIGGCT-SYM-008**: Inactivar PIGCCT.](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-008/HU-PIGCCT-SYM-008.md)      
+- [**HU-PIGGCT-SYM-009**: Conservar historial de planes.](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-009/HU-PIGCCT-SYM-009.md)      
+- [**HU-PIGGCT-SYM-010**: Relación con catálogo de departamentos.](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-010/HU-PIGCCT-SYM-010.md)      
+- [**HU-PIGGCT-SYM-011**: Uso del PIGCCT en otros módulos.](/content/epicas/EP-PIGCCT-SYM-001/historias_usuario/HU-PIGCCT-SYM-011/HU-PIGCCT-SYM-011.md)      
 
 ## 9. Reglas funcionales del módulo
 
