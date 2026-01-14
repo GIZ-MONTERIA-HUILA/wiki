@@ -92,6 +92,3 @@ El administrador puede **inactivar un PIGCCT de manera segura y controlada**, ev
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-008.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-001-011.png)

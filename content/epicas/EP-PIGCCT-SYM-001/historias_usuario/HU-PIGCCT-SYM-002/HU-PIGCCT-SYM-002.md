@@ -73,8 +73,6 @@ El sistema garantiza que **exista un único PIGCCT por departamento y año**, ev
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-002.png)
 
-## PROTOTIPO PRELIMINAR
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-rest-001-011.png)
 
 
