@@ -56,17 +56,8 @@
 
 5.3 El sistema debe aplicar los cambios del evento al registro principal si no se habían aplicado aún, o marcar el registro como "validado por entidad".
 
-### 6. Proceso de rechazo
-6.1 Al rechazar un evento, el sistema debe:
-- **validado_por_entidad**: Establecer en **false**.
-- **fch_validacion_entidad**: Fecha y hora del rechazo.
-- **estado_registro**: Cambiar a **"rechazado por entidad"**.
-- **observacion**: **Obligatorio** - el validador debe proporcionar una razón del rechazo.
-
-6.2 El sistema debe notificar al usuario que creó el registro sobre el rechazo y la razón.
-
-### 7. Registro de observaciones
-7.1 El sistema debe permitir al validador registrar observaciones tanto al aprobar como al rechazar.  
+### 6. Registro de observaciones
+6.1 El sistema debe permitir al validador registrar observaciones tanto al aprobar como al rechazar.  
 7.2 Las observaciones deben almacenarse en el campo **observacion** de la tabla evento.  
 7.3 Las observaciones deben ser visibles para:
 - El usuario que creó el registro
@@ -77,40 +68,33 @@
 8.1 El sistema debe validar que el usuario validador tenga permisos para validar eventos de la entidad específica del registro.  
 8.2 Un validador de una entidad **no debe poder validar** eventos de otra entidad.
 
-### 9. Notificaciones
-9.1 Al aprobar o rechazar un evento, el sistema debe generar notificaciones:
+### 8. Notificaciones
+8.1 Al aprobar o rechazar un evento, el sistema debe generar notificaciones:
 - **Al usuario creador**: informando sobre la decisión de validación.
 - **Al validador CAR** (solo si fue aprobado): notificando que hay un nuevo evento pendiente de validación CAR.
 
-### 10. Trazabilidad
-10.1 El sistema debe registrar en logs:
+### 9. Trazabilidad
+9.1 El sistema debe registrar en logs:
 - Usuario validador
 - Acción realizada (aprobar/rechazar)
 - Fecha y hora
 - Identificador del evento
 - Observaciones registradas
 
-### 11. Restricciones
-11.1 El sistema **no debe permitir** validar eventos que ya hayan sido validados previamente por la entidad.  
-11.2 El sistema **no debe permitir** validar eventos que no hayan sido enviados formalmente a validación.  
-11.3 Solo eventos en estado **"en validación por entidad"** deben ser validables.
+### 10. Restricciones
+10.1 El sistema **no debe permitir** validar eventos que ya hayan sido validados previamente por la entidad.  
+10.2 El sistema **no debe permitir** validar eventos que no hayan sido enviados formalmente a validación.  
+10.3 Solo eventos en estado **"en validación por entidad"** deben ser validables.
 
-### 12. Validación masiva
-12.1 Opcionalmente, el sistema puede permitir seleccionar múltiples eventos y aprobarlos en una sola operación (útil para registros similares o repetitivos).  
-12.2 El rechazo masivo debe requerir una observación general aplicable a todos los eventos seleccionados.
-
-### 13. Reversión de validación
-13.1 Opcionalmente, el sistema puede permitir al validador de entidad revertir una validación realizada **antes** de que el validador CAR la revise.  
-13.2 Esta acción debe:
-- Requerir permisos especiales
-- Registrarse en logs de auditoría
-- Incluir una justificación obligatoria
+### 11. Validación masiva
+11.1 Opcionalmente, el sistema puede permitir seleccionar múltiples eventos y aprobarlos en una sola operación (útil para registros similares o repetitivos).  
+11.2 El rechazo masivo debe requerir una observación general aplicable a todos los eventos seleccionados.
 
 ---
 
 ### Resultado esperado
 
-Un **evento validado o rechazado correctamente** por el validador de entidad, con los campos validado_por_entidad, fch_validacion_entidad, estado_registro y observacion actualizados apropiadamente, generando notificaciones correspondientes y avanzando o deteniendo el flujo de validación según la decisión tomada.
+Un **evento validado correctamente** por el validador de entidad, con los campos validado_por_entidad, fch_validacion_entidad, estado_registro y observacion actualizados apropiadamente, generando notificaciones correspondientes y avanzando el flujo de validación.
 
 ---
 
