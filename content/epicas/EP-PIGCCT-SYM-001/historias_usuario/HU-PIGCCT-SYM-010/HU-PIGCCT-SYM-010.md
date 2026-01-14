@@ -95,8 +95,4 @@ Cada PIGCCT queda **correctamente relacionado a un departamento válido de Colom
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-010.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-001-011.png)
-
 

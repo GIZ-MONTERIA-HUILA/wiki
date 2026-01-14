@@ -84,8 +84,3 @@ Un **PIGCCT registrado correctamente** en la tabla maestra del sistema, asociado
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-001.png)
 
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-001-011.png)
-
