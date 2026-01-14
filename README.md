@@ -57,7 +57,7 @@ Diseñar, desarrollar y poner en funcionamiento una **herramienta de monitoreo, 
 - [Arquitectura de software](content/arquitectura_software/)
 - [Estructura de datos](content/estructura_datos/)
 - [Experiencia UX/UI](content/ux_ui/)
-- [Historias de usuario](content/historias_usuario/)
+- [Historias de usuario](content/epicas/)
 - [Casos de prueba](content/casos_prueba/)
 - [Documentación técnica](content/documentacion_tecnica/)
 
