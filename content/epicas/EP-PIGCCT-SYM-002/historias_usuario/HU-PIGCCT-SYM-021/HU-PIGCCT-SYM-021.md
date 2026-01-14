@@ -88,6 +88,3 @@ El usuario puede **consultar los ejes inactivos de un PIGCCT**, accediendo a inf
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-021.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-012-023.png)

@@ -90,8 +90,5 @@ El usuario administrador puede **inactivar un eje del PIGCCT sin eliminarlo**, g
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-020.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-012-023.png)
 
 

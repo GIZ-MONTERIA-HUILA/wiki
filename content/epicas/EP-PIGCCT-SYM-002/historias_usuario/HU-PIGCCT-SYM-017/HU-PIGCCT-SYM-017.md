@@ -76,10 +76,6 @@ El usuario puede **visualizar y trabajar únicamente con los ejes activos de un 
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-017.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-012-023.png)
-
 
 
 
