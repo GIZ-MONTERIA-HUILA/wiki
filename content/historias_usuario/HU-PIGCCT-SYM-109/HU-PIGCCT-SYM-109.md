@@ -1,44 +1,81 @@
-## HU-pigcct-sym-109
+# HU-PIGCCT-SYM-109  
+## Épica: Gestión de adjuntos y evidencias del PIGCCT  
+### Editar descripción del adjunto
 
-> **Identificador Historia de Usuario:** hu-pigcct-sym-109 \
-> **Nombre Historia de Usuario:** Módulo de restauración - Creación de Indicador de Monitoreo (Campos Generales).
-
-> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
-> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
-> **Líder funcional:** Wilmer Espitia Muñoz\
-> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
+---
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** usuario del sistema. \
-> **Quiero:** agregar indicadores de monitoreo asociados a un proyecto guardado.   \
-> **Para:** documentar la estrategia de seguimiento y medición de progreso.
+> **Como:** usuario del sistema.  
+> **Quiero:** editar la descripción de un archivo adjunto previamente cargado.  
+> **Para:** aclarar, actualizar o mejorar la información sobre su contenido o propósito, facilitando la comprensión y búsqueda de evidencias documentales dentro del contexto del PIGCCT.
+
+---
 
 ## CRITERIOS DE ACEPTACIÓN
 
-1. **Creación de Indicador (Generales)**  
-   1.1 Dado que el usuario accede al formulario de gestión de proyectos, cuando el proyecto ya existe y posee un **`id_proyecto`** válido, entonces el sistema debe habilitar la pestaña **“Indicadores de monitoreo”**. \
-   1.2 Dado que el usuario visualiza la pestaña “Indicadores de monitoreo”, cuando crea o edita un registro, entonces el sistema debe mostrar los siguientes **campos obligatorios**: `nombre_indicador`, `tipo_indicador`, `frecuencia_medicion`, `metodo_calculo`, y `responsable`. \
-   1.3 Dado que el usuario ingresa el campo **nombre_indicador**, cuando intenta guardar la información, entonces el sistema debe validar que el valor sea **obligatorio**, tenga entre **5 y 200 caracteres**, y no contenga únicamente espacios. \
-   1.4 Dado que el usuario selecciona el campo **tipo_indicador**, cuando completa el formulario, entonces el sistema debe exigir una opción obligatoria de tipo **enum**, con los valores posibles: `CUANTITATIVO` o `CUALITATIVO`. \
-   1.5 Dado que el usuario selecciona el campo **frecuencia_medicion**, cuando llena el formulario, entonces el sistema debe exigir una opción obligatoria de tipo **enum**, con los valores posibles: `MENSUAL`, `TRIMESTRAL`, `SEMESTRAL`, o `ANUAL`. \
-   1.6 Dado que el usuario completa el campo **metodo_calculo**, cuando guarda la información, entonces el sistema debe validar que el campo tipo **textarea** sea **obligatorio** y contenga información antes de aceptar el registro. \
-   1.7 Dado que el usuario completa el campo **responsable**, cuando guarda el formulario, entonces el sistema debe validar que el valor corresponda a un **usuario válido en el directorio del sistema**, o un texto libre con un mínimo de **3 caracteres**, y debe ser **obligatorio** en todos los casos. \
-   1.8 Dado que el usuario crea o actualiza un indicador, cuando intenta guardar uno con el mismo **nombre_indicador** existente en el mismo proyecto, entonces el sistema debe **impedir duplicados exactos**, mostrando una advertencia que solicite **confirmación explícita** antes de permitir el guardado. \
+### 1. Acceso a la funcionalidad de edición
+1.1 El sistema debe permitir editar la descripción de un adjunto desde la lista de archivos asociados a un registro.  
+1.2 La opción **"Editar descripción"** debe estar disponible mediante un ícono o botón en cada adjunto listado.  
+1.3 Los usuarios con permisos de edición sobre el registro deben poder editar las descripciones de sus adjuntos.
+
+### 2. Identificación del adjunto a editar
+2.1 El sistema debe identificar claramente el adjunto cuya descripción será editada.  
+2.2 Debe mostrar información básica del archivo: nombre original, tipo, fecha de carga, para confirmar la selección correcta.  
+2.3 El identificador único del adjunto debe manejarse internamente por el sistema.
+
+### 3. Formulario de edición de descripción
+3.1 Al seleccionar la opción de editar, el sistema debe mostrar un formulario con:
+- Campo de texto para la descripción actual (editable).
+- Botón **"Guardar"** para confirmar cambios.
+- Botón **"Cancelar"** para descartar cambios.
+
+3.2 El campo de descripción debe permitir texto largo (ej: hasta 500 o 1000 caracteres).  
+3.3 El formulario puede mostrarse como modal, panel lateral o en línea según el diseño del sistema.
+
+### 4. Validación de la descripción
+4.1 El sistema debe validar que la descripción no exceda el límite de caracteres permitido.  
+4.2 Debe mostrar un contador de caracteres para orientar al usuario.  
+4.3 La descripción puede ser opcional (campo puede quedar vacío).  
+4.4 El sistema debe sanitizar el texto para prevenir inyección de código.
+
+### 5. Actualización en la base de datos
+5.1 Al confirmar la edición, el sistema debe actualizar el campo `descripcion` en la tabla `adjuntos`.  
+5.2 La actualización debe realizarse solo para el registro específico identificado.  
+5.3 El resto de la información del adjunto (archivo, nombre, tamaño, etc.) no debe modificarse.
+
+### 6. Actualización de fecha de modificación
+6.1 El sistema debe actualizar automáticamente el campo `updatedat` con la fecha y hora actual.  
+6.2 Esta actualización debe ocurrir al guardar la nueva descripción.  
+6.3 El campo `createdat` debe permanecer sin cambios (fecha de carga original).
+
+### 7. Registro de auditoría
+7.1 El sistema debe registrar la modificación para trazabilidad:
+- Usuario que realizó la edición.
+- Fecha y hora de la modificación.
+- Descripción anterior (opcional, para historial de cambios).
+- Descripción nueva.
+
+7.2 Esta información debe estar disponible en logs o tabla de auditoría.
+
+---
+
+### Resultado esperado
+
+La **descripción del adjunto actualizada correctamente** en la tabla `adjuntos`, con el campo `updatedat` reflejando la fecha de modificación, y registro de auditoría completo del cambio, permitiendo una mejor documentación y comprensión del propósito de cada archivo en el contexto del PIGCCT.
+
+---
 
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-109.png)
 
+
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-109.png)
 
+
 ## PROTOTIPO PRELIMINAR
 
 ![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-109.png)
-
-## ANEXOS
-
--	[HU-pigcct-sym-101](/content/historias_usuario/HU-pigcct-sym-101/HU-pigcct-sym-101.md)
--  Mapeo de errores de validación a mensajes específicos.
