@@ -83,7 +83,3 @@ El sistema permite **visualizar y analizar las medidas asociadas a cada eje del 
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-035.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-024-041.png)
-

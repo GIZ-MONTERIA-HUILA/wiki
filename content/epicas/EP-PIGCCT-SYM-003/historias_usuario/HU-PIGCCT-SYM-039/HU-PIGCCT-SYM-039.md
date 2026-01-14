@@ -85,9 +85,5 @@ El sistema permite **gestionar la vigencia de las medidas del PIGCCT mediante su
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-039.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-024-041.png)
-
 
 
