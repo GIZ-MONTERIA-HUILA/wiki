@@ -48,7 +48,3 @@ El sistema valida de forma estricta que los municipios y la cobertura departamen
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-088.png)
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)

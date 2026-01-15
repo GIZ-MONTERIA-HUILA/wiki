@@ -70,7 +70,3 @@ El sistema registra correctamente la relación entre cada acción y su cobertura
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-086.png)
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)
