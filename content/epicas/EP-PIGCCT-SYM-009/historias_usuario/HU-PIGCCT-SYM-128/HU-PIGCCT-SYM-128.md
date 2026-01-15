@@ -41,10 +41,6 @@
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-128.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-128.png)
-
 ## ANEXOSs
 
 - Lista de tablas operativas afectadas por esta regla (incluyendo las mencionadas en el requerimiento).

@@ -45,10 +45,6 @@
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-121.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-121.png)
-
 ## ANEXOS
 
 - Protocolo de comparación de datos para el registro de *valor anterior / valor nuevo* en el log.

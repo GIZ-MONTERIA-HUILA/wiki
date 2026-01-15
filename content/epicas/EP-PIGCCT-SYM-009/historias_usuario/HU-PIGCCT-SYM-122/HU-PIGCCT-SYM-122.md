@@ -44,10 +44,6 @@
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-122.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-122.png)
-
 ## ANEXOS
 
 - *Query* de verificación de integridad referencial antes de la desactivación lógica.
