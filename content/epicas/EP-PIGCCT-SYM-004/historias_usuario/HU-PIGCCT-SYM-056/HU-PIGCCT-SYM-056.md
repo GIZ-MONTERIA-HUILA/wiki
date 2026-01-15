@@ -76,6 +76,3 @@ El sistema permite activar o inactivar indicadores del PIGCCT de forma controlad
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-056.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-056.png)
