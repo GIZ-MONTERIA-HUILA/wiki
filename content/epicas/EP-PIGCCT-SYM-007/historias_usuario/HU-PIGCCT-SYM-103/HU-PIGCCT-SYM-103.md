@@ -94,6 +94,3 @@ Un listado dinámico de medidas del PIGCCT filtradas por criterios estratégicos
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-103.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-093-104.png)

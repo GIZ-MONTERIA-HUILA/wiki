@@ -90,6 +90,3 @@ Un modelo de datos relacional consistente, con asociaciones N:M correctamente re
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-100.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-100.png)
