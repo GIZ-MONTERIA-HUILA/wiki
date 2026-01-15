@@ -92,8 +92,3 @@ El sistema permite registrar indicadores claramente asociados a una medida del P
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-042.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-042-061.png)
-
-

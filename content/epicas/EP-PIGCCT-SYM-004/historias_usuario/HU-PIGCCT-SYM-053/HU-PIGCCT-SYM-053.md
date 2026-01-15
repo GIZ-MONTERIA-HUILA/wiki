@@ -68,7 +68,3 @@ El sistema permite registrar y gestionar de forma controlada el detalle de la l√
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-053.png)
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-042-061.png)

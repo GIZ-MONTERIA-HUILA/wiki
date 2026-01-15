@@ -62,7 +62,3 @@ El sistema permite documentar observaciones adicionales de los indicadores del P
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-055.png)
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-042-061.png)

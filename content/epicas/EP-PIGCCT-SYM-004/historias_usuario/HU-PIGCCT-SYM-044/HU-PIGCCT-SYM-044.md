@@ -72,7 +72,4 @@ El sistema permite registrar, validar y documentar la fórmula de cálculo de lo
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-044.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-042-061.png)
 

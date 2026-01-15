@@ -81,6 +81,3 @@ El sistema permite consultar de forma clara y estructurada los indicadores asoci
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-057.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-042-061.png)
