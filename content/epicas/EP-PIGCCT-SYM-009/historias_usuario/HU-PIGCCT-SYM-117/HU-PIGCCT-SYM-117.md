@@ -1,92 +1,44 @@
-# HU-PIGCCT-SYM-117  
-## Épica: Gestión de eventos y validación de información del PIGCCT  
-### Generar evento al crear un registro
+## HU-pigcct-sym-117
 
----
+> **Identificador Historia de Usuario:** hu-pigcct-sym-117 \
+> **Nombre Historia de Usuario:** Módulo de restauración - Edición de Atributos Sociales y de Participación.
+
+> **Área Proyecto:** Subdirección de Ecosistemas e Información Ambiental \
+> **Nombre proyecto:** Realizar la construcción temática, mejoras informáticas y optimización del Módulo de restauración del SNIF del IDEAM. \
+> **Líder funcional:** Wilmer Espitia Muñoz\
+> **Analista de requerimiento de TI:** Sergio Alonso Anaya Estévez
 
 ## DESCRIPCIÓN HISTORIA DE USUARIO
 
-> **Como:** usuario no administrador del sistema.  
-> **Quiero:** que el sistema genere automáticamente un evento cuando creo un registro.  
-> **Para:** iniciar el proceso de validación institucional de la información registrada en las tablas acción, indicador_accion, indicador_accion_valor y adjuntos.
-
----
+> **Como:** usuario del sistema. \
+> **Quiero:** documentar los indicadores de participación comunitaria, etnia y escolaridad asociados al proyecto.   \
+> **Para:** cumplir con los requisitos de la dimensión social y de inclusión.
 
 ## CRITERIOS DE ACEPTACIÓN
-
-### 1. Generación automática de evento en creación
-1.1 El sistema debe generar automáticamente un evento cuando un usuario **no administrador** crea un registro en alguna de las siguientes tablas:
-- acción
-- indicador_accion
-- indicador_accion_valor
-- adjuntos
-
-1.2 La generación del evento debe ser transparente para el usuario, sin requerir acciones adicionales más allá de crear el registro.
-
-### 2. Registro del evento en la tabla evento
-2.1 El sistema debe crear un nuevo registro en la tabla **evento** con los siguientes campos diligenciados:
-- **id_usuario_fk**: ID del usuario que crea el registro.
-- **fch_creacion**: Fecha y hora de creación del registro.
-- **esquema_principal**: Esquema de la base de datos donde se encuentra la tabla.
-- **tabla_principal**: Nombre de la tabla donde se creó el registro.
-- **id_objeto_principal**: ID del registro creado.
-- **tipo_afectacion_enm**: Debe establecerse con el valor **"create"**.
-- **creado_por**: ID del usuario que crea el evento (mismo que id_usuario_fk).
-- **valor_nuevo**: Contenido JSON o representación del registro creado.
-
-2.2 Los campos deben almacenarse de forma correcta y completa para garantizar la trazabilidad del evento.
-
-### 3. Validación de tipo de usuario
-3.1 El sistema debe validar que el usuario que crea el registro **no tenga rol de administrador**.  
-3.2 Si el usuario es administrador, el sistema **no debe generar el evento de validación**, ya que los administradores tienen permisos directos.
-
-### 4. Captura del valor nuevo
-4.1 El sistema debe capturar el contenido completo del registro creado en el campo **valor_nuevo**.  
-4.2 El formato del valor nuevo debe permitir su posterior consulta y comparación durante el proceso de validación.  
-4.3 Se recomienda almacenar en formato **JSON** para facilitar la interpretación.
-
-### 5. Estado inicial del evento
-5.1 El evento creado debe tener un estado inicial que permita identificarlo como **pendiente de envío a validación**.  
-5.2 El campo **estado_registro** debe indicar claramente este estado inicial.
-
-### 6. Auditoría y trazabilidad
-6.1 El sistema debe registrar automáticamente:
-- Usuario creador del evento.
-- Fecha y hora de creación del evento.
-- Tabla y objeto afectado.
-
-6.2 Esta información debe quedar disponible para consultas de auditoría y seguimiento del proceso de validación.
-
-### 7. Rendimiento del sistema
-7.1 La generación del evento debe ejecutarse de forma eficiente, sin afectar perceptiblemente el tiempo de respuesta de la operación de creación del registro.  
-7.2 El proceso debe ser asincrónico o suficientemente optimizado para no bloquear al usuario.
-
-### 8. Integridad transaccional
-8.1 Si la creación del evento falla, el sistema debe:
-- Registrar el error en logs del sistema.
-- Notificar al administrador del sistema.
-- Opcionalmente, revertir la creación del registro o marcar como pendiente de validación manual.
-
-8.2 El sistema debe garantizar la coherencia entre el registro creado y el evento generado.
-
----
-
-### Resultado esperado
-
-Un **evento registrado automáticamente** en la tabla evento cuando un usuario no administrador crea un registro, con todos los campos necesarios diligenciados correctamente, iniciando el proceso de validación institucional y garantizando la trazabilidad de la información.
-
----
+1. **Edición de atributos Sociales y Participación**  
+1.1 Dado que el usuario completa el campo **Participantes totales (CA12)**, cuando intenta guardar la información, entonces el sistema debe validar que sea un **campo numérico entero obligatorio**, con un valor **mayor que 0 ( > 0 )**. \
+1.2 Dado que el usuario completa el campo **Mujeres participantes (CA13)**, cuando guarda la información, entonces el sistema debe validar que sea un **campo numérico entero obligatorio**, cuyo valor sea **menor o igual ( ≤ ) al número de participantes totales**. \
+1.3 Dado que el usuario selecciona el campo **Edad promedio (CA14)**, cuando completa el formulario, entonces el sistema debe exigir que sea un **campo obligatorio** de tipo **enum**, con los valores posibles: `18-25`, `26-40`, `41-60`, y `>60`. \
+1.4 Dado que el usuario selecciona el campo **Nivel de escolaridad (CA15)**, cuando completa el formulario, entonces el sistema debe exigir que sea un **campo obligatorio** de tipo **enum**, con los valores posibles: `Básica`, `Media`, `Técnica`, y `Superior`. \
+1.5 Dado que el usuario selecciona el campo **Pertenece a etnia (CA16)**, cuando llena el formulario, entonces el sistema debe exigir que sea un **campo obligatorio** de tipo **enum**, con los valores posibles: `Sí` o `No`. \
+1.6 Dado que el usuario selecciona el valor **Sí** en el campo *Pertenece a etnia (CA16)*, cuando el sistema detecta esta condición, entonces debe **habilitar el campo “Etnia específica (CA17)”**, que se muestra como una lista desplegable para seleccionar el tipo de etnia, siendo **obligatorio si aplica**. \
+1.7 Dado que el usuario completa el campo **Procesos de divulgación (CA18)**, cuando guarda el formulario, entonces el sistema debe exigir que sea un **campo obligatorio** de tipo lista con valores posibles: `Sí` o `No`. \
+1.8 Dado que el usuario completa el campo **Capacitación viveros (CA19)**, cuando selecciona la opción **Sí**, entonces el sistema debe **habilitar el campo “descripcion_capacitacion”**, tipo **textarea**, para registrar detalles sobre la capacitación. Ambos campos son **obligatorios si aplica**. \
+1.9 Dado que el usuario completa el campo **Participación en formulación (CA20)**, cuando selecciona la opción **Sí**, entonces el sistema debe **habilitar el campo “forma_participacion_formulacion”**, tipo **textarea**, para describir la forma de participación. \
+1.10 Dado que el usuario completa el campo **Participación en establecimiento (CA21)**, cuando selecciona la opción **Sí**, entonces el sistema debe **habilitar el campo “forma_participacion_establecimiento”**, tipo **textarea**, para registrar la información correspondiente. \
+1.11 Dado que el usuario completa el campo **Participación en mantenimiento (CA22)**, cuando selecciona la opción **Sí**, entonces el sistema debe **habilitar el campo “forma_participacion_mantenimiento”**, tipo **textarea**, para describir la participación durante la etapa de mantenimiento. \
+1.12 Dado que el usuario selecciona el campo **Pagos por servicios (CA23)**, cuando llena el formulario, entonces el sistema debe exigir que sea un **campo obligatorio** de tipo lista desplegable, cargada desde la tabla **`pagos_servicios_restauracion`**. \
 
 ## DIAGRAMA DE SECUENCIA
 
 ![IMAGEN DIAGRAMA DE SECUENCIA](assets/secuencia-hu-pigcct-sym-117.png)
-
 
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-117.png)
 
 
-## PROTOTIPO PRELIMINAR
+## ANEXOS
 
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-117.png)
+-	[HU-pigcct-sym-115](/content/historias_usuario/HU-pigcct-sym-115/HU-pigcct-sym-115.md)
+-  Mapeo de errores de validación a mensajes específicos.
