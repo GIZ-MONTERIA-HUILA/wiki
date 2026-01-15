@@ -33,9 +33,9 @@ No incluye:
 - **Sistema**: Controla estados, eventos y habilitación de edición.
 
 ## 6. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-144**: Visualizar botones globales del formulario.  
-- **HU-PIGCCT-SYM-145**: Guardar acción como borrador.  
-- **HU-PIGCCT-SYM-146**: Mantener edición habilitada en estado borrador.
+- [**HU-PIGCCT-SYM-144**: Visualizar botones globales del formulario.](/content/epicas/EP-PIGCCT-SYM-012/historias_usuario/HU-PIGCCT-SYM-144/HU-PIGCCT-SYM-144.md)  
+- [**HU-PIGCCT-SYM-145**: Guardar acción como borrador.](/content/epicas/EP-PIGCCT-SYM-012/historias_usuario/HU-PIGCCT-SYM-145/HU-PIGCCT-SYM-145.md)  
+- [**HU-PIGCCT-SYM-146**: Mantener edición habilitada en estado borrador.](/content/epicas/EP-PIGCCT-SYM-012/historias_usuario/HU-PIGCCT-SYM-146/HU-PIGCCT-SYM-146.md)
 
 ## 7. Botones del formulario
 

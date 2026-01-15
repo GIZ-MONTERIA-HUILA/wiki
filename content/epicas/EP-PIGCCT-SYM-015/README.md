@@ -33,9 +33,9 @@ No incluye:
 - **Sistema**: Controla estados, bloqueos de edición y generación de eventos.
 
 ## 6. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-154**: Bloquear edición tras envío a validación.  
-- **HU-PIGCCT-SYM-155**: Permitir edición solo si el evento es rechazado.  
-- **HU-PIGCCT-SYM-156**: Generar nuevo evento al corregir una acción.
+- [**HU-PIGCCT-SYM-154**: Bloquear edición tras envío a validación.](/content/epicas/EP-PIGCCT-SYM-015/historias_usuario/HU-PIGCCT-SYM-154/HU-PIGCCT-SYM-154.md)  
+- [**HU-PIGCCT-SYM-155**: Permitir edición solo si el evento es rechazado.](/content/epicas/EP-PIGCCT-SYM-015/historias_usuario/HU-PIGCCT-SYM-155/HU-PIGCCT-SYM-155.md)  
+- [**HU-PIGCCT-SYM-156**: Generar nuevo evento al corregir una acción.](/content/epicas/EP-PIGCCT-SYM-015/historias_usuario/HU-PIGCCT-SYM-156/HU-PIGCCT-SYM-156.md)
 
 ## 7. Reglas de bloqueo y edición
 

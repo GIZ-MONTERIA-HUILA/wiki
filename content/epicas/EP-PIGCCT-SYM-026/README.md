@@ -55,9 +55,11 @@ El acceso para el usuario de consulta pública se organiza en:
 5. Sección de reportes públicos descargables  
 
 ## 8. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-229**: Acceso público al visor  
-- **HU-PIGCCT-SYM-230**: Información pública limitada  
-- **HU-PIGCCT-SYM-231**: Estadísticas públicas territoriales  
+- [**HU-PIGCCT-SYM-229**: Acceso público al visor.](/content/epicas/EP-PIGCCT-SYM-026/historias_usuario/HU-PIGCCT-SYM-229/HU-PIGCCT-SYM-229.md)  
+- [**HU-PIGCCT-SYM-230**: Información pública limitada.](/content/epicas/EP-PIGCCT-SYM-026/historias_usuario/HU-PIGCCT-SYM-230/HU-PIGCCT-SYM-230.md)  
+- [**HU-PIGCCT-SYM-231**: Estadísticas públicas territoriales.](/content/epicas/EP-PIGCCT-SYM-026/historias_usuario/HU-PIGCCT-SYM-231/HU-PIGCCT-SYM-231.md)  
+- [**HU-PIGCCT-SYM-232**: Reportes públicos.](/content/epicas/EP-PIGCCT-SYM-026/historias_usuario/HU-PIGCCT-SYM-232/HU-PIGCCT-SYM-232.md)  
+- [**HU-PIGCCT-SYM-233**: Restricción de funcionalidades.](/content/epicas/EP-PIGCCT-SYM-026/historias_usuario/HU-PIGCCT-SYM-233/HU-PIGCCT-SYM-233.md)  
 - **HU-PIGCCT-SYM-232**: Reportes públicos  
 - **HU-PIGCCT-SYM-233**: Restricción de funcionalidades  
 

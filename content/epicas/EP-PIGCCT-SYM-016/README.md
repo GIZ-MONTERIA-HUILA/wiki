@@ -35,8 +35,8 @@ No incluye:
 - **Sistema**: Presenta el estado y las observaciones de forma consistente y controlada.
 
 ## 6. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-157**: Visualizar estado de validación de la acción.  
-- **HU-PIGCCT-SYM-158**: Visualizar observaciones de validación.
+- [**HU-PIGCCT-SYM-157**: Visualizar estado de validación de la acción.](/content/epicas/EP-PIGCCT-SYM-016/historias_usuario/HU-PIGCCT-SYM-157/HU-PIGCCT-SYM-157.md)  
+- [**HU-PIGCCT-SYM-158**: Visualizar observaciones de validación.](/content/epicas/EP-PIGCCT-SYM-016/historias_usuario/HU-PIGCCT-SYM-158/HU-PIGCCT-SYM-158.md)
 
 ## 7. Visualización del estado y observaciones
 

@@ -33,9 +33,9 @@ No incluye:
 - **Sistema**: Controla la navegación, visibilidad y habilitación de pestañas.
 
 ## 6. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-141**: Visualizar formulario guiado por pestañas.  
-- **HU-PIGCCT-SYM-142**: Visualizar pestañas iniciales al crear una acción.  
-- **HU-PIGCCT-SYM-143**: Habilitar pestañas de relaciones después de guardar la acción.
+- [**HU-PIGCCT-SYM-141**: Visualizar formulario guiado por pestañas.](/content/epicas/EP-PIGCCT-SYM-011/historias_usuario/HU-PIGCCT-SYM-141/HU-PIGCCT-SYM-141.md)  
+- [**HU-PIGCCT-SYM-142**: Visualizar pestañas iniciales al crear una acción.](/content/epicas/EP-PIGCCT-SYM-011/historias_usuario/HU-PIGCCT-SYM-142/HU-PIGCCT-SYM-142.md)  
+- [**HU-PIGCCT-SYM-143**: Habilitar pestañas de relaciones después de guardar la acción.](/content/epicas/EP-PIGCCT-SYM-011/historias_usuario/HU-PIGCCT-SYM-143/HU-PIGCCT-SYM-143.md)
 
 ## 7. Estructura de pestañas del formulario
 

@@ -60,11 +60,11 @@ El módulo de reportes y tableros de control se organiza en:
 6. Reportes comparativos territoriales  
 
 ## 8. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-224**: Tablero de control general  
-- **HU-PIGCCT-SYM-225**: Reportes desde tableros  
-- **HU-PIGCCT-SYM-226**: Reportes desde el visor geográfico  
-- **HU-PIGCCT-SYM-227**: Reportes comparativos territoriales  
-- **HU-PIGCCT-SYM-228**: Control de acceso a reportes  
+- [**HU-PIGCCT-SYM-224**: Tablero de control general.](/content/epicas/EP-PIGCCT-SYM-025/historias_usuario/HU-PIGCCT-SYM-224/HU-PIGCCT-SYM-224.md)  
+- [**HU-PIGCCT-SYM-225**: Reportes desde tableros.](/content/epicas/EP-PIGCCT-SYM-025/historias_usuario/HU-PIGCCT-SYM-225/HU-PIGCCT-SYM-225.md)  
+- [**HU-PIGCCT-SYM-226**: Reportes desde el visor geográfico.](/content/epicas/EP-PIGCCT-SYM-025/historias_usuario/HU-PIGCCT-SYM-226/HU-PIGCCT-SYM-226.md)  
+- [**HU-PIGCCT-SYM-227**: Reportes comparativos territoriales.](/content/epicas/EP-PIGCCT-SYM-025/historias_usuario/HU-PIGCCT-SYM-227/HU-PIGCCT-SYM-227.md)  
+- [**HU-PIGCCT-SYM-228**: Control de acceso a reportes.](/content/epicas/EP-PIGCCT-SYM-025/historias_usuario/HU-PIGCCT-SYM-228/HU-PIGCCT-SYM-228.md)  
 
 ## 9. Reglas funcionales del módulo
 

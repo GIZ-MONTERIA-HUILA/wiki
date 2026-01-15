@@ -34,10 +34,10 @@ No incluye:
 - **Sistema**: Controla la existencia de la acción, la integridad de las relaciones y la generación de eventos.
 
 ## 6. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-147**: Asociar indicadores solo después de guardar la acción.  
-- **HU-PIGGCT-SYM-148**: Guardar indicadores asociados en estado borrador.  
-- **HU-PIGCCT-SYM-149**: Adjuntar archivos en estado borrador.  
-- **HU-PIGCCT-SYM-150**: Registrar eventos en tablas relacionales.
+- [**HU-PIGCCT-SYM-147**: Asociar indicadores solo después de guardar la acción.](/content/epicas/EP-PIGCCT-SYM-013/historias_usuario/HU-PIGCCT-SYM-147/HU-PIGCCT-SYM-147.md)  
+- [**HU-PIGCCT-SYM-148**: Guardar indicadores asociados en estado borrador.](/content/epicas/EP-PIGCCT-SYM-013/historias_usuario/HU-PIGCCT-SYM-148/HU-PIGCCT-SYM-148.md)  
+- [**HU-PIGCCT-SYM-149**: Adjuntar archivos en estado borrador.](/content/epicas/EP-PIGCCT-SYM-013/historias_usuario/HU-PIGCCT-SYM-149/HU-PIGCCT-SYM-149.md)  
+- [**HU-PIGCCT-SYM-150**: Registrar eventos en tablas relacionales.](/content/epicas/EP-PIGCCT-SYM-013/historias_usuario/HU-PIGCCT-SYM-150/HU-PIGCCT-SYM-150.md)
 
 ## 7. Reglas de asociación y adjuntos
 

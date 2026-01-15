@@ -33,8 +33,8 @@ No incluye:
 - **Sistema**: Verifica consistencia, controla estados y revierte validaciones cuando aplica.
 
 ## 6. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-161**: Validar consistencia antes del envío.  
-- **HU-PIGCCT-SYM-162**: Revertir estado de validación ante cambios.
+- [**HU-PIGCCT-SYM-161**: Validar consistencia antes del envío.](/content/epicas/EP-PIGCCT-SYM-018/historias_usuario/HU-PIGCCT-SYM-161/HU-PIGCCT-SYM-161.md)  
+- [**HU-PIGCCT-SYM-162**: Revertir estado de validación ante cambios.](/content/epicas/EP-PIGCCT-SYM-018/historias_usuario/HU-PIGCCT-SYM-162/HU-PIGCCT-SYM-162.md)
 
 ## 7. Reglas de consistencia antes del envío a validación
 Antes de permitir el envío de una acción a validación, el sistema debe verificar que:

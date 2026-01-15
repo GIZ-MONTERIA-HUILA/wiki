@@ -35,9 +35,9 @@ No incluye:
 - **Sistema**: Verifica condiciones, actualiza estados y registra eventos.
 
 ## 6. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-151**: Enviar acción completa a validación.  
-- **HU-PIGCCT-SYM-152**: Enviar a validación todos los eventos asociados.  
-- **HU-PIGCCT-SYM-153**: Marcar eventos como enviados.
+- [**HU-PIGCCT-SYM-151**: Enviar acción completa a validación.](/content/epicas/EP-PIGCCT-SYM-014/historias_usuario/HU-PIGCCT-SYM-151/HU-PIGCCT-SYM-151.md)  
+- [**HU-PIGCCT-SYM-152**: Enviar a validación todos los eventos asociados.](/content/epicas/EP-PIGCCT-SYM-014/historias_usuario/HU-PIGCCT-SYM-152/HU-PIGCCT-SYM-152.md)  
+- [**HU-PIGCCT-SYM-153**: Marcar eventos como enviados.](/content/epicas/EP-PIGCCT-SYM-014/historias_usuario/HU-PIGCCT-SYM-153/HU-PIGCCT-SYM-153.md)
 
 ## 7. Reglas del envío a validación
 

@@ -34,8 +34,8 @@ No incluye:
 - **Usuario consulta**: Accede únicamente a acciones completamente validadas.
 
 ## 6. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-159**: Calcular estado de la acción desde eventos.  
-- **HU-PIGCCT-SYM-160**: Controlar visibilidad según validación.
+- [**HU-PIGCCT-SYM-159**: Calcular estado de la acción desde eventos.](/content/epicas/EP-PIGCCT-SYM-017/historias_usuario/HU-PIGCCT-SYM-159/HU-PIGCCT-SYM-159.md)  
+- [**HU-PIGCCT-SYM-160**: Controlar visibilidad según validación.](/content/epicas/EP-PIGCCT-SYM-017/historias_usuario/HU-PIGCCT-SYM-160/HU-PIGCCT-SYM-160.md)
 
 ## 7. Estados derivados de la acción
 El sistema debe determinar el estado de la acción con base en los eventos asociados, considerando los siguientes estados derivados:

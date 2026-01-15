@@ -57,10 +57,10 @@ El menú de apropiación y capacitación se organiza en:
 5. Accesos contextuales desde visor y tableros  
 
 ## 8. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-220**: Acceso a menú de apropiación  
-- **HU-PIGCCT-SYM-221**: Visualización de videos de uso  
-- **HU-PIGCCT-SYM-222**: Contenido según rol  
-- **HU-PIGCCT-SYM-223**: Acceso desde el visor y tableros  
+- [**HU-PIGCCT-SYM-220**: Acceso a menú de apropiación.](/content/epicas/EP-PIGCCT-SYM-024/historias_usuario/HU-PIGCCT-SYM-220/HU-PIGCCT-SYM-220.md)  
+- [**HU-PIGCCT-SYM-221**: Visualizar videos de uso.](/content/epicas/EP-PIGCCT-SYM-024/historias_usuario/HU-PIGCCT-SYM-221/HU-PIGCCT-SYM-221.md)  
+- [**HU-PIGCCT-SYM-222**: Contenido según rol.](/content/epicas/EP-PIGCCT-SYM-024/historias_usuario/HU-PIGCCT-SYM-222/HU-PIGCCT-SYM-222.md)  
+- [**HU-PIGCCT-SYM-223**: Acceso desde el visor y tableros.](/content/epicas/EP-PIGCCT-SYM-024/historias_usuario/HU-PIGCCT-SYM-223/HU-PIGCCT-SYM-223.md)  
 
 ## 9. Reglas funcionales del módulo
 
