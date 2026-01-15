@@ -51,8 +51,4 @@ El sistema permite definir de manera clara y validada el alcance territorial de 
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-082.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)
-
 

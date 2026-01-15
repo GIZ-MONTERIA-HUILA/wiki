@@ -50,6 +50,3 @@ El sistema permite seleccionar únicamente el departamento asociado al PIGCCT y 
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-083.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)

@@ -57,7 +57,4 @@ El sistema permite consultar de forma clara y precisa la cobertura territorial d
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-090.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-082-092.png)
 
