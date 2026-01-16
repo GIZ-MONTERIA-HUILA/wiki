@@ -66,21 +66,21 @@ El visor geográfico se organiza en:
 8. Integración con tableros y gráficos  
 
 ## 8. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-234**: Carga inicial del visor  
-- **HU-PIGCCT-SYM-235**: Selección de PIGCCT activo  
-- **HU-PIGCCT-SYM-236**: Visualizar capas base  
-- **HU-PIGCCT-SYM-237**: Visualizar capa de municipios  
-- **HU-PIGCCT-SYM-238**: Visualizar capa de acciones  
-- **HU-PIGCCT-SYM-239**: Control de visibilidad de capas  
-- **HU-PIGCCT-SYM-240**: Simbología por estado de validación  
-- **HU-PIGCCT-SYM-241**: Simbología por eje o medida  
-- **HU-PIGCCT-SYM-242**: Mapas coropléticos  
-- **HU-PIGCCT-SYM-243**: Seleccionar entidad geográfica  
-- **HU-PIGCCT-SYM-244**: Popup informativo  
-- **HU-PIGCCT-SYM-245**: Panel de detalle territorial  
-- **HU-PIGCCT-SYM-246**: Sincronización mapa–tablero  
-- **HU-PIGCCT-SYM-247**: Filtros territoriales combinados  
-- **HU-PIGCCT-SYM-248**: Filtros por rango temporal  
+- [**HU-PIGCCT-SYM-234**: Carga inicial del visor.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-234/HU-PIGCCT-SYM-234.md)  
+- [**HU-PIGCCT-SYM-235**: Selección de PIGCCT activo.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-235/HU-PIGCCT-SYM-235.md)    
+- [**HU-PIGCCT-SYM-236**: Visualizar capas base.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-236/HU-PIGCCT-SYM-236.md)    
+- [**HU-PIGCCT-SYM-237**: Visualizar capa de municipios.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-237/HU-PIGCCT-SYM-237.md)   
+- [**HU-PIGCCT-SYM-238**: Visualizar capa de acciones.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-238/HU-PIGCCT-SYM-238.md)    
+- [**HU-PIGCCT-SYM-239**: Control de visibilidad de capas.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-239/HU-PIGCCT-SYM-239.md)    
+- [**HU-PIGCCT-SYM-240**: Simbología por estado de validación.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-240/HU-PIGCCT-SYM-240.md)    
+- [**HU-PIGCCT-SYM-241**: Simbología por eje o medida.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-241/HU-PIGCCT-SYM-241.md)    
+- [**HU-PIGCCT-SYM-242**: Mapas coropléticos.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-242/HU-PIGCCT-SYM-242.md)   
+- [**HU-PIGCCT-SYM-243**: Seleccionar entidad geográfica.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-243/HU-PIGCCT-SYM-243.md)    
+- [**HU-PIGCCT-SYM-244**: Popup informativo.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-244/HU-PIGCCT-SYM-244.md)  
+- [**HU-PIGCCT-SYM-245**: Panel de detalle territorial.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-245/HU-PIGCCT-SYM-245.md)    
+- [**HU-PIGCCT-SYM-246**: Sincronización mapa–tablero.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-246/HU-PIGCCT-SYM-246.md)    
+- [**HU-PIGCCT-SYM-247**: Filtros territoriales combinados.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-247/HU-PIGCCT-SYM-247.md)    
+- [**HU-PIGCCT-SYM-248**: Filtros por rango temporal.](/content/epicas/EP-PIGCCT-SYM-027/historias_usuario/HU-PIGCCT-SYM-248/HU-PIGCCT-SYM-248.md)    
 
 ## 9. Reglas funcionales del visor
 
