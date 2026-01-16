@@ -53,11 +53,11 @@ No incluye:
 - [**HU-PIGCCT-SYM-133**: Crear usuario del sistema.](/content/epicas/EP-PIGCCT-SYM-010/historias_usuario/HU-PIGCCT-SYM-133/HU-PIGCCT-SYM-133.md)     
 - [**HU-PIGCCT-SYM-134**: Asignar entidad al usuario.](/content/epicas/EP-PIGCCT-SYM-010/historias_usuario/HU-PIGCCT-SYM-134/HU-PIGCCT-SYM-134.md)     
 - [**HU-PIGCCT-SYM-135**: Asignar roles al usuario.](/content/epicas/EP-PIGCCT-SYM-010/historias_usuario/HU-PIGCCT-SYM-135/HU-PIGCCT-SYM-135.md)     
-- **HU-PIGCCT-SYM-136**: Definir roles del sistema.  
-- **HU-PIGCCT-SYM-137**: Restringir acceso por rol.  
-- **HU-PIGCCT-SYM-138**: Controlar visibilidad de información.  
-- **HU-PIGCCT-SYM-139**: Registrar auditoría de acceso.  
-- **HU-PIGCCT-SYM-140**: Consideraciones técnicas de Strapi.
+- [**HU-PIGCCT-SYM-136**: Definir roles del sistema.](/content/epicas/EP-PIGCCT-SYM-010/historias_usuario/HU-PIGCCT-SYM-136/HU-PIGCCT-SYM-136.md)       
+- [**HU-PIGCCT-SYM-137**: Restringir acceso por rol.](/content/epicas/EP-PIGCCT-SYM-010/historias_usuario/HU-PIGCCT-SYM-137/HU-PIGCCT-SYM-137.md)       
+- [**HU-PIGCCT-SYM-138**: Controlar visibilidad de información.](/content/epicas/EP-PIGCCT-SYM-010/historias_usuario/HU-PIGCCT-SYM-138/HU-PIGCCT-SYM-138.md)       
+- [**HU-PIGCCT-SYM-139**: Registrar auditoría de acceso.](/content/epicas/EP-PIGCCT-SYM-010/historias_usuario/HU-PIGCCT-SYM-139/HU-PIGCCT-SYM-139.md)       
+- [**HU-PIGCCT-SYM-140**: Consideraciones técnicas de Strapi.](/content/epicas/EP-PIGCCT-SYM-010/historias_usuario/HU-PIGCCT-SYM-140/HU-PIGCCT-SYM-140.md)     
 
 ## 7. Criterios de éxito
 - Los usuarios solo acceden a funcionalidades permitidas por su rol.
