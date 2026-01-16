@@ -168,8 +168,3 @@ https://pigcct.example.com/visor-publico?lat=2.9273&lon=-75.2819&zoom=12
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-229.png)
-
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-229.png)
