@@ -63,12 +63,12 @@ El formulario se organiza en las siguientes pestañas:
 7. Estados y validación  
 
 ## 8. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-163**: Diligenciar información general  
-- **HU-PIGCCT-SYM-164**: Definir cobertura territorial  
-- **HU-PIGCCT-SYM-165**: Asociar la acción con indicadores  
-- **HU-PIGCCT-SYM-166**: Definir programación de la acción  
-- **HU-PIGCCT-SYM-167**: Registrar valores proyectados  
-- **HU-PIGCCT-SYM-168**: Adjuntar evidencias  
+- [**HU-PIGCCT-SYM-163**: Diligenciar información general.](/content/epicas/EP-PIGCCT-SYM-019/historias_usuario/HU-PIGCCT-SYM-163/HU-PIGCCT-SYM-163.md)     
+- [**HU-PIGCCT-SYM-164**: Definir cobertura territorial.](/content/epicas/EP-PIGCCT-SYM-019/historias_usuario/HU-PIGCCT-SYM-164/HU-PIGCCT-SYM-164.md)   
+- [**HU-PIGCCT-SYM-165**: Asociar la acción con indicadores.](/content/epicas/EP-PIGCCT-SYM-019/historias_usuario/HU-PIGCCT-SYM-165/HU-PIGCCT-SYM-165.md)   
+- [**HU-PIGCCT-SYM-166**: Definir programación de la acción.](/content/epicas/EP-PIGCCT-SYM-019/historias_usuario/HU-PIGCCT-SYM-166/HU-PIGCCT-SYM-166.md)  
+- [**HU-PIGCCT-SYM-167**: Registrar valores proyectados.](/content/epicas/EP-PIGCCT-SYM-019/historias_usuario/HU-PIGCCT-SYM-167/HU-PIGCCT-SYM-167.md)  
+- [**HU-PIGCCT-SYM-168**: Adjuntar evidencias.](/content/epicas/EP-PIGCCT-SYM-019/historias_usuario/HU-PIGCCT-SYM-168/HU-PIGCCT-SYM-168.md)    
 
 ## 9. Reglas funcionales por sección
 
