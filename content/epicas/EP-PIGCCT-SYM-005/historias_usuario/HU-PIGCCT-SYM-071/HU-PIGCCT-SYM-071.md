@@ -48,7 +48,4 @@ El sistema crea automáticamente los registros de seguimiento en indicador_accio
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-071.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-062-081.png)
 

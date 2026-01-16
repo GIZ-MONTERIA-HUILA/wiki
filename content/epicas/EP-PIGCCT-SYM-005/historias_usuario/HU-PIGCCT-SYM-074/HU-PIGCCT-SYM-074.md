@@ -66,8 +66,4 @@ El sistema permite registrar de forma consistente el avance real de los seguimie
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-074.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-062-081.png)
-
 

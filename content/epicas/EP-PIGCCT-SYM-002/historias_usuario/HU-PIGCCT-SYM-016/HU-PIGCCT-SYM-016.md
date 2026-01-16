@@ -78,7 +78,3 @@ El usuario puede **filtrar y analizar los ejes de un PIGCCT según su alcance es
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-016.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-012-023.png)
-

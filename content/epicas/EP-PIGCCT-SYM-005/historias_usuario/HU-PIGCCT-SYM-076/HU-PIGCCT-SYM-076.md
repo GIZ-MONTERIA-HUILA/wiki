@@ -40,8 +40,4 @@ El sistema valida la coherencia entre los valores proyectados y ejecutados de lo
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-076.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-062-081.png)
-
 

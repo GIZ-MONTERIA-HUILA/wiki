@@ -95,6 +95,3 @@ Una medida del PIGCCT correctamente asociada a una o varias líneas instrumental
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-096.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-093-104.png)

@@ -95,9 +95,6 @@ Una medida del PIGCCT correctamente alineada con una o varias líneas estratégi
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-095.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-095.png)
 
 ## ANEXOS
 

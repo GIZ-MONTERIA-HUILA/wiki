@@ -45,7 +45,3 @@ El sistema garantiza la integridad referencial entre acciones, indicadores y seg
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-081.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-062-081.png)
-

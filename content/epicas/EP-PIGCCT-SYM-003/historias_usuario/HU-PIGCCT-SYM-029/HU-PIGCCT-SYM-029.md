@@ -104,8 +104,5 @@ El sistema permite **ubicar y gestionar espacialmente la implementación de cada
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-029.png)
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-029-041.png)
 
 
