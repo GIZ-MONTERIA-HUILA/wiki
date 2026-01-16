@@ -1,6 +1,6 @@
 # HU-PIGCCT-SYM-136  
 ## Épica: Autenticación, gestión de usuarios, y control de acceso del sistema PIGCCT  
-### Roles del sistema
+### Definir roles del sistema
 
 ---
 
@@ -236,8 +236,3 @@ Un **sistema de roles claramente definido** con responsabilidades, permisos y re
 ## DIAGRAMA DE FLUJO DEL PROCESO
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-136.png)
-
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-136.png)
