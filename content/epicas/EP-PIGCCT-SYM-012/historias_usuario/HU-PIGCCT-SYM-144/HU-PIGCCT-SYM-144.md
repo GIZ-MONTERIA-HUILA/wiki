@@ -129,7 +129,3 @@ Un **conjunto de botones globales visibles y accesibles** en todas las pestañas
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-144.png)
 
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-144.png)

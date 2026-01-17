@@ -182,6 +182,3 @@ Una **acción enviada exitosamente a validación** que pasa de estado borrador a
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-151.png)
 
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-151.png)
