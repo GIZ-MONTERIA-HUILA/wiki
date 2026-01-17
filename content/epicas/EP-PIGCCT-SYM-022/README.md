@@ -58,15 +58,15 @@ El visor geográfico se compone de:
 5. Accesos contextuales al detalle de la acción  
 
 ## 8. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-206**: Acceso al visor geográfico  
-- **HU-PIGCCT-SYM-207**: Visualizar acciones en el mapa  
-- **HU-PIGCCT-SYM-208**: Representación diferenciada de cobertura  
-- **HU-PIGCCT-SYM-209**: Filtrar acciones por departamento  
-- **HU-PIGCCT-SYM-210**: Filtrar acciones por municipio  
-- **HU-PIGCCT-SYM-211**: Filtrar acciones por eje, medida o indicador  
-- **HU-PIGCCT-SYM-212**: Filtrar acciones por estado de validación  
-- **HU-PIGCCT-SYM-213**: Visualizar información resumida en el mapa  
-- **HU-PIGCCT-SYM-214**: Acceder al detalle de la acción desde el visor  
+- [**HU-PIGCCT-SYM-206:**](/content/epicas/EP-PIGCCT-SYM-022/historias_usuario/HU-PIGCCT-SYM-206/HU-PIGCCT-SYM-206.md) Acceso al visor geográfico  
+- [**HU-PIGCCT-SYM-207:**](/content/epicas/EP-PIGCCT-SYM-022/historias_usuario/HU-PIGCCT-SYM-207/HU-PIGCCT-SYM-207.md) Visualizar acciones en el mapa  
+- [**HU-PIGCCT-SYM-208:**](/content/epicas/EP-PIGCCT-SYM-022/historias_usuario/HU-PIGCCT-SYM-208/HU-PIGCCT-SYM-208.md) Representación diferenciada de cobertura  
+- [**HU-PIGCCT-SYM-209:**](/content/epicas/EP-PIGCCT-SYM-022/historias_usuario/HU-PIGCCT-SYM-209/HU-PIGCCT-SYM-209.md) Filtrar acciones por departamento  
+- [**HU-PIGCCT-SYM-210:**](/content/epicas/EP-PIGCCT-SYM-022/historias_usuario/HU-PIGCCT-SYM-210/HU-PIGCCT-SYM-210.md) Filtrar acciones por municipio  
+- [**HU-PIGCCT-SYM-211:**](/content/epicas/EP-PIGCCT-SYM-022/historias_usuario/HU-PIGCCT-SYM-211/HU-PIGCCT-SYM-211.md) Filtrar acciones por eje, medida o indicador  
+- [**HU-PIGCCT-SYM-212:**](/content/epicas/EP-PIGCCT-SYM-022/historias_usuario/HU-PIGCCT-SYM-212/HU-PIGCCT-SYM-212.md) Filtrar acciones por estado de validación  
+- [**HU-PIGCCT-SYM-213:**](/content/epicas/EP-PIGCCT-SYM-022/historias_usuario/HU-PIGCCT-SYM-213/HU-PIGCCT-SYM-213.md) Visualizar información resumida en el mapa  
+- [**HU-PIGCCT-SYM-214:**](/content/epicas/EP-PIGCCT-SYM-022/historias_usuario/HU-PIGCCT-SYM-214/HU-PIGCCT-SYM-214.md) Acceder al detalle de la acción desde el visor  
 
 ## 9. Reglas funcionales del visor
 

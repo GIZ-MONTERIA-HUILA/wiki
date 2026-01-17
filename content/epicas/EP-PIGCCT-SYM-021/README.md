@@ -57,10 +57,10 @@ La navegación del sistema se compone de los siguientes elementos:
 Estos componentes trabajan de forma integrada para guiar al usuario y optimizar la experiencia.
 
 ## 8. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-202**: Sidebar principal persistente  
-- **HU-PIGCCT-SYM-203**: Sidebar colapsable  
-- **HU-PIGCCT-SYM-204**: Panel contextual dinámico  
-- **HU-PIGCCT-SYM-205**: Breadcrumb inteligente  
+- [**HU-PIGCCT-SYM-202**:](/content/epicas/EP-PIGCCT-SYM-021/historias_usuario/HU-PIGCCT-SYM-202/HU-PIGCCT-SYM-202.md) Sidebar principal persistente  
+- [**HU-PIGCCT-SYM-203**:](/content/epicas/EP-PIGCCT-SYM-021/historias_usuario/HU-PIGCCT-SYM-203/HU-PIGCCT-SYM-203.md) Sidebar colapsable  
+- [**HU-PIGCCT-SYM-204**:](/content/epicas/EP-PIGCCT-SYM-021/historias_usuario/HU-PIGCCT-SYM-204/HU-PIGCCT-SYM-204.md) Panel contextual dinámico  
+- [**HU-PIGCCT-SYM-205**:](/content/epicas/EP-PIGCCT-SYM-021/historias_usuario/HU-PIGCCT-SYM-205/HU-PIGCCT-SYM-205.md) Breadcrumb inteligente  
 
 ## 9. Reglas funcionales por componente
 
