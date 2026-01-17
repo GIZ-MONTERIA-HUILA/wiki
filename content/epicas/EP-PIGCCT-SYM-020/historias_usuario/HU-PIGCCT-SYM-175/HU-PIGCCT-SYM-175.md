@@ -85,7 +85,3 @@ El sistema muestra en el **dashboard un contenido mínimo estructurado y actuali
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-175.png)
 
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-175.png)

@@ -98,6 +98,3 @@ El sistema **soporta un flujo de doble validación secuencial (Entidad → CAR)*
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-185.png)
 
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-185.png)

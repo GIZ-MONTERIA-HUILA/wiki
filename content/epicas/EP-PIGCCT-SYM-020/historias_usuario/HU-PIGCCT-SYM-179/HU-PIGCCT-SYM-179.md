@@ -79,6 +79,3 @@ El usuario puede **editar correctamente una acción del PIGCCT en estado borrado
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-179.png)
 
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-179.png)

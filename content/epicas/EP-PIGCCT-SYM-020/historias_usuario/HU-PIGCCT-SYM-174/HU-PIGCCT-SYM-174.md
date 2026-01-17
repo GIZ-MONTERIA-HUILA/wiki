@@ -76,7 +76,3 @@ El usuario autenticado puede **visualizar un dashboard inicial con indicadores c
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-174.png)
 
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-174.png)

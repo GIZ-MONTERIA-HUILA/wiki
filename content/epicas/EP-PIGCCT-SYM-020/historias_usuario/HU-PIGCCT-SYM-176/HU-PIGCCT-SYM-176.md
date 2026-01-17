@@ -83,6 +83,3 @@ El sistema presenta un **dashboard adaptado al rol del usuario**, mostrando úni
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-176.png)
 
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-176.png)

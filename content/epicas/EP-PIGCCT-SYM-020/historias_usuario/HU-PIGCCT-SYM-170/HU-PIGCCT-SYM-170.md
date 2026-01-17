@@ -95,6 +95,3 @@ El sistema **garantiza una navegación basada en roles**, mostrando únicamente 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-170.png)
 
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-170.png)

@@ -116,7 +116,3 @@ El usuario puede **registrar correctamente la información general de una acció
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-163.png)
 
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-163.png)

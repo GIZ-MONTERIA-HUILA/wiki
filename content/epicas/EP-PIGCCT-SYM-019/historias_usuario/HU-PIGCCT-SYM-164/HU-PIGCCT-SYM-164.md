@@ -108,6 +108,3 @@ El usuario puede **definir correctamente la cobertura territorial de la acción 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-164.png)
 
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-164.png)

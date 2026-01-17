@@ -78,7 +78,3 @@ El usuario validador puede **validar correctamente una acción del PIGCCT**, reg
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-183.png)
 
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-183.png)
