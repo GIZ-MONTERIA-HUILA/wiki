@@ -92,7 +92,3 @@ El sistema cuenta con un **mapa de navegación estructurado y coherente**, basad
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-172.png)
 
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-172.png)

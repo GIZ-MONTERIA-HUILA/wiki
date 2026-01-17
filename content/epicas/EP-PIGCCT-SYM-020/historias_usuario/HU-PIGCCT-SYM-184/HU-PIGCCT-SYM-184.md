@@ -83,6 +83,3 @@ El usuario validador puede **rechazar una acción del PIGCCT**, registrando obse
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-184.png)
 
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-184.png)

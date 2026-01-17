@@ -118,7 +118,3 @@ El usuario puede **asociar correctamente una acción del PIGCCT con uno o varios
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-165.png)
 
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-165.png)

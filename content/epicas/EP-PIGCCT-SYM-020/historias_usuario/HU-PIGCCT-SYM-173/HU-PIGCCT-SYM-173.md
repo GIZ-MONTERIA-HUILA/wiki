@@ -75,7 +75,3 @@ El usuario autenticado puede **acceder a un dashboard inicial** que presenta una
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-173.png)
 
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-173.png)

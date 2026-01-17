@@ -80,6 +80,3 @@ El usuario puede **visualizar las acciones del PIGCCT en un visor geográfico**,
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-181.png)
 
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-181.png)

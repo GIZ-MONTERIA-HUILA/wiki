@@ -86,6 +86,3 @@ El usuario puede **enviar una acción del PIGCCT a validación**, cambiando su e
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-180.png)
 
 
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-180.png)

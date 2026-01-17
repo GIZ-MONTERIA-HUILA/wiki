@@ -87,7 +87,3 @@ El usuario puede **visualizar y gestionar un listado de acciones del PIGCCT**, a
 
 ![IMAGEN DIAGRAMA DE FLUJO DEL PROCESO](assets/actividades-hu-pigcct-sym-177.png)
 
-
-## PROTOTIPO PRELIMINAR
-
-![PROTOTIPO PRELIMINAR](assets/wireframe-hu-pigcct-sym-177.png)
