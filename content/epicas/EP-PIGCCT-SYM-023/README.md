@@ -58,11 +58,11 @@ El módulo de estadísticas territoriales se organiza en:
 5. Mapas temáticos (coropléticos)  
 
 ## 8. Historias de usuario asociadas
-- **HU-PIGCCT-SYM-215**: Estadísticas por municipio  
-- **HU-PIGCCT-SYM-216**: Estadísticas por departamento  
-- **HU-PIGCCT-SYM-217**: Indicadores de avance territorial  
-- **HU-PIGCCT-SYM-218**: Estadísticas por eje y medida  
-- **HU-PIGCCT-SYM-219**: Visualización gráfica interactiva  
+- [**HU-PIGCCT-SYM-215**:](/content/epicas/EP-PIGCCT-SYM-023/HU-PIGCCT-SYM-215/HU-PIGCCT-SYM-215.md) Estadísticas por municipio  
+- [**HU-PIGCCT-SYM-216**:](/content/epicas/EP-PIGCCT-SYM-023/HU-PIGCCT-SYM-216/HU-PIGCCT-SYM-216.md) Estadísticas por departamento  
+- [**HU-PIGCCT-SYM-217**:](/content/epicas/EP-PIGCCT-SYM-023/HU-PIGCCT-SYM-217/HU-PIGCCT-SYM-217.md) Indicadores de avance territorial  
+- [**HU-PIGCCT-SYM-218**:](/content/epicas/EP-PIGCCT-SYM-023/HU-PIGCCT-SYM-218/HU-PIGCCT-SYM-218.md) Estadísticas por eje y medida  
+- [**HU-PIGCCT-SYM-219**:](/content/epicas/EP-PIGCCT-SYM-023/HU-PIGCCT-SYM-219/HU-PIGCCT-SYM-219.md) Visualización gráfica interactiva  
 
 ## 9. Reglas funcionales del módulo
 
