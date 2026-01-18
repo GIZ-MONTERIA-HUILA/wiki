@@ -262,13 +262,28 @@
         plugins: [
           function (hook, vm) {
             hook.beforeEach(function (content, next) {
-              if (/^\/content\/historias_usuario\/[^/]+/.test(vm.route.path)) {
-                fetch("includes/historia_header.md")
+              if (/^\/content\/epicas\/[^/]+\/historias_usuario\/[^/]+/.test(vm.route.path)) {
+
+                const pathParts = vm.route.path.split('/')
+                const huPath = pathParts.slice(0, 4)
+                const huName = huPath[3]
+                const huUrl = huPath.join('/')
+                const currentPathPart = huUrl[ huUrl.length -1  ]
+
+                fetch("includes/story_header.md")
+                  .then((r) => r.text())
+                  .then((header) => {
+                    next(header + ` → [${huName}](${huUrl}/README.md)` + "\n\n" + content );
+                  });
+              } 
+              else if(/^\/content\/epicas\/[^/]+/.test(vm.route.path)){
+                fetch("includes/epic_header.md")
                   .then((r) => r.text())
                   .then((header) => {
                     next(header + "\n\n" + content);
                   });
-              } else {
+              }
+              else {
                 next(content);
               }
             });

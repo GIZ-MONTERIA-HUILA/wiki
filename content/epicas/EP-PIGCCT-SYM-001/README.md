@@ -1,5 +1,3 @@
-[Inicio](/README.md) → [épicas](/content/epicas/README.md)
-
 # Épica: Administración de la tabla maestra de PIGCCT
 
 ## 1. Descripción general
